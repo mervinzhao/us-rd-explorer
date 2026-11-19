@@ -24,9 +24,13 @@ DOMAINS = [
     ("general", "General science & other", "var(--d8)",
      "Federal: NSF (other than computer science), DOE Office of Science, Smithsonian, and smaller agencies. Business: R&D services firms outside biotech, finance and other services. Universities: physics, chemistry, astronomy, mathematics, social sciences, psychology and non-science fields."),
 ]
+DOM_ORDER = ["agenv", "health", "software", "hardware", "energy", "defense", "industrial", "general"]
+DOM_SHORT = {"agenv": "Ag & environment", "health": "Health", "software": "Software", "hardware": "Hardware",
+             "energy": "Energy", "defense": "Defense & space", "industrial": "Industrial", "general": "General & other"}
+DOMAINS = sorted([(k, l, f"var(--dom-{k})", d) for k, l, _, d in DOMAINS], key=lambda t: DOM_ORDER.index(t[0]))
 FUND = ["federal", "business", "higher_education", "nonprofit", "nonfederal_government"]
 out = {"years": [int(y) for y in years], "deflator": [round(float(defl[y]), 5) for y in years],
-       "domains": [dict(key=k, label=l, color=col, desc=d) for k, l, col, d in DOMAINS],
+       "domains": [dict(key=k, label=l, color=col, desc=d, short=DOM_SHORT[k]) for k, l, col, d in DOMAINS],
        "business_est": [[1953, 1955], [1999, 2003]], "cube": {}}
 for ch in ["basic", "applied", "development"]:
     out["cube"][ch] = {}
@@ -80,9 +84,13 @@ DISC = [
     ("other", "Other fields", "var(--d8)", "Sciences not elsewhere classified, and (universities from FY2003) business, education, humanities, law and other non-science fields."),
     ("unclassified", "Business (no discipline data)", "var(--hatch-fg)", "Business-funded research. No survey classifies company research by discipline."),
 ]
+DISC_ORDER = ["life", "physical", "engineering", "earth", "math", "computing", "social", "other", "unclassified"]
+DISC_SHORT = {"life": "Life sciences", "physical": "Physical", "engineering": "Engineering", "earth": "Earth sciences",
+              "math": "Math", "computing": "Computing", "social": "Social sciences", "other": "Other", "unclassified": "Business"}
+DISC = sorted([(k, l, col if k == "unclassified" else f"var(--disc-{k})", d) for k, l, col, d in DISC], key=lambda t: DISC_ORDER.index(t[0]))
 out["disc"] = {"years": [int(y) for y in dyears],
                "deflator": [round(float(defl[y]), 5) for y in dyears],
-               "groups": [dict(key=k, label=l, color=col, desc=d) for k, l, col, d in DISC], "cube": {}}
+               "groups": [dict(key=k, label=l, color=col, desc=d, short=DISC_SHORT[k]) for k, l, col, d in DISC], "cube": {}}
 for ch in ["basic", "applied"]:
     out["disc"]["cube"][ch] = {}
     for f in FUND:

@@ -13,6 +13,12 @@
   --s-fed: #2a78d6; --s-bus: #e34948; --s-hed: #eda100; --s-npo: #008300; --s-sl: #a8a7a2; --s-non: #eb6834;
   --d1: #2a78d6; --d2: #eb6834; --d3: #1baf7a; --d4: #eda100; --d5: #e87ba4; --d6: #008300; --d7: #6250d6; --d8: #a8a7a2;
   --tint: 42, 120, 214;
+  --dom-agenv: #3d8a1f; --dom-health: #2a78d6; --dom-software: #4fc9a0; --dom-hardware: #0d7a57; --dom-energy: #d9a400;
+  --dom-defense: #9e2230; --dom-industrial: #ec7434; --dom-general: #a8a7a2;
+  --disc-life: #2a78d6; --disc-physical: #a8401a; --disc-engineering: #ef7a3a; --disc-earth: #6e4a28; --disc-math: #4fc9a0;
+  --disc-computing: #0d7a57; --disc-social: #7a5bd8; --disc-other: #a8a7a2;
+  --lens-bio: #2a78d6; --lens-atoms: #ef7a3a; --lens-bits: #0d7a57; --lens-people: #7a5bd8; --lens-other: #a8a7a2;
+  --dim: #e4e4e8;
   --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
   --font-data: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
 }
@@ -23,6 +29,12 @@
   --pressed-bg: #f2f2f4; --pressed-fg: #131318; --hatch-bg: #1f1f25; --hatch-fg: #4a4a52;
   --s-fed: #3987e5; --s-bus: #e66767; --s-hed: #c98500; --s-npo: #0ca30c; --s-sl: #7c7b76; --s-non: #d95926;
   --d1: #3987e5; --d2: #d95926; --d3: #199e70; --d4: #c98500; --d5: #d55181; --d6: #0ca30c; --d7: #9085e9; --d8: #7c7b76;
+  --dom-agenv: #4f9e2c; --dom-health: #3987e5; --dom-software: #3aa680; --dom-hardware: #16697a; --dom-energy: #b88c0e;
+  --dom-defense: #b8373f; --dom-industrial: #e2703a; --dom-general: #7c7b76;
+  --disc-life: #3987e5; --disc-physical: #a33a26; --disc-engineering: #e0713a; --disc-earth: #8f6438; --disc-math: #2fa3b5;
+  --disc-computing: #0f7d5a; --disc-social: #9085e9; --disc-other: #7c7b76;
+  --lens-bio: #3987e5; --lens-atoms: #e0713a; --lens-bits: #0f7d5a; --lens-people: #9085e9; --lens-other: #7c7b76;
+  --dim: #2a2a31;
   --tint: 57, 135, 229; color-scheme: dark; } }
 :root[data-theme="dark"] {
   --bg: #131318; --surface: #131318; --panel: #1c1c22; --fg: #f2f2f4; --muted: #a9a9b0; --faint: #7d7d85;
@@ -31,6 +43,12 @@
   --pressed-bg: #f2f2f4; --pressed-fg: #131318; --hatch-bg: #1f1f25; --hatch-fg: #4a4a52;
   --s-fed: #3987e5; --s-bus: #e66767; --s-hed: #c98500; --s-npo: #0ca30c; --s-sl: #7c7b76; --s-non: #d95926;
   --d1: #3987e5; --d2: #d95926; --d3: #199e70; --d4: #c98500; --d5: #d55181; --d6: #0ca30c; --d7: #9085e9; --d8: #7c7b76;
+  --dom-agenv: #4f9e2c; --dom-health: #3987e5; --dom-software: #3aa680; --dom-hardware: #16697a; --dom-energy: #b88c0e;
+  --dom-defense: #b8373f; --dom-industrial: #e2703a; --dom-general: #7c7b76;
+  --disc-life: #3987e5; --disc-physical: #a33a26; --disc-engineering: #e0713a; --disc-earth: #8f6438; --disc-math: #2fa3b5;
+  --disc-computing: #0f7d5a; --disc-social: #9085e9; --disc-other: #7c7b76;
+  --lens-bio: #3987e5; --lens-atoms: #e0713a; --lens-bits: #0f7d5a; --lens-people: #9085e9; --lens-other: #7c7b76;
+  --dim: #2a2a31;
   --tint: 57, 135, 229; color-scheme: dark; }
 body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 14px; line-height: 1.5; font-weight: 400;
   font-variant-numeric: tabular-nums; }
@@ -81,6 +99,8 @@ button:focus-visible, summary:focus-visible, input:focus-visible, select:focus-v
 .chart svg { order: 1; }
 svg { display: block; width: 100%; height: auto; overflow: visible; }
 svg text { fill: var(--muted); font-family: var(--font-data); font-size: 11px; }
+svg text.blab { fill: var(--fg); stroke: var(--surface); stroke-width: 3px; paint-order: stroke; stroke-linejoin: round; font-size: 10.5px; font-weight: 500; pointer-events: none; }
+svg path.band { cursor: pointer; }
 .tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--ink-rule);
   padding: 9px 11px; font-size: 12px; box-shadow: 0 6px 18px rgba(0,0,0,0.12); min-width: 210px; z-index: 5; }
 .tip .yr { font-weight: 600; margin-bottom: 5px; padding-bottom: 4px; border-bottom: 1px solid var(--rule); }

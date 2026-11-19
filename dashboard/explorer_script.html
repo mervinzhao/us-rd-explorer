@@ -35,16 +35,32 @@ function seg(opts, val, set, label) {
     opts.map((o) => h("button", { key: String(o.key), type: "button", "aria-pressed": val === o.key, onClick: () => set(o.key) }, o.label)));
 }
 function chips(items, on, setOn, label, colorOf) {
-  const toggle = (k) => setOn((p) => { const n = new Set(p); n.has(k) ? n.delete(k) : n.add(k); return n.size ? n : p; });
+  const toggle = (k) => setOn((p) => { const n = new Set(p); n.has(k) ? n.delete(k) : n.add(k); return n; });
   return h("div", { className: "ctl" },
-    h("span", { className: "ctl-label" }, label, " ", h("button", { type: "button", className: "linkbtn", onClick: () => setOn(new Set(items.map((i) => i.key))) }, "all")),
+    h("span", { className: "ctl-label" }, label, " ",
+      h("button", { type: "button", className: "linkbtn", onClick: () => setOn(new Set(items.map((i) => i.key))) }, "all"),
+      h("button", { type: "button", className: "linkbtn", onClick: () => setOn(new Set()) }, "none")),
     h("div", { className: "chips", role: "group", "aria-label": label }, ...items.map((it) => h("button", { key: it.key, type: "button", className: "chip",
       "aria-pressed": on.has(it.key), onClick: () => toggle(it.key) }, swatch(colorOf ? colorOf(it) : it.color, isHatch(it.key)), it.label))));
 }
 
+function highlight(L, focus, setFocus) {
+  const fk = focus && L.some((l) => l.key === focus) ? focus : "";
+  return h("div", { className: "ctl" }, h("span", { className: "ctl-label" }, "Highlight"),
+    h("div", { className: "picks", style: { gap: "8px" } },
+      h("select", { "aria-label": "Highlight one layer", value: fk, onChange: (e) => setFocus(e.target.value || null) },
+        h("option", { value: "" }, "None"), ...L.map((l) => h("option", { key: l.key, value: l.key }, l.label))),
+      h("span", { style: { color: "var(--muted)", fontSize: "12px" } }, "or click a band")));
+}
+
 // ---------- generic stacked chart ----------
 const W = 520, H = 238, M = { l: 40, r: 8, t: 8, b: 30 };
-function StackChartInner({ years, L, out, mode, real, title, hover, setHover, ghost, strips, id, fig, by }) {
+function StackChartInner({ years, L: L0, out, mode, real, title, hover, setHover, ghost, strips, id, fig, by, focus, setFocus }) {
+  if (!L0.length || years.length < 2) return h("div", { className: "chart" },
+    h("div", { style: { aspectRatio: `${W} / ${H}`, display: "flex", alignItems: "center", justifyContent: "center", background: "var(--panel)", color: "var(--muted)", fontSize: "13px" } },
+      L0.length ? "Pick a wider year range." : "Nothing selected. Turn on at least one funder and one domain."));
+  const fk = focus && L0.some((l) => l.key === focus) ? focus : null;
+  const L = fk ? [L0.find((l) => l.key === fk), ...L0.filter((l) => l.key !== fk)] : L0;
   const N = years.length, xs = (i) => M.l + (i / Math.max(N - 1, 1)) * (W - M.l - M.r);
   const totals = years.map((_, i) => L.reduce((a, l) => a + out[l.key][i], 0));
   const peak = Math.max(...totals, ...(ghost || [0]), 1e-9);
@@ -53,13 +69,32 @@ function StackChartInner({ years, L, out, mode, real, title, hover, setHover, gh
   const ys = (v) => H - M.b - (v / ymax) * (H - M.t - M.b);
   const ref = useRef(null);
   let base = new Array(N).fill(0);
+  const labels = [];
   const paths = L.map((l) => {
     const top = base.map((b, i) => b + (mode === "share" ? (totals[i] ? out[l.key][i] / totals[i] : 0) : out[l.key][i]));
     const up = top.map((v, i) => `${xs(i).toFixed(1)},${ys(v).toFixed(1)}`).join(" L");
     const dn = base.map((v, i) => `${xs(i).toFixed(1)},${ys(v).toFixed(1)}`).reverse().join(" L");
+    // label each band where it is thickest (weighted toward recent years), if the text fits inside it
+    if (!fk || l.key === fk) {
+      const text = l.short || l.label, tw = text.length * 6 + 6;
+      let best = -1, bi = -1;
+      for (let i = 0; i < N; i++) {
+        const th = ys(base[i]) - ys(top[i]), sc = th * (0.7 + 0.3 * i / Math.max(N - 1, 1));
+        if (th >= 14 && sc > best) { best = sc; bi = i; }
+      }
+      if (bi >= 0) {
+        const x = Math.min(Math.max(xs(bi), M.l + tw / 2 + 2), W - M.r - tw / 2 - 2);
+        const j = Math.round((x - M.l) / (W - M.l - M.r) * Math.max(N - 1, 1));
+        if (ys(base[j]) - ys(top[j]) >= 14)
+          labels.push(h("text", { key: "lb" + l.key, className: "blab", x, y: (ys(base[j]) + ys(top[j])) / 2 + 3.5, textAnchor: "middle" }, text));
+      }
+    }
     base = top;
-    return h("path", { key: l.key, d: `M${up} L${dn} Z`, fill: isHatch(l.key) ? `url(#hatch-${id})` : l.color,
-      stroke: "var(--surface)", strokeWidth: 0.8, strokeLinejoin: "round" });
+    const dim = fk && l.key !== fk;
+    return h("path", { key: l.key, className: setFocus ? "band" : null, d: `M${up} L${dn} Z`,
+      fill: dim ? "var(--dim)" : isHatch(l.key) ? `url(#hatch-${id})` : l.color,
+      stroke: "var(--surface)", strokeWidth: 0.8, strokeLinejoin: "round",
+      onClick: setFocus ? () => setFocus(fk === l.key ? null : l.key) : null }, h("title", null, l.label));
   });
 
   const ticksY = mode === "share" ? [0, 0.25, 0.5, 0.75, 1] : Array.from({ length: Math.round(ymax / step) + 1 }, (_, k) => k * step);
@@ -96,6 +131,7 @@ function StackChartInner({ years, L, out, mode, real, title, hover, setHover, gh
         h("line", { x1: M.l, x2: W - M.r, y1: ys(t), y2: ys(t), stroke: "var(--grid)" }),
         h("text", { x: M.l - 6, y: ys(t) + 3.5, textAnchor: "end" }, mode === "share" ? pct(t) : fmtTick(t)))),
       ...paths,
+      ...labels,
       ghost && mode === "abs" ? h("path", { d: "M" + ghost.map((v, i) => `${xs(i).toFixed(1)},${ys(v).toFixed(1)}`).join(" L"), fill: "none",
         stroke: "var(--fg)", strokeWidth: 1.4, strokeDasharray: "4 3", opacity: 0.7 }) : null,
       ...(strips || []).map(([a0, b0]) => { const a = Math.max(a0, years[0]), b = Math.min(b0, years[N - 1]);
@@ -146,13 +182,15 @@ function ApplicationTab({ real, range }) {
   const [funders, setFunders] = useState(() => new Set(FUNDERS.map((f) => f.key)));
   const [doms, setDoms] = useState(() => new Set(A_KEYS));
   const [hover, setHover] = useState(null);
+  const [focus, setFocus] = useState(null);
   const L = aLayers(by, funders, doms);
   const filtered = doms.size < A_KEYS.length;
   return h(React.Fragment, null,
     h("div", { className: "controls" },
       h("div", { className: "ctlrow" },
         h("div", { className: "ctl" }, h("span", { className: "ctl-label" }, "Color by"),
-          seg([{ key: "domain", label: "Domain" }, { key: "funder", label: "Funder" }, { key: "fednon", label: "Federal vs nonfederal" }], by, setBy, "Color by"))),
+          seg([{ key: "domain", label: "Domain" }, { key: "funder", label: "Funder" }, { key: "fednon", label: "Federal vs nonfederal" }], by, setBy, "Color by")),
+        highlight(L, focus, setFocus)),
       chips(FUNDERS, funders, setFunders, "Funders included", (f) => by === "fednon" && f.key !== "federal" ? "var(--s-non)" : f.color),
       chips(A.groups, doms, setDoms, "Domains included"),
       h("div", { className: "legend" },
@@ -168,8 +206,8 @@ function ApplicationTab({ real, range }) {
         const n = A_CH.indexOf(c) + 1, byl = by === "domain" ? "domain" : by === "funder" ? "funder" : "federal vs nonfederal funding";
         return [
           h("div", { className: "row-title", key: "t" + c.key }, h("h3", null, c.label), h("span", { className: "note" }, DATA.notes[c.key] || "")),
-          h(StackChart, { key: c.key + "a", id: "a" + c.key + "a", years: A.years, L, out, mode: "abs", real, range, title: c.label.toLowerCase(), hover, setHover, ghost, strips: strip, fig: n + "a", by: byl }),
-          h(StackChart, { key: c.key + "s", id: "a" + c.key + "s", years: A.years, L, out, mode: "share", real, range, title: c.label.toLowerCase(), hover, setHover, strips: strip, fig: n + "b", by: byl }),
+          h(StackChart, { key: c.key + "a", id: "a" + c.key + "a", years: A.years, L, out, mode: "abs", real, range, title: c.label.toLowerCase(), hover, setHover, focus, setFocus, ghost, strips: strip, fig: n + "a", by: byl }),
+          h(StackChart, { key: c.key + "s", id: "a" + c.key + "s", years: A.years, L, out, mode: "share", real, range, title: c.label.toLowerCase(), hover, setHover, focus, setFocus, strips: strip, fig: n + "b", by: byl }),
         ];
       })),
     h(Matrix, { funders, doms, real }),
@@ -202,7 +240,7 @@ function Matrix({ funders, doms, real }) {
         })))),
       h("tfoot", null, h("tr", null, h("td", null, "Total"), ...A_CH.map((c) => h("td", { key: c.key }, h("span", { className: "v" }, fmt(colTot[c.key])))))))));
 }
-const GCOL = { sw: "var(--d3)", ict: "var(--d7)", bio: "var(--d1)", phys: "var(--d2)", def: "var(--d5)", oth: "var(--d8)", rest: "var(--grid)" };
+const GCOL = { sw: "var(--dom-software)", ict: "var(--dom-hardware)", bio: "var(--dom-health)", phys: "var(--dom-industrial)", def: "var(--dom-defense)", oth: "var(--dom-general)", rest: "var(--grid)" };
 function BusDev() {
   const b = DATA.busdev, max = Math.max(...b.items.map((x) => x.value));
   const sum = (g) => b.items.filter((x) => x.group === g).reduce((a, x) => a + x.value, 0);
@@ -231,11 +269,11 @@ function MethodsA() {
 const D = { years: DATA.disc.years, defl: DATA.disc.deflator, cube: DATA.disc.cube, groups: DATA.disc.groups };
 const D_CH = [{ key: "basic", label: "Basic research" }, { key: "applied", label: "Applied research" }];
 const LENS = [
-  { key: "bio", label: "Bio", color: "var(--d1)", members: ["life"] },
-  { key: "atoms", label: "Atoms", color: "var(--d2)", members: ["physical", "engineering", "earth"] },
-  { key: "bits", label: "Bits", color: "var(--d3)", members: ["computing", "math"] },
-  { key: "people", label: "People", color: "var(--d4)", members: ["social"] },
-  { key: "other", label: "Other fields", color: "var(--d8)", members: ["other"] },
+  { key: "bio", label: "Bio", color: "var(--lens-bio)", members: ["life"] },
+  { key: "atoms", label: "Atoms", color: "var(--lens-atoms)", members: ["physical", "engineering", "earth"] },
+  { key: "bits", label: "Bits", color: "var(--lens-bits)", members: ["computing", "math"] },
+  { key: "people", label: "People", color: "var(--lens-people)", members: ["social"] },
+  { key: "other", label: "Other fields", color: "var(--lens-other)", members: ["other"] },
   { key: "unclassified", label: "Business (no discipline data)", color: "var(--hatch-fg)", members: ["unclassified"] },
 ];
 function dGroups(grouping) {
@@ -257,13 +295,15 @@ function DisciplineTab({ real, range }) {
   const [grouping, setGrouping] = useState("disc");
   const [funders, setFunders] = useState(() => new Set(FUNDERS.map((f) => f.key).filter((k) => k !== "business")));
   const [hover, setHover] = useState(null);
+  const [focus, setFocus] = useState(null);
   const G = dGroups(grouping);
   const L = G.filter((g) => g.key !== "unclassified" || funders.has("business"));
   return h(React.Fragment, null,
     h("div", { className: "controls" },
       h("div", { className: "ctlrow" },
         h("div", { className: "ctl" }, h("span", { className: "ctl-label" }, "Grouping"),
-          seg([{ key: "disc", label: "Disciplines" }, { key: "lens", label: "Bio / Atoms / Bits / People" }], grouping, setGrouping, "Grouping"))),
+          seg([{ key: "disc", label: "Disciplines" }, { key: "lens", label: "Bio / Atoms / Bits / People" }], grouping, setGrouping, "Grouping")),
+        highlight(L, focus, setFocus)),
       chips(FUNDERS, funders, setFunders, "Funders included"),
       h("div", { className: "legend" }, ...L.map((l) => h("span", { key: l.key }, swatch(l.color, isHatch(l.key)), l.label))),
       range[0] < D.years[0] ? h("p", { style: { margin: 0, color: "var(--muted)", fontSize: "13px" } }, "Discipline data start in ", D.years[0], ", so these charts begin there.") : null,
@@ -275,8 +315,8 @@ function DisciplineTab({ real, range }) {
         const n = D_CH.indexOf(c) + 1, byl = grouping === "lens" ? "discipline group" : "discipline";
         return [
           h("div", { className: "row-title", key: "t" + c.key }, h("h3", null, c.label)),
-          h(StackChart, { key: c.key + "a", id: "d" + c.key + "a", years: D.years, L, out, mode: "abs", real, range, title: c.label.toLowerCase(), hover, setHover, fig: n + "a", by: byl }),
-          h(StackChart, { key: c.key + "s", id: "d" + c.key + "s", years: D.years, L, out, mode: "share", real, range, title: c.label.toLowerCase(), hover, setHover, fig: n + "b", by: byl }),
+          h(StackChart, { key: c.key + "a", id: "d" + c.key + "a", years: D.years, L, out, mode: "abs", real, range, title: c.label.toLowerCase(), hover, setHover, focus, setFocus, fig: n + "a", by: byl }),
+          h(StackChart, { key: c.key + "s", id: "d" + c.key + "s", years: D.years, L, out, mode: "share", real, range, title: c.label.toLowerCase(), hover, setHover, focus, setFocus, fig: n + "b", by: byl }),
         ];
       })),
     h(Growth, { grouping, funders }),
