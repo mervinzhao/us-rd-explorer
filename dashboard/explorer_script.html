@@ -44,8 +44,8 @@ function chips(items, on, setOn, label, colorOf) {
 
 // ---------- generic stacked chart ----------
 const W = 520, H = 238, M = { l: 40, r: 8, t: 8, b: 30 };
-function StackChart({ years, L, out, mode, real, title, hover, setHover, ghost, strips, id, fig, by }) {
-  const N = years.length, xs = (i) => M.l + (i / (N - 1)) * (W - M.l - M.r);
+function StackChartInner({ years, L, out, mode, real, title, hover, setHover, ghost, strips, id, fig, by }) {
+  const N = years.length, xs = (i) => M.l + (i / Math.max(N - 1, 1)) * (W - M.l - M.r);
   const totals = years.map((_, i) => L.reduce((a, l) => a + out[l.key][i], 0));
   const peak = Math.max(...totals, ...(ghost || [0]), 1e-9);
   const step = stepFor(peak);
@@ -63,7 +63,10 @@ function StackChart({ years, L, out, mode, real, title, hover, setHover, ghost, 
   });
 
   const ticksY = mode === "share" ? [0, 0.25, 0.5, 0.75, 1] : Array.from({ length: Math.round(ymax / step) + 1 }, (_, k) => k * step);
-  const ticksX = years.map((y, i) => [y, i]).filter(([y]) => y % 10 === 0);
+  const span = years[N - 1] - years[0];
+  const tstep = span <= 12 ? 2 : span <= 30 ? 5 : 10;
+  const ticksX = years.map((y, i) => [y, i]).filter(([y]) => y % tstep === 0);
+  const i22 = years.indexOf(2022);
   function onMove(ev) {
     const r = ref.current.getBoundingClientRect();
     const i = Math.round((((ev.clientX - r.left) / r.width) * W - M.l) / (W - M.l - M.r) * (N - 1));
@@ -95,12 +98,25 @@ function StackChart({ years, L, out, mode, real, title, hover, setHover, ghost, 
       ...paths,
       ghost && mode === "abs" ? h("path", { d: "M" + ghost.map((v, i) => `${xs(i).toFixed(1)},${ys(v).toFixed(1)}`).join(" L"), fill: "none",
         stroke: "var(--fg)", strokeWidth: 1.4, strokeDasharray: "4 3", opacity: 0.7 }) : null,
-      ...(strips || []).map(([a, b]) => { const i0 = years.indexOf(a), i1 = years.indexOf(b); return i0 < 0 || i1 < 0 ? null :
+      ...(strips || []).map(([a0, b0]) => { const a = Math.max(a0, years[0]), b = Math.min(b0, years[N - 1]);
+        const i0 = years.indexOf(a), i1 = years.indexOf(b); return a > b || i0 < 0 || i1 < 0 ? null :
         h("rect", { key: "st" + a, x: xs(i0), y: H - M.b + 3, width: Math.max(xs(i1) - xs(i0), 2), height: 5, fill: `url(#hatch-${id})`, stroke: "var(--hatch-fg)", strokeWidth: 0.5 }); }),
       ticksX.map(([y, i]) => h("text", { key: "x" + y, x: xs(i), y: H - 4, textAnchor: "middle" }, y)),
-      h("line", { x1: (xs(N - 3) + xs(N - 2)) / 2, x2: (xs(N - 3) + xs(N - 2)) / 2, y1: M.t, y2: H - M.b, stroke: "var(--faint)", strokeDasharray: "2 2" }),
+      i22 >= 0 && i22 < N - 1 ? h("line", { x1: (xs(i22) + xs(i22 + 1)) / 2, x2: (xs(i22) + xs(i22 + 1)) / 2, y1: M.t, y2: H - M.b, stroke: "var(--faint)", strokeDasharray: "2 2" }) : null,
       hover !== null && hover < N ? h("line", { x1: xs(hover), x2: xs(hover), y1: M.t, y2: H - M.b, stroke: "var(--fg)", opacity: 0.6 }) : null),
     tip);
+}
+
+// range wrapper: slices the series to [range[0], range[1]]; hover is shared as a year value
+function StackChart(props) {
+  const { years, out, ghost, range, hover, setHover } = props;
+  const lo = Math.max(range[0], years[0]), hi = Math.min(range[1], years[years.length - 1]);
+  const i0 = years.indexOf(lo), i1 = years.indexOf(hi);
+  const ys = years.slice(i0, i1 + 1);
+  const out2 = Object.fromEntries(Object.entries(out).map(([k, v]) => [k, v.slice(i0, i1 + 1)]));
+  const hi2 = hover === null ? -1 : ys.indexOf(hover);
+  return h(StackChartInner, { ...props, years: ys, out: out2, ghost: ghost ? ghost.slice(i0, i1 + 1) : null,
+    hover: hi2 < 0 ? null : hi2, setHover: (i) => setHover(i === null ? null : ys[i]) });
 }
 
 // ---------- application tab ----------
@@ -125,7 +141,7 @@ function aSeries(ch, by, funders, doms, real) {
   }
   return { L, out };
 }
-function ApplicationTab({ real }) {
+function ApplicationTab({ real, range }) {
   const [by, setBy] = useState("domain");
   const [funders, setFunders] = useState(() => new Set(FUNDERS.map((f) => f.key)));
   const [doms, setDoms] = useState(() => new Set(A_KEYS));
@@ -152,8 +168,8 @@ function ApplicationTab({ real }) {
         const n = A_CH.indexOf(c) + 1, byl = by === "domain" ? "domain" : by === "funder" ? "funder" : "federal vs nonfederal funding";
         return [
           h("div", { className: "row-title", key: "t" + c.key }, h("h3", null, c.label), h("span", { className: "note" }, DATA.notes[c.key] || "")),
-          h(StackChart, { key: c.key + "a", id: "a" + c.key + "a", years: A.years, L, out, mode: "abs", real, title: c.label.toLowerCase(), hover, setHover, ghost, strips: strip, fig: n + "a", by: byl }),
-          h(StackChart, { key: c.key + "s", id: "a" + c.key + "s", years: A.years, L, out, mode: "share", real, title: c.label.toLowerCase(), hover, setHover, strips: strip, fig: n + "b", by: byl }),
+          h(StackChart, { key: c.key + "a", id: "a" + c.key + "a", years: A.years, L, out, mode: "abs", real, range, title: c.label.toLowerCase(), hover, setHover, ghost, strips: strip, fig: n + "a", by: byl }),
+          h(StackChart, { key: c.key + "s", id: "a" + c.key + "s", years: A.years, L, out, mode: "share", real, range, title: c.label.toLowerCase(), hover, setHover, strips: strip, fig: n + "b", by: byl }),
         ];
       })),
     h(Matrix, { funders, doms, real }),
@@ -237,7 +253,7 @@ function dSeries(chs, grouping, funders, real) {
   }
   return { G, out };
 }
-function DisciplineTab({ real }) {
+function DisciplineTab({ real, range }) {
   const [grouping, setGrouping] = useState("disc");
   const [funders, setFunders] = useState(() => new Set(FUNDERS.map((f) => f.key).filter((k) => k !== "business")));
   const [hover, setHover] = useState(null);
@@ -250,6 +266,7 @@ function DisciplineTab({ real }) {
           seg([{ key: "disc", label: "Disciplines" }, { key: "lens", label: "Bio / Atoms / Bits / People" }], grouping, setGrouping, "Grouping"))),
       chips(FUNDERS, funders, setFunders, "Funders included"),
       h("div", { className: "legend" }, ...L.map((l) => h("span", { key: l.key }, swatch(l.color, isHatch(l.key)), l.label))),
+      range[0] < D.years[0] ? h("p", { style: { margin: 0, color: "var(--muted)", fontSize: "13px" } }, "Discipline data start in ", D.years[0], ", so these charts begin there.") : null,
       grouping === "lens" ? h("p", { style: { margin: 0, color: "var(--muted)", fontSize: "13px" } },
         "Bio: life sciences. Atoms: physical sciences, engineering, earth sciences. Bits: computer sciences, mathematics. People: psychology and social sciences.") : null),
     h("div", { className: "grid" },
@@ -258,8 +275,8 @@ function DisciplineTab({ real }) {
         const n = D_CH.indexOf(c) + 1, byl = grouping === "lens" ? "discipline group" : "discipline";
         return [
           h("div", { className: "row-title", key: "t" + c.key }, h("h3", null, c.label)),
-          h(StackChart, { key: c.key + "a", id: "d" + c.key + "a", years: D.years, L, out, mode: "abs", real, title: c.label.toLowerCase(), hover, setHover, fig: n + "a", by: byl }),
-          h(StackChart, { key: c.key + "s", id: "d" + c.key + "s", years: D.years, L, out, mode: "share", real, title: c.label.toLowerCase(), hover, setHover, fig: n + "b", by: byl }),
+          h(StackChart, { key: c.key + "a", id: "d" + c.key + "a", years: D.years, L, out, mode: "abs", real, range, title: c.label.toLowerCase(), hover, setHover, fig: n + "a", by: byl }),
+          h(StackChart, { key: c.key + "s", id: "d" + c.key + "s", years: D.years, L, out, mode: "share", real, range, title: c.label.toLowerCase(), hover, setHover, fig: n + "b", by: byl }),
         ];
       })),
     h(Growth, { grouping, funders }),
@@ -358,6 +375,12 @@ function useHashTab() {
 function App() {
   const tab = useHashTab();
   const [real, setReal] = useState(true);
+  const Y0 = DATA.years[0], Y1 = DATA.years[DATA.years.length - 1];
+  const [range, setRange] = useState([Y0, Y1]);
+  const yearOpts = DATA.years.map((y) => h("option", { key: y, value: y }, y));
+  const setFrom = (v) => setRange(([, b]) => [Math.min(v, b - 1), b]);
+  const setTo = (v) => setRange(([a]) => [a, Math.max(v, a + 1)]);
+  const PRESETS = [[Y0, "All years"], [1970, "1970–"], [1990, "1990–"], [2008, "2008–"]];
   return h(React.Fragment, null,
     h("header", { className: "band" }, h("div", { className: "band-inner" },
       h("div", { className: "eyebrow" }, h("i", { className: "dot" }), "US research and development, 1953–2024"),
@@ -366,9 +389,16 @@ function App() {
     h("main", { className: "wrap" },
     h("div", { className: "topbar" },
       h("nav", { className: "tabs", "aria-label": "Views" }, TABS.map((t) => h("a", { key: t.key, href: "#" + t.key, "aria-current": tab === t.key ? "page" : undefined }, t.label))),
-      h("div", { className: "ctl" }, h("span", { className: "ctl-label" }, "Dollars"),
-        seg([{ key: true, label: "Constant 2017" }, { key: false, label: "Nominal" }], real, setReal, "Dollars"))),
-    tab === "application" ? h(ApplicationTab, { real }) : h(DisciplineTab, { real }),
+      h("div", { className: "ctlrow", style: { gap: "14px 28px" } },
+        h("div", { className: "ctl" }, h("span", { className: "ctl-label" }, "Years"),
+          h("div", { className: "picks", style: { gap: "8px" } },
+            h("select", { "aria-label": "From year", value: range[0], onChange: (e) => setFrom(+e.target.value) }, yearOpts),
+            h("span", { style: { color: "var(--muted)" } }, "to"),
+            h("select", { "aria-label": "To year", value: range[1], onChange: (e) => setTo(+e.target.value) }, yearOpts),
+            ...PRESETS.map(([y, lab]) => h("button", { key: lab, type: "button", className: "linkbtn", onClick: () => setRange([y, Y1]) }, lab)))),
+        h("div", { className: "ctl" }, h("span", { className: "ctl-label" }, "Dollars"),
+          seg([{ key: true, label: "Constant 2017" }, { key: false, label: "Nominal" }], real, setReal, "Dollars")))),
+    tab === "application" ? h(ApplicationTab, { real, range }) : h(DisciplineTab, { real, range }),
     h("footer", null, "Sources: NCSES National Patterns of R&D Resources 2023–24 (NSF 26-313); Survey of Federal Funds for R&D (historical tables NSF 03-325, volumes 54–56 and 69–74); HERD and predecessor microdata FY1973–2024; BRDIS/BERD 2008–2024 (NSF 27-300); PhRMA Industry Profile and Membership Survey. Constant dollars use the GDP deflator from National Patterns. Personal analysis of public data.")));
 }
 ReactDOM.createRoot(document.getElementById("root")).render(h(App));
