@@ -1,0 +1,39 @@
+# source_item: ERIC_ED186278
+# page: 33 (printed 25)
+# table_title: Table B-9. Company funds for research and development by industry and size of company: 1957, 1963, and 1966-77
+# measure: company_nonfederal
+# footnotes: 1=see table 1 footnote 1 (company funds include all non-federal funds); 2=not separately available but included in total; 3=SIC 3398 and 3399 in nonferrous 1957-65; 4=data not tabulated at this level prior to 1972; 5=included in other electrical equipment group; 6=estimated by NSF
+key|parent|sic|label|1957|1963|1966|1967|1968|1969|1970|1971|1972|1973|1974|1975|1976|1977
+total||all|Total|3396|5360|7216|8020|8869|9857|10283|10645|11522|13088|14647|15559|17377|19362
+food|total|20|Food and kindred products|74|NA|161|181|182|198|222|230|246|252|277|NA|NA|NA
+textiles|total|22, 23|Textiles and apparel|14|28|NA|NA|NA|NA|NA|59|61|63|NA|NA|NA|NA
+lumber|total|24, 25|Lumber, wood products, and furniture|14|NA|12|12|20|18|52|NA|NA|NA|NA|88|106|127
+paper|total|26|Paper and allied products|35|69|NA|123|NA|NA|NA|NA|188|NA|NA|NA|NA|NA
+chem|total|28|Chemicals and allied products|616|1004|1219|1297|1389|1468|1593|1639|1741|1897|2217|2490|2751|2973
+indchem|chem|281-82|Industrial chemicals|423|662|760|785|794|809|822|783|770|816|933|982|1074|1182
+drugs|chem|283|Drugs and medicines|104|207|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
+othchem|chem|284-89|Other chemicals|89|135|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
+petro|total|29, 13|Petroleum refining and extraction|200|296|353|355|403|457|493|488|454|485|603|NA|715|839
+rubber|total|30|Rubber products|70|111|149|160|186|196|205|221|255|280|NA|NA|NA|NA
+stone|total|32|Stone, clay, and glass products|NA|97|114|134|139|158|156|153|168|184|203|NA|NA|NA
+primet|total|33|Primary metals|103|174|224|234|241|247|265|266|264|297|350|422|481|501
+ferrous|primet|331-32, 3398, 3399|Ferrous metals and products|63|105|136|134|134|135|148|142|144|159|NA|211|252|254
+nonferrous|primet|333-36|Nonferrous metals and products|40|69|88|100|108|112|117|124|121|138|NA|211|229|247
+fabmet|total|34|Fabricated metal products|97|129|137|151|165|174|201|230|243|279|299|297|322|344
+mach|total|35|Machinery|397|709|931|1004|1142|1286|1469|1545|1758|2120|2473|2687|2955|3393
+office|~mach|357|Office, computing, and accounting machines|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NA|NA|NA|1734|1893|2212
+elec|total|36, 48|Electrical equipment and communication|608|1017|1426|1571|1749|1957|2008|2131|2313|2491|2704|2798|3081|3256
+radiotv|elec|365|Radio and TV receiving equipment|INC_OTHER_ELEC|INC_OTHER_ELEC|NA|NA|NA|NA|NA|NA|NA|NA|NA|49|52|58
+elcomp_comm|elec|367; 366, 48|Electronic components; communication equipment and communication (combined)|230|564|ILLEGIBLE|930|993|1113|1183|1252|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT
+elcomp|elec|367|Electronic components|COMB|COMB|COMB|COMB|COMB|COMB|COMB|COMB|205|260|306|NA|NA|NA
+comm|elec|366, 48|Communication equipment and communication|COMB|COMB|COMB|COMB|COMB|COMB|COMB|COMB|1165|1251|1287|1328|1418|1591
+othelec|elec|361-64, 369|Other electrical equipment|378|453|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
+mvtrans|total|371; 373-75, 379|Motor vehicles and motor vehicles equipment; other transportation equipment (combined)|517|799|1000|994|1124|1278|1278|1461|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT
+mv|total|371|Motor vehicles and motor vehicles equipment|COMB|COMB|COMB|COMB|COMB|COMB|COMB|COMB|1662|2020|2101|2022|2395|2888
+othtrans|total|373-75, 379|Other transportation equipment|COMB|COMB|COMB|COMB|COMB|COMB|COMB|COMB|29|33|40|43|NA|NA
+aircraft|total|372, 376|Aircraft and missiles|299|452|802|1138|1230|1354|1213|1017|978|1154|1275|1279|1409|1582
+instr|total|38|Professional and scientific instruments|140|202|323|353|429|505|550|583|678|801|911|1007|1144|1249
+sciinstr|instr|381-82|Scientific and mechanical measuring instruments|59|53|65|67|83|91|111|120|151|175|214|257|318|365
+optinstr|instr|383-87|Optical, surgical, photographic, and other instruments|81|149|258|286|346|414|439|463|527|626|697|750|826|884
+othmfg|total|21, 27, 31, 39|Other manufacturing industries|19|52|NA|88|NA|NA|NA|NA|NA|NA|NA|198|212|239
+nonmfg|total|07-12, 14-17, 41-47, 49-67, 737, 739, 807, 891|Nonmanufacturing industries|NA|85|130|172|172|207|225|252|277|299|306|425|471|514

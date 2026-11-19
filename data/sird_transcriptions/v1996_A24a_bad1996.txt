@@ -1,0 +1,62 @@
+# source_item: ns-reports_ns-122in-2-995-96
+# page: 239-242 (printed 235-238)
+# table_title: Table A-24a. Funds for performance of basic research, applied research, and development, by industry and source of funds: 1996
+# year: 1996
+# layout: measures
+# footnotes: D=withheld; S=imputation >50%. 'Company' = company and other non-Federal. 1/ Beginning 1996 small companies sampled separately and combined into 'Other manufacturing' / 'Other nonmanufacturing' (not comparable with prior years). Total/Federal/Company columns duplicate A-3a/A-12a/A-7a (not transcribed).
+key|parent|sic|label|basic|basic_federal|basic_company_nonfederal|applied|applied_federal|applied_company_nonfederal|development|development_federal|development_company_nonfederal
+total||all|All industries|8207|1358|6848|29241|3871|25370|107218|18423^S|88798
+mfg|total|20-39|Manufacturing|D|D|4851|D|D|19711|83661|16379|67284
+food|mfg|20, 21|Food, kindred, and tobacco products|100|0|100|508|0|508|957|0|957
+textiles|mfg|22, 23|Textiles and apparel|50|0|50|D|D|43|D|D|321
+lumber|mfg|24, 25|Lumber, wood products, and furniture|37|0|37|D|D|122|475|0|475
+paper|mfg|26|Paper and allied products|313^S|0|313^S|D|D|706^S|D|D|515
+chem|mfg|28|Chemicals and allied products|1628|8|1620|D|D|5667|D|D|10233
+indchem|chem|281-82, 286|Industrial chemicals|D|D|697|D|D|1468|D|D|3081
+drugs|chem|283|Drugs and medicines|D|D|856|D|D|3157|5758|2^S|5755
+othchem|chem|284-85, 287-89|Other chemicals|67|0|67|1041|0|1041|1396|0|1396
+petro|mfg|13, 29|Petroleum refining and extraction|D|D|D|592|2|590|D|D|D
+rubber|mfg|30|Rubber products|D|D|67|D|D|251|D|D|951
+stone|mfg|32|Stone, clay, and glass products|D|D|21|D|D|162|D|D|280
+primet|mfg|33|Primary metals|D|D|D|D|D|167|754^S|D|D
+ferrous|primet|331-32, 3398-99|Ferrous metals and products|6|D|D|D|0|D|D|D|D
+nonferrous|primet|333-36|Nonferrous metals and products|D|0|D|D|D|D|D|D|315
+fabmet|mfg|34|Fabricated metal products|D|D|140|D|D|247|D|D|934
+mach|mfg|35|Machinery|D|D|397|D|D|2409|10605|73|10532
+office|mach|357|Office, computing, and accounting machines|D|D|65|D|D|1629|D|D|6438
+othmach|mach|351-56, 358-59|Other machinery, except electrical|D|D|332|D|D|780|D|D|4094
+elec|mfg|36|Electrical equipment|D|D|531|D|D|4926|15662|764|14898
+radiotv|elec|365|Radio and TV receiving equipment|22|D|D|D|0|D|D|D|107
+comm|elec|366|Communication equipment|D|D|18|D|D|751|3999|410|3590
+elcomp|elec|367|Electronic components|D|D|D|4799|D|D|8767|116|8651
+othelec|elec|361-64, 369|Other electrical equipment|D|D|228|D|D|582|D|D|2550
+transp|mfg|37|Transportation equipment|D|D|277|D|D|2361|28648|10752^S|17898
+mv|transp|371|Motor vehicles and motor vehicles equipment|104|D|D|D|D|D|D|D|13753
+othtrans|transp|373-75, 379|Other transportation equipment|D|0|D|167|D|D|D|D|149
+aircraft|transp|372, 376|Aircraft and missiles|D|D|D|D|D|D|13259|9264^S|3995
+instr|mfg|38|Professional and scientific instruments|D|D|943|1099|67|1032|D|D|6232
+sciinstr|instr|381-82|Scientific and mechanical measuring instruments|D|D|455|482|31|450|D|D|2378
+optinstr|instr|384-87|Optical, surgical, photographic, and other instruments|D|D|488|617|35|582|D|D|3854
+othmfg|mfg|27, 31, 39|Other manufacturing industries (incl. small companies, fn 1)|D|D|247|973|455|518|1738|80|1658
+nonmfg|total|nonmanufacturing|Nonmanufacturing|D|D|1997|D|D|5659|23557|2044^S|21514
+transutil|nonmfg|40-42, 44-49|Transportation and utilities|D|D|D|D|D|D|3650|180|3469
+commun|transutil|48|Communications|D|0|D|D|D|D|D|D|3040
+telephone|commun|481|Telephone communications|D|0|D|D|D|D|D|D|2982
+othcommun|commun|482-484, 489|Other communications|D|0|D|16|D|D|D|D|57
+elecgas|transutil|49|Electric, gas, and sanitary services|15|0|15|D|D|73|D|D|223
+othtransutil|transutil|40-42, 44-47|Other transportation and utilities|D|D|D|D|0|D|221|12|209
+trade|nonmfg|50-59|Trade|D|D|405|1462|0|1462|D|D|4471
+fire|nonmfg|60-65, 67|Finance, insurance, and real estate|12|D|D|D|0|D|1177|2|1174
+services|nonmfg|701, 72, 73, 75-81, 83, 84, 87, 89|Services|1699|360|1339|3952|1006^S|2946|13371|1752^S|11619
+bizserv|services|73|Business services|593|84|509|1328|51|1277|8720|226|8494
+compserv|bizserv|737|Computer and data processing services|550|84|467|D|D|1244|D|D|8314
+othbizserv|bizserv|731-736, 738|Other business services|41|0|41|D|D|33|D|D|181
+health|services|80|Health services|D|D|50|D|D|252^S|D|D|433^S
+medoffices|health|801, 806, 807|Offices and clinics of medical doctors, hospitals, medical and dental labs|48|D|D|D|D|D|D|D|D
+othhealth|health|802-805, 808-809|Other health services|D|0|D|12|D|D|D|0|D
+engmgmt|services|87|Engineering and management services|1029|274|757|2324|949^S|1376|3965|1523^S|2439
+engarch|engmgmt|871|Engineering, architectural, and surveying|D|D|D|D|D|D|943|546|398
+rdtest|engmgmt|873|Research, development, and testing|795|128|667|1772|603^S|1168|2917|977^S|1941
+othengmgmt|engmgmt|872, 874|Other engineering and management services|D|D|D|D|D|D|101|1|101
+othserv|services|701, 72, 75-79, 81, 83, 84, 89|Other services|D|D|25|D|D|42|D|D|250
+othnonmfg|nonmfg|07-12, 14, 15, 161-162, 17|Other nonmanufacturing industries (incl. small companies, fn 1)|46|0|46|547|218|329|D|D|781

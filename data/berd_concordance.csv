@@ -1,0 +1,50 @@
+group_id,group,era,native_rule,relation,note
+G01,Pharmaceuticals and medicines,SIRD SIC 1953-98,283,approx,SIC 283 Drugs (2833-2836) ~ NAICS 3254. IRIS label 'Drugs and medicines'.
+G01,Pharmaceuticals and medicines,SIRD NAICS 1999-2004,3254,break,"Pre-2004 SIRD method put most big-pharma R&D in wholesale 4222 'Drugs and druggists sundries' and 55. 2004 under the old method: 3254=15,935 and 4222=12,931; under the revised method 3254=31,477 (NSF 09-301 Table A-9). For 1999-2003 add 4222 (and part of 55) to 3254 for a consistent pharma series, or splice at 2004 with the A-9 ratio."
+G01,Pharmaceuticals and medicines,BRDIS/BRDS/BERD 2008-2024,3254,exact,
+G02,Other chemicals,SIRD SIC 1953-98,28 minus 283,approx,"SIC 281-82,286 industrial chemicals + 284-85,287-89 other chemicals. SIC 28 also included some petroleum-based products now in 325."
+G02,Other chemicals,SIRD NAICS 1999-2004,325 minus 3254 (3251+3252+other 325),exact,
+G02,Other chemicals,BRDIS/BRDS/BERD 2008-2024,325 minus 3254,exact,"Detail rows 3251,3252,3253,3255+3259,3256 exist from 2010 (multi-year table) and 2019+ single-year tables; 2015-18 single-year source and type tables show 'other 325'."
+G03,Semiconductors,SIRD SIC 1953-98,367,approx,SIC 367 Electronic components and accessories ~ NAICS 3344 (semiconductor and other electronic components). Not shown separately in early years (inside SIC 36).
+G03,Semiconductors,SIRD NAICS 1999-2004,3344,exact,
+G03,Semiconductors,BRDIS/BRDS/BERD 2008-2024,3344,exact,2018 published only as range 30232-43377.
+G04,Computers and peripherals,SIRD SIC 1953-98,357,approx,SIC 357 Office computing and accounting machines (inside SIC 35 Machinery in SIC-era totals).
+G04,Computers and peripherals,SIRD NAICS 1999-2004,3341,exact,
+G04,Computers and peripherals,BRDIS/BRDS/BERD 2008-2024,not published,gap,"3341 is never shown separately in BRDIS/BERD tables; it is inside 'other 334'. Apple-type firms may also sit in 334 'other' or elsewhere by dominant R&D business code."
+G05,Communications equipment,SIRD SIC 1953-98,366,approx,SIC 366 Communication equipment ~ NAICS 3342. SIC 365 radio/TV receiving ~ NAICS 3343 (other 334).
+G05,Communications equipment,SIRD NAICS 1999-2004,3342,exact,
+G05,Communications equipment,BRDIS/BRDS/BERD 2008-2024,3342,exact,"From 2010 in the multi-year table; NOT separate in the 2015-18 single-year type-of-R&D tables (inside 'other 334' there). Source-of-funds tables (performer/source and by-source tables) do show 3342 for 2015+."
+G06,"Navigational, measuring, electromedical, control instruments",SIRD SIC 1953-98,381+382+3845 (approx 38 minus 384x minus 386 minus 387),approx,SIC 38 also contains medical instruments and supplies (3841-3843 -> NAICS 3391) and photographic (386). IRIS shows SIC 38 and some 381-382 / 383-387 splits.
+G06,"Navigational, measuring, electromedical, control instruments",SIRD NAICS 1999-2004,3345,exact,
+G06,"Navigational, measuring, electromedical, control instruments",BRDIS/BRDS/BERD 2008-2024,3345,exact,2018 published only as a range.
+G07,Other computer and electronic products,SIRD NAICS 1999-2004,other 334 (3343+3346),exact,
+G07,Other computer and electronic products,BRDIS/BRDS/BERD 2008-2024,other 334,scope differs,"Multi-year and 2019+ tables: 334 minus 3342,3344,3345 (so it includes computers 3341). 2015-18 single-year type-of-R&D tables: 334 minus 3344,3345 (also includes 3342). Step up in 2016 (8.1bn->18.0bn) suggests a large company reclassification into 'other 334'."
+G08,Electrical equipment,SIRD SIC 1953-98,36 minus 365-367 (361-364+369),approx,
+G08,Electrical equipment,all NAICS eras,335,exact,
+G09,Machinery,SIRD SIC 1953-98,35 minus 357,approx,SIC 35 includes 357 computers; NAICS 333 excludes computers but includes some SIC 38 photographic and 3559 semiconductor machinery.
+G09,Machinery,all NAICS eras,333,exact,
+G10,Motor vehicles and parts,SIRD SIC 1953-98,371,approx,
+G10,Motor vehicles and parts,SIRD NAICS 1999-2004,3361-63,exact,Often suppressed (D) in SIRD.
+G10,Motor vehicles and parts,BRDIS/BRDS/BERD 2008-2024,3361-63,exact,"D 2010-12, range 0-47558 in 2016; inside 'other 336' in the 2015-18 single-year type-of-R&D tables."
+G11,Aerospace products and parts,SIRD SIC 1953-98,372+376 (aircraft and missiles),approx,
+G11,Aerospace products and parts,all NAICS eras,3364,exact,"BRDIS 2008 (36.9bn) is far above SIRD 2004 (13.1bn): different company classification (dominant R&D business code vs payroll) and defense-contractor reporting; see NOTES."
+G12,Other transportation equipment,SIRD SIC 1953-98,373-375+379,approx,
+G12,Other transportation equipment,all NAICS eras,other 336 (3365-3369),exact/scope differs,In the 2015-18 single-year type-of-R&D tables 'other 336' also includes motor vehicles 3361-63.
+G13,Other manufacturing,all eras,31-33 (SIC 20-39) minus G01-G12,derived,"Compute as the residual of manufacturing. In 2015-18 type-of-R&D tables 'Miscellaneous manufacturing' is coded '322, 324, 339'."
+G14,Software publishers,SIRD SIC 1953-98,7372 (inside 737),approx,"Only available as part of SIC 737 'Computer programming, data processing, and other computer-related services' in IRIS (from 1987/1991 sample)."
+G14,Software publishers,SIRD NAICS 1999-2004,5112,exact,
+G14,Software publishers,BRDIS/BRDS/BERD 2008-2024,5112,exact,"Shown from 2010 in the multi-year table (2008-09 only 511 Publishing). Not separate in 2015-18 single-year type tables (511 Publishing there). 2017 NAICS 511210; NAICS 2022 moves it to 513210 but BERD 2024 still uses 2017 NAICS."
+G15,Other information,SIRD NAICS 1999-2004,51 minus 5112,exact,
+G15,Other information,BRDIS/BRDS/BERD 2008-2024,51 minus 5112 (5111+517+518+other 51),exact,"'other 51' (mostly 519: internet publishing and web search portals) grows from 1.0bn (2008) to 102bn (2024). 2019 'other 51' and 517 published only as range 0-46548."
+G16,Computer systems design,SIRD SIC 1953-98,7371+7373+7379 (inside 737),approx,
+G16,Computer systems design,all NAICS eras,5415,exact,
+G17,Scientific R&D services,SIRD SIC 1953-98,873 (8731-8733),approx,
+G17,Scientific R&D services,all NAICS eras,5417,exact,"BERD details 541713/541714/541715/541720 (2017 NAICS) and 541711/541712 (2012 NAICS) below it."
+G18,Architectural and engineering services,SIRD SIC 1953-98,871,approx,
+G18,Architectural and engineering services,all NAICS eras,5413,exact,
+G19,Health care services,SIRD SIC 1953-98,80,approx,
+G19,Health care services,all NAICS eras,621-23,exact,
+G20,Retail trade,SIRD SIC 1953-98,52-59,approx,
+G20,Retail trade,SIRD NAICS 1999-2004,"44, 45",exact,Not shown separately 1999-2001.
+G20,Retail trade,BRDIS/BRDS/BERD 2008-2024,454111-12 (electronic shopping) + retail part of 'Other nonmanufacturing',partial,"BERD shows only electronic shopping and auctions (454111-12) separately; the rest of 44-45 sits in 'Other nonmanufacturing'. Amazon: see NOTES (its R&D is far larger than anything shown in 454111-12 after 2019, so it is very likely classified elsewhere by dominant R&D business code)."
+G21,Other nonmanufacturing,all eras,nonmanufacturing minus G14-G20,derived,"Mining 21, utilities 22, construction 23, wholesale 42 (large in SIRD 2002-03 because of pharma), transport 48-49, finance 52, real estate 53 (incl. 533 IP lessors), management of companies 55, other 54, rest."

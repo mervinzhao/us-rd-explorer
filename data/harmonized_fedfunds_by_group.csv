@@ -1,0 +1,1486 @@
+character,fiscal_year,group,usd_billions_nominal,imputed
+applied,1970,Biological & ag,0.398905,False
+applied,1971,Biological & ag,0.454695,False
+applied,1972,Biological & ag,0.513873,False
+applied,1973,Biological & ag,0.537351,False
+applied,1974,Biological & ag,0.639724,False
+applied,1975,Biological & ag,0.730526,False
+applied,1976,Biological & ag,0.759127,False
+applied,1977,Biological & ag,0.900413,False
+applied,1978,Biological & ag,1.018968,False
+applied,1979,Biological & ag,1.135999,False
+applied,1980,Biological & ag,1.257985,False
+applied,1981,Biological & ag,1.3080669999999999,False
+applied,1982,Biological & ag,1.2398760000000002,False
+applied,1983,Biological & ag,1.238064,False
+applied,1984,Biological & ag,1.250776,False
+applied,1985,Biological & ag,1.352846,False
+applied,1986,Biological & ag,1.4417060000000002,False
+applied,1987,Biological & ag,1.655709,False
+applied,1988,Biological & ag,1.854919,False
+applied,1989,Biological & ag,2.065259,False
+applied,1990,Biological & ag,2.119583,False
+applied,1991,Biological & ag,2.585869,False
+applied,1992,Biological & ag,2.28987,False
+applied,1993,Biological & ag,2.4597350000000002,False
+applied,1994,Biological & ag,2.560397,False
+applied,1995,Biological & ag,2.853453,False
+applied,1996,Biological & ag,2.952744,False
+applied,1997,Biological & ag,2.960013,False
+applied,1998,Biological & ag,3.100258,False
+applied,1999,Biological & ag,3.38062,False
+applied,2000,Biological & ag,5.375762,False
+applied,2001,Biological & ag,6.4453000000000005,False
+applied,2002,Biological & ag,8.3863,False
+applied,2003,Biological & ag,9.7658,False
+applied,2004,Biological & ag,7.816971000000001,False
+applied,2005,Biological & ag,7.720815,False
+applied,2006,Biological & ag,7.855452,False
+applied,2007,Biological & ag,8.5334,False
+applied,2008,Biological & ag,8.288499999999999,False
+applied,2009,Biological & ag,10.0348,False
+applied,2010,Biological & ag,10.2707,False
+applied,2011,Biological & ag,8.9596,False
+applied,2012,Biological & ag,9.4398,False
+applied,2013,Biological & ag,8.7541,False
+applied,2014,Biological & ag,9.2107,False
+applied,2015,Biological & ag,9.5991,False
+applied,2016,Biological & ag,10.447,False
+applied,2017,Biological & ag,10.5843,False
+applied,2018,Biological & ag,11.668700000000001,False
+applied,2019,Biological & ag,12.0375331,False
+applied,2020,Biological & ag,12.9978412,False
+applied,2021,Biological & ag,11.055971999999999,False
+applied,2022,Biological & ag,14.462394,False
+applied,2023,Biological & ag,18.12304,False
+applied,2024,Biological & ag,13.159806,False
+basic,1970,Biological & ag,0.498115,False
+basic,1971,Biological & ag,0.5363610000000001,False
+basic,1972,Biological & ag,0.621884,False
+basic,1973,Biological & ag,0.635165,False
+basic,1974,Biological & ag,0.71458,False
+basic,1975,Biological & ag,0.773574,False
+basic,1976,Biological & ag,0.847634,False
+basic,1977,Biological & ag,0.968576,False
+basic,1978,Biological & ag,1.1207179999999999,False
+basic,1979,Biological & ag,1.331667,False
+basic,1980,Biological & ag,1.397462,False
+basic,1981,Biological & ag,1.517643,False
+basic,1982,Biological & ag,1.732598,False
+basic,1983,Biological & ag,2.012414,False
+basic,1984,Biological & ag,2.272334,False
+basic,1985,Biological & ag,2.641158,False
+basic,1986,Biological & ag,2.662191,False
+basic,1987,Biological & ag,3.020961,False
+basic,1988,Biological & ag,2.928529,False
+basic,1989,Biological & ag,3.207329,False
+basic,1990,Biological & ag,3.3279159999999997,False
+basic,1991,Biological & ag,3.575813,False
+basic,1992,Biological & ag,3.710677,False
+basic,1993,Biological & ag,3.907925,False
+basic,1994,Biological & ag,3.8618259999999998,False
+basic,1995,Biological & ag,3.985387,False
+basic,1996,Biological & ag,4.138231,False
+basic,1997,Biological & ag,4.168581,False
+basic,1998,Biological & ag,4.460991,False
+basic,1999,Biological & ag,5.2406630000000005,False
+basic,2000,Biological & ag,8.125167999999999,False
+basic,2001,Biological & ag,10.026900000000001,False
+basic,2002,Biological & ag,10.6631,False
+basic,2003,Biological & ag,11.8461,False
+basic,2004,Biological & ag,9.012746,False
+basic,2005,Biological & ag,9.544922,False
+basic,2006,Biological & ag,9.480059,False
+basic,2007,Biological & ag,10.1394,False
+basic,2008,Biological & ag,10.243099999999998,False
+basic,2009,Biological & ag,11.839599999999999,False
+basic,2010,Biological & ag,11.961300000000001,False
+basic,2011,Biological & ag,10.2879,False
+basic,2012,Biological & ag,10.487799999999998,False
+basic,2013,Biological & ag,9.9914,False
+basic,2014,Biological & ag,10.4548,False
+basic,2015,Biological & ag,9.9392,False
+basic,2016,Biological & ag,10.2398,False
+basic,2017,Biological & ag,10.856599999999998,False
+basic,2018,Biological & ag,11.761199999999999,False
+basic,2019,Biological & ag,12.491351600000002,False
+basic,2020,Biological & ag,13.3448027,False
+basic,2021,Biological & ag,12.184536,False
+basic,2022,Biological & ag,12.440698,False
+basic,2023,Biological & ag,12.345854000000001,False
+basic,2024,Biological & ag,11.953866,False
+research_total,1970,Biological & ag,0.89702,False
+research_total,1971,Biological & ag,0.991056,False
+research_total,1972,Biological & ag,1.135757,False
+research_total,1973,Biological & ag,1.172516,False
+research_total,1974,Biological & ag,1.354304,False
+research_total,1975,Biological & ag,1.5041000000000002,False
+research_total,1976,Biological & ag,1.606761,False
+research_total,1977,Biological & ag,1.868989,False
+research_total,1978,Biological & ag,2.1396859999999998,False
+research_total,1979,Biological & ag,2.467666,False
+research_total,1980,Biological & ag,2.655447,False
+research_total,1981,Biological & ag,2.8257100000000004,False
+research_total,1982,Biological & ag,2.972474,False
+research_total,1983,Biological & ag,3.250478,False
+research_total,1984,Biological & ag,3.52311,False
+research_total,1985,Biological & ag,3.994004,False
+research_total,1986,Biological & ag,4.103897,False
+research_total,1987,Biological & ag,4.6766700000000005,False
+research_total,1988,Biological & ag,4.783448,False
+research_total,1989,Biological & ag,5.272588,False
+research_total,1990,Biological & ag,5.447499,False
+research_total,1991,Biological & ag,6.161682,False
+research_total,1992,Biological & ag,6.000547,False
+research_total,1993,Biological & ag,6.36766,False
+research_total,1994,Biological & ag,6.422223,False
+research_total,1995,Biological & ag,6.838839999999999,False
+research_total,1996,Biological & ag,7.090975,False
+research_total,1997,Biological & ag,7.128594,False
+research_total,1998,Biological & ag,7.561249,False
+research_total,1999,Biological & ag,8.621283,False
+research_total,2000,Biological & ag,13.50093,False
+research_total,2001,Biological & ag,16.4722,False
+research_total,2002,Biological & ag,19.0494,False
+research_total,2003,Biological & ag,21.612,False
+research_total,2004,Biological & ag,16.829717000000002,False
+research_total,2005,Biological & ag,17.265737,False
+research_total,2006,Biological & ag,17.335511,False
+research_total,2007,Biological & ag,18.672800000000002,False
+research_total,2008,Biological & ag,18.5315,False
+research_total,2009,Biological & ag,21.874499999999998,False
+research_total,2010,Biological & ag,22.2322,False
+research_total,2011,Biological & ag,19.247600000000002,False
+research_total,2012,Biological & ag,19.927599999999998,False
+research_total,2013,Biological & ag,18.7455,False
+research_total,2014,Biological & ag,19.6654,False
+research_total,2015,Biological & ag,19.5383,False
+research_total,2016,Biological & ag,20.686799999999998,False
+research_total,2017,Biological & ag,21.440900000000003,False
+research_total,2018,Biological & ag,23.429799999999997,False
+research_total,2019,Biological & ag,24.5288848,False
+research_total,2020,Biological & ag,26.342643900000002,False
+research_total,2021,Biological & ag,23.240544000000003,False
+research_total,2022,Biological & ag,26.903093000000002,False
+research_total,2023,Biological & ag,30.468893,False
+research_total,2024,Biological & ag,25.113672,False
+applied,1970,Computing,0.022680782449378427,True
+applied,1971,Computing,0.032705578605938875,True
+applied,1972,Computing,0.03451412325606645,True
+applied,1973,Computing,0.03486996525704359,True
+applied,1974,Computing,0.03923763884968243,True
+applied,1975,Computing,0.040337050336572394,True
+applied,1976,Computing,0.04845892081048803,False
+applied,1977,Computing,0.0639401171747096,False
+applied,1978,Computing,0.07600647499377718,False
+applied,1979,Computing,0.07677273316195374,False
+applied,1980,Computing,0.09646316109279765,False
+applied,1981,Computing,0.08904143968961778,False
+applied,1982,Computing,0.13602899878515762,False
+applied,1983,Computing,0.1673292626803387,False
+applied,1984,Computing,0.1490899705291542,False
+applied,1985,Computing,0.23766985405989294,False
+applied,1986,Computing,0.25840801572294586,False
+applied,1987,Computing,0.2627065978588871,False
+applied,1988,Computing,0.2508916939973783,False
+applied,1989,Computing,0.29234368080762996,False
+applied,1990,Computing,0.3636911497299194,False
+applied,1991,Computing,0.40648588533252955,False
+applied,1992,Computing,0.5789097784558005,False
+applied,1993,Computing,0.6335158723061429,False
+applied,1994,Computing,0.6684590684905042,False
+applied,1995,Computing,0.8593607779889385,False
+applied,1996,Computing,0.8294840663459085,False
+applied,1997,Computing,0.9422229148767278,False
+applied,1998,Computing,1.0426547945547768,False
+applied,1999,Computing,1.1484384933262164,False
+applied,2000,Computing,1.2748886311237493,False
+applied,2001,Computing,1.5372794201397877,False
+applied,2002,Computing,1.5479069265529104,False
+applied,2003,Computing,1.4499993359237018,False
+applied,2004,Computing,1.5592858966500747,False
+applied,2005,Computing,1.6010532179195514,False
+applied,2006,Computing,1.4418847016320446,False
+applied,2007,Computing,1.4914534511174105,False
+applied,2008,Computing,1.484711159917639,False
+applied,2009,Computing,1.6123956369203292,False
+applied,2010,Computing,1.6193399365395382,False
+applied,2011,Computing,1.4163085592315903,False
+applied,2012,Computing,1.6027204305135951,False
+applied,2013,Computing,1.6212234423579157,False
+applied,2014,Computing,1.7971900049753993,False
+applied,2015,Computing,1.7370712134177648,False
+applied,2016,Computing,1.9613476674152714,False
+applied,2017,Computing,1.8888376759993526,False
+applied,2018,Computing,2.000782340090433,False
+applied,2019,Computing,1.8958181261057745,False
+applied,2020,Computing,3.201460635155222,False
+applied,2021,Computing,3.085502,False
+applied,2022,Computing,2.535,False
+applied,2023,Computing,2.793427,False
+applied,2024,Computing,2.771181,False
+basic,1970,Computing,0.022633296918446323,True
+basic,1971,Computing,0.021083473154650995,True
+basic,1972,Computing,0.025381127590655007,True
+basic,1973,Computing,0.022901257101906266,True
+basic,1974,Computing,0.020102350093163253,True
+basic,1975,Computing,0.02363500298122402,True
+basic,1976,Computing,0.03118134112082557,False
+basic,1977,Computing,0.031113120921674505,False
+basic,1978,Computing,0.04095268214007176,False
+basic,1979,Computing,0.04347521165954139,False
+basic,1980,Computing,0.04753063933121019,False
+basic,1981,Computing,0.055773706604556286,False
+basic,1982,Computing,0.07032554274524666,False
+basic,1983,Computing,0.09837308601127794,False
+basic,1984,Computing,0.11540525183166098,False
+basic,1985,Computing,0.12249447101849295,False
+basic,1986,Computing,0.1407902476745927,False
+basic,1987,Computing,0.13726560468844756,False
+basic,1988,Computing,0.13515023542718838,False
+basic,1989,Computing,0.16853614945025402,False
+basic,1990,Computing,0.22820000883327107,False
+basic,1991,Computing,0.2455297644307984,False
+basic,1992,Computing,0.2506012608975208,False
+basic,1993,Computing,0.2872005113883538,False
+basic,1994,Computing,0.2683530997903712,False
+basic,1995,Computing,0.39744887058505607,False
+basic,1996,Computing,0.44675321140918445,False
+basic,1997,Computing,0.4103816012055236,False
+basic,1998,Computing,0.4414236201196382,False
+basic,1999,Computing,0.4652653436924504,False
+basic,2000,Computing,0.4789858358663323,False
+basic,2001,Computing,0.6418149199084668,False
+basic,2002,Computing,0.6608540571428572,False
+basic,2003,Computing,0.7505999724846373,False
+basic,2004,Computing,0.7408070343040718,False
+basic,2005,Computing,0.6733181980374666,False
+basic,2006,Computing,0.6814457757814398,False
+basic,2007,Computing,0.7218041834081778,False
+basic,2008,Computing,0.7490209747606614,False
+basic,2009,Computing,1.0214516045780968,False
+basic,2010,Computing,0.9137036347629229,False
+basic,2011,Computing,0.998186660308756,False
+basic,2012,Computing,0.9577784102742103,False
+basic,2013,Computing,0.8989235315939161,False
+basic,2014,Computing,1.0311683564178769,False
+basic,2015,Computing,1.0707983777520278,False
+basic,2016,Computing,1.0430811625830771,False
+basic,2017,Computing,1.0286182596291014,False
+basic,2018,Computing,1.089696465464857,False
+basic,2019,Computing,1.2118839055338049,False
+basic,2020,Computing,1.790981355012268,False
+basic,2021,Computing,2.264158,False
+basic,2022,Computing,2.319,False
+basic,2023,Computing,2.342308,False
+basic,2024,Computing,3.892726,False
+research_total,1970,Computing,0.04870089321315544,True
+research_total,1971,Computing,0.054678672027270066,True
+research_total,1972,Computing,0.06191673937290002,True
+research_total,1973,Computing,0.058865784474465686,True
+research_total,1974,Computing,0.058612393129504926,True
+research_total,1975,Computing,0.06425060702385435,True
+research_total,1976,Computing,0.08093853013509557,False
+research_total,1977,Computing,0.09421839704148702,False
+research_total,1978,Computing,0.11564062606233708,False
+research_total,1979,Computing,0.11734540715692195,False
+research_total,1980,Computing,0.14114305913838895,False
+research_total,1981,Computing,0.14167411785359002,False
+research_total,1982,Computing,0.2000942091624341,False
+research_total,1983,Computing,0.25853659903581505,False
+research_total,1984,Computing,0.2584377134258613,False
+research_total,1985,Computing,0.3473163687195394,False
+research_total,1986,Computing,0.38220804457121965,False
+research_total,1987,Computing,0.3798518097826087,False
+research_total,1988,Computing,0.3685699876726253,False
+research_total,1989,Computing,0.4464257484251077,False
+research_total,1990,Computing,0.5882031350833326,False
+research_total,1991,Computing,0.6505563380845898,False
+research_total,1992,Computing,0.8212150680393199,False
+research_total,1993,Computing,0.9063702815547019,False
+research_total,1994,Computing,0.9216039489197515,False
+research_total,1995,Computing,1.2581354065147927,False
+research_total,1996,Computing,1.2805929154303284,False
+research_total,1997,Computing,1.349892029639088,False
+research_total,1998,Computing,1.4827215667793743,False
+research_total,1999,Computing,1.6131956062682222,False
+research_total,2000,Computing,1.7492678052011543,False
+research_total,2001,Computing,2.182837996031746,False
+research_total,2002,Computing,2.1982031081302145,False
+research_total,2003,Computing,2.189369325936864,False
+research_total,2004,Computing,2.289848364518934,False
+research_total,2005,Computing,2.263026342503848,False
+research_total,2006,Computing,2.1059736641778857,False
+research_total,2007,Computing,2.196562067975451,False
+research_total,2008,Computing,2.206039317324306,False
+research_total,2009,Computing,2.6113428673770933,False
+research_total,2010,Computing,2.5203777326035968,False
+research_total,2011,Computing,2.398551328122466,False
+research_total,2012,Computing,2.543699990957046,False
+research_total,2013,Computing,2.5089518989303983,False
+research_total,2014,Computing,2.824465822220985,False
+research_total,2015,Computing,2.798619504313296,False
+research_total,2016,Computing,2.9905392111485636,False
+research_total,2017,Computing,2.8967111141333914,False
+research_total,2018,Computing,3.0811053511196773,False
+research_total,2019,Computing,3.0942129429772147,False
+research_total,2020,Computing,5.100409571323292,False
+research_total,2021,Computing,5.34966,False
+research_total,2022,Computing,4.854,False
+research_total,2023,Computing,5.135735,False
+research_total,2024,Computing,6.663906,False
+applied,1970,"Earth, atmos & ocean",0.242351,False
+applied,1971,"Earth, atmos & ocean",0.273133,False
+applied,1972,"Earth, atmos & ocean",0.30494,False
+applied,1973,"Earth, atmos & ocean",0.307116,False
+applied,1974,"Earth, atmos & ocean",0.344685,False
+applied,1975,"Earth, atmos & ocean",0.446506,False
+applied,1976,"Earth, atmos & ocean",0.474959,False
+applied,1977,"Earth, atmos & ocean",0.518547,False
+applied,1978,"Earth, atmos & ocean",0.573288,False
+applied,1979,"Earth, atmos & ocean",0.6437,False
+applied,1980,"Earth, atmos & ocean",0.738597,False
+applied,1981,"Earth, atmos & ocean",0.588247,False
+applied,1982,"Earth, atmos & ocean",0.628254,False
+applied,1983,"Earth, atmos & ocean",0.671153,False
+applied,1984,"Earth, atmos & ocean",0.619182,False
+applied,1985,"Earth, atmos & ocean",0.703999,False
+applied,1986,"Earth, atmos & ocean",0.732567,False
+applied,1987,"Earth, atmos & ocean",0.730604,False
+applied,1988,"Earth, atmos & ocean",0.734291,False
+applied,1989,"Earth, atmos & ocean",0.756339,False
+applied,1990,"Earth, atmos & ocean",0.899274,False
+applied,1991,"Earth, atmos & ocean",0.886257,False
+applied,1992,"Earth, atmos & ocean",0.903982,False
+applied,1993,"Earth, atmos & ocean",1.075019,False
+applied,1994,"Earth, atmos & ocean",1.32171,False
+applied,1995,"Earth, atmos & ocean",1.386969,False
+applied,1996,"Earth, atmos & ocean",1.465673,False
+applied,1997,"Earth, atmos & ocean",1.502172,False
+applied,1998,"Earth, atmos & ocean",1.533245,False
+applied,1999,"Earth, atmos & ocean",1.479532,False
+applied,2000,"Earth, atmos & ocean",1.490349,False
+applied,2001,"Earth, atmos & ocean",1.5886,False
+applied,2002,"Earth, atmos & ocean",1.585,False
+applied,2003,"Earth, atmos & ocean",1.8414,False
+applied,2004,"Earth, atmos & ocean",1.718715,False
+applied,2005,"Earth, atmos & ocean",1.536493,False
+applied,2006,"Earth, atmos & ocean",1.581132,False
+applied,2007,"Earth, atmos & ocean",1.4427,False
+applied,2008,"Earth, atmos & ocean",1.3915,False
+applied,2009,"Earth, atmos & ocean",1.6082,False
+applied,2010,"Earth, atmos & ocean",1.5515,False
+applied,2011,"Earth, atmos & ocean",1.4107,False
+applied,2012,"Earth, atmos & ocean",1.6256,False
+applied,2013,"Earth, atmos & ocean",1.6452,False
+applied,2014,"Earth, atmos & ocean",1.6129,False
+applied,2015,"Earth, atmos & ocean",1.6754,False
+applied,2016,"Earth, atmos & ocean",1.6854,False
+applied,2017,"Earth, atmos & ocean",1.7828,False
+applied,2018,"Earth, atmos & ocean",1.5711,False
+applied,2019,"Earth, atmos & ocean",1.8229096999999999,False
+applied,2020,"Earth, atmos & ocean",1.8725198,False
+applied,2021,"Earth, atmos & ocean",1.985,False
+applied,2022,"Earth, atmos & ocean",2.124657,False
+applied,2023,"Earth, atmos & ocean",2.223109,False
+applied,2024,"Earth, atmos & ocean",2.198576,False
+basic,1970,"Earth, atmos & ocean",0.243216,False
+basic,1971,"Earth, atmos & ocean",0.261213,False
+basic,1972,"Earth, atmos & ocean",0.262659,False
+basic,1973,"Earth, atmos & ocean",0.273411,False
+basic,1974,"Earth, atmos & ocean",0.291642,False
+basic,1975,"Earth, atmos & ocean",0.280763,False
+basic,1976,"Earth, atmos & ocean",0.294325,False
+basic,1977,"Earth, atmos & ocean",0.387454,False
+basic,1978,"Earth, atmos & ocean",0.451278,False
+basic,1979,"Earth, atmos & ocean",0.457284,False
+basic,1980,"Earth, atmos & ocean",0.52236,False
+basic,1981,"Earth, atmos & ocean",0.532833,False
+basic,1982,"Earth, atmos & ocean",0.520049,False
+basic,1983,"Earth, atmos & ocean",0.58005,False
+basic,1984,"Earth, atmos & ocean",0.656731,False
+basic,1985,"Earth, atmos & ocean",0.699675,False
+basic,1986,"Earth, atmos & ocean",0.749093,False
+basic,1987,"Earth, atmos & ocean",0.78101,False
+basic,1988,"Earth, atmos & ocean",0.872666,False
+basic,1989,"Earth, atmos & ocean",1.016909,False
+basic,1990,"Earth, atmos & ocean",1.27481,False
+basic,1991,"Earth, atmos & ocean",1.263526,False
+basic,1992,"Earth, atmos & ocean",1.303634,False
+basic,1993,"Earth, atmos & ocean",1.53347,False
+basic,1994,"Earth, atmos & ocean",1.516482,False
+basic,1995,"Earth, atmos & ocean",1.467468,False
+basic,1996,"Earth, atmos & ocean",1.554037,False
+basic,1997,"Earth, atmos & ocean",1.543481,False
+basic,1998,"Earth, atmos & ocean",1.528734,False
+basic,1999,"Earth, atmos & ocean",1.615729,False
+basic,2000,"Earth, atmos & ocean",1.838422,False
+basic,2001,"Earth, atmos & ocean",1.663,False
+basic,2002,"Earth, atmos & ocean",1.8333,False
+basic,2003,"Earth, atmos & ocean",1.8995,False
+basic,2004,"Earth, atmos & ocean",2.022913,False
+basic,2005,"Earth, atmos & ocean",1.966119,False
+basic,2006,"Earth, atmos & ocean",1.849488,False
+basic,2007,"Earth, atmos & ocean",1.7278,False
+basic,2008,"Earth, atmos & ocean",1.5931,False
+basic,2009,"Earth, atmos & ocean",2.1429,False
+basic,2010,"Earth, atmos & ocean",1.7874,False
+basic,2011,"Earth, atmos & ocean",1.7964,False
+basic,2012,"Earth, atmos & ocean",2.2587,False
+basic,2013,"Earth, atmos & ocean",2.3958,False
+basic,2014,"Earth, atmos & ocean",2.753,False
+basic,2015,"Earth, atmos & ocean",2.7384,False
+basic,2016,"Earth, atmos & ocean",2.765,False
+basic,2017,"Earth, atmos & ocean",2.6868,False
+basic,2018,"Earth, atmos & ocean",2.9964,False
+basic,2019,"Earth, atmos & ocean",3.2517943,False
+basic,2020,"Earth, atmos & ocean",3.1669381000000003,False
+basic,2021,"Earth, atmos & ocean",3.057,False
+basic,2022,"Earth, atmos & ocean",3.441026,False
+basic,2023,"Earth, atmos & ocean",3.660536,False
+basic,2024,"Earth, atmos & ocean",3.494035,False
+research_total,1970,"Earth, atmos & ocean",0.485567,False
+research_total,1971,"Earth, atmos & ocean",0.534346,False
+research_total,1972,"Earth, atmos & ocean",0.567599,False
+research_total,1973,"Earth, atmos & ocean",0.580527,False
+research_total,1974,"Earth, atmos & ocean",0.636327,False
+research_total,1975,"Earth, atmos & ocean",0.727269,False
+research_total,1976,"Earth, atmos & ocean",0.769284,False
+research_total,1977,"Earth, atmos & ocean",0.906001,False
+research_total,1978,"Earth, atmos & ocean",1.024566,False
+research_total,1979,"Earth, atmos & ocean",1.100984,False
+research_total,1980,"Earth, atmos & ocean",1.260957,False
+research_total,1981,"Earth, atmos & ocean",1.12108,False
+research_total,1982,"Earth, atmos & ocean",1.148303,False
+research_total,1983,"Earth, atmos & ocean",1.251203,False
+research_total,1984,"Earth, atmos & ocean",1.275913,False
+research_total,1985,"Earth, atmos & ocean",1.403674,False
+research_total,1986,"Earth, atmos & ocean",1.48166,False
+research_total,1987,"Earth, atmos & ocean",1.511614,False
+research_total,1988,"Earth, atmos & ocean",1.606957,False
+research_total,1989,"Earth, atmos & ocean",1.773248,False
+research_total,1990,"Earth, atmos & ocean",2.174084,False
+research_total,1991,"Earth, atmos & ocean",2.149783,False
+research_total,1992,"Earth, atmos & ocean",2.207616,False
+research_total,1993,"Earth, atmos & ocean",2.608489,False
+research_total,1994,"Earth, atmos & ocean",2.838192,False
+research_total,1995,"Earth, atmos & ocean",2.854437,False
+research_total,1996,"Earth, atmos & ocean",3.01971,False
+research_total,1997,"Earth, atmos & ocean",3.045653,False
+research_total,1998,"Earth, atmos & ocean",3.061979,False
+research_total,1999,"Earth, atmos & ocean",3.095261,False
+research_total,2000,"Earth, atmos & ocean",3.328771,False
+research_total,2001,"Earth, atmos & ocean",3.2517,False
+research_total,2002,"Earth, atmos & ocean",3.4183,False
+research_total,2003,"Earth, atmos & ocean",3.7409,False
+research_total,2004,"Earth, atmos & ocean",3.741628,False
+research_total,2005,"Earth, atmos & ocean",3.502612,False
+research_total,2006,"Earth, atmos & ocean",3.43062,False
+research_total,2007,"Earth, atmos & ocean",3.1705,False
+research_total,2008,"Earth, atmos & ocean",2.9846,False
+research_total,2009,"Earth, atmos & ocean",3.7511,False
+research_total,2010,"Earth, atmos & ocean",3.3389,False
+research_total,2011,"Earth, atmos & ocean",3.2072,False
+research_total,2012,"Earth, atmos & ocean",3.8843,False
+research_total,2013,"Earth, atmos & ocean",4.041,False
+research_total,2014,"Earth, atmos & ocean",4.3658,False
+research_total,2015,"Earth, atmos & ocean",4.4137,False
+research_total,2016,"Earth, atmos & ocean",4.4504,False
+research_total,2017,"Earth, atmos & ocean",4.4696,False
+research_total,2018,"Earth, atmos & ocean",4.5676,False
+research_total,2019,"Earth, atmos & ocean",5.074704,False
+research_total,2020,"Earth, atmos & ocean",5.0394578,False
+research_total,2021,"Earth, atmos & ocean",5.042,False
+research_total,2022,"Earth, atmos & ocean",5.565684,False
+research_total,2023,"Earth, atmos & ocean",5.883645,False
+research_total,2024,"Earth, atmos & ocean",5.692611,False
+applied,1970,Engineering,1.336959,False
+applied,1971,Engineering,1.295472,False
+applied,1972,Engineering,1.24454,False
+applied,1973,Engineering,1.149821,False
+applied,1974,Engineering,1.348861,False
+applied,1975,Engineering,1.45493,False
+applied,1976,Engineering,1.795856,False
+applied,1977,Engineering,1.775234,False
+applied,1978,Engineering,2.02861,False
+applied,1979,Engineering,2.136972,False
+applied,1980,Engineering,2.364903,False
+applied,1981,Engineering,2.545436,False
+applied,1982,Engineering,2.776076,False
+applied,1983,Engineering,2.827496,False
+applied,1984,Engineering,2.779064,False
+applied,1985,Engineering,2.733394,False
+applied,1986,Engineering,2.770438,False
+applied,1987,Engineering,2.916837,False
+applied,1988,Engineering,2.950169,False
+applied,1989,Engineering,3.258447,False
+applied,1990,Engineering,3.125111,False
+applied,1991,Engineering,3.71076,False
+applied,1992,Engineering,3.727148,False
+applied,1993,Engineering,4.292014,False
+applied,1994,Engineering,4.189002,False
+applied,1995,Engineering,4.259509,False
+applied,1996,Engineering,4.068879,False
+applied,1997,Engineering,4.107261,False
+applied,1998,Engineering,4.300981,False
+applied,1999,Engineering,4.623729,False
+applied,2000,Engineering,4.582206,False
+applied,2001,Engineering,6.2855,False
+applied,2002,Engineering,6.41,False
+applied,2003,Engineering,6.492,False
+applied,2004,Engineering,6.594664,False
+applied,2005,Engineering,6.252483,False
+applied,2006,Engineering,6.31415,False
+applied,2007,Engineering,6.3598,False
+applied,2008,Engineering,6.2395,False
+applied,2009,Engineering,6.8788,False
+applied,2010,Engineering,7.59,False
+applied,2011,Engineering,6.8892,False
+applied,2012,Engineering,7.9445,False
+applied,2013,Engineering,7.5407,False
+applied,2014,Engineering,8.343,False
+applied,2015,Engineering,8.2897,False
+applied,2016,Engineering,9.3139,False
+applied,2017,Engineering,9.5218,False
+applied,2018,Engineering,10.1728,False
+applied,2019,Engineering,11.661360199999999,False
+applied,2020,Engineering,10.3241323,False
+applied,2021,Engineering,11.438,False
+applied,2022,Engineering,11.757783,False
+applied,2023,Engineering,11.678991,False
+applied,2024,Engineering,13.622322,False
+basic,1970,Engineering,0.202377,False
+basic,1971,Engineering,0.19125,False
+basic,1972,Engineering,0.206154,False
+basic,1973,Engineering,0.22076,False
+basic,1974,Engineering,0.214872,False
+basic,1975,Engineering,0.262847,False
+basic,1976,Engineering,0.272799,False
+basic,1977,Engineering,0.337683,False
+basic,1978,Engineering,0.392561,False
+basic,1979,Engineering,0.434658,False
+basic,1980,Engineering,0.465228,False
+basic,1981,Engineering,0.526018,False
+basic,1982,Engineering,0.610467,False
+basic,1983,Engineering,0.689503,False
+basic,1984,Engineering,0.844991,False
+basic,1985,Engineering,0.884236,False
+basic,1986,Engineering,0.968508,False
+basic,1987,Engineering,0.989479,False
+basic,1988,Engineering,1.006228,False
+basic,1989,Engineering,1.183717,False
+basic,1990,Engineering,1.101528,False
+basic,1991,Engineering,1.233711,False
+basic,1992,Engineering,1.249819,False
+basic,1993,Engineering,1.207405,False
+basic,1994,Engineering,1.290426,False
+basic,1995,Engineering,1.448932,False
+basic,1996,Engineering,1.61206,False
+basic,1997,Engineering,1.582999,False
+basic,1998,Engineering,1.594442,False
+basic,1999,Engineering,1.639691,False
+basic,2000,Engineering,1.764175,False
+basic,2001,Engineering,1.9115,False
+basic,2002,Engineering,1.8649,False
+basic,2003,Engineering,1.9131,False
+basic,2004,Engineering,2.271711,False
+basic,2005,Engineering,2.300455,False
+basic,2006,Engineering,2.36458,False
+basic,2007,Engineering,2.6299,False
+basic,2008,Engineering,2.736,False
+basic,2009,Engineering,3.4062,False
+basic,2010,Engineering,3.4911,False
+basic,2011,Engineering,3.168,False
+basic,2012,Engineering,3.4589,False
+basic,2013,Engineering,3.4075,False
+basic,2014,Engineering,3.5446,False
+basic,2015,Engineering,3.694,False
+basic,2016,Engineering,3.6577,False
+basic,2017,Engineering,3.6856,False
+basic,2018,Engineering,3.5857,False
+basic,2019,Engineering,3.617951,False
+basic,2020,Engineering,2.8979125,False
+basic,2021,Engineering,3.212,False
+basic,2022,Engineering,3.738817,False
+basic,2023,Engineering,3.991,False
+basic,2024,Engineering,3.928766,False
+research_total,1970,Engineering,1.539336,False
+research_total,1971,Engineering,1.486722,False
+research_total,1972,Engineering,1.450694,False
+research_total,1973,Engineering,1.370581,False
+research_total,1974,Engineering,1.563733,False
+research_total,1975,Engineering,1.717777,False
+research_total,1976,Engineering,2.068655,False
+research_total,1977,Engineering,2.112917,False
+research_total,1978,Engineering,2.421171,False
+research_total,1979,Engineering,2.57163,False
+research_total,1980,Engineering,2.830131,False
+research_total,1981,Engineering,3.071454,False
+research_total,1982,Engineering,3.386543,False
+research_total,1983,Engineering,3.516999,False
+research_total,1984,Engineering,3.624055,False
+research_total,1985,Engineering,3.61763,False
+research_total,1986,Engineering,3.738946,False
+research_total,1987,Engineering,3.906316,False
+research_total,1988,Engineering,3.956397,False
+research_total,1989,Engineering,4.442164,False
+research_total,1990,Engineering,4.226639,False
+research_total,1991,Engineering,4.944471,False
+research_total,1992,Engineering,4.976967,False
+research_total,1993,Engineering,5.499419,False
+research_total,1994,Engineering,5.479428,False
+research_total,1995,Engineering,5.708441,False
+research_total,1996,Engineering,5.680939,False
+research_total,1997,Engineering,5.69026,False
+research_total,1998,Engineering,5.895423,False
+research_total,1999,Engineering,6.26342,False
+research_total,2000,Engineering,6.346381,False
+research_total,2001,Engineering,8.197,False
+research_total,2002,Engineering,8.2749,False
+research_total,2003,Engineering,8.4051,False
+research_total,2004,Engineering,8.866375,False
+research_total,2005,Engineering,8.552938,False
+research_total,2006,Engineering,8.67873,False
+research_total,2007,Engineering,8.9897,False
+research_total,2008,Engineering,8.9755,False
+research_total,2009,Engineering,10.285,False
+research_total,2010,Engineering,11.0812,False
+research_total,2011,Engineering,10.0572,False
+research_total,2012,Engineering,11.4034,False
+research_total,2013,Engineering,10.9482,False
+research_total,2014,Engineering,11.8875,False
+research_total,2015,Engineering,11.9836,False
+research_total,2016,Engineering,12.9715,False
+research_total,2017,Engineering,13.2074,False
+research_total,2018,Engineering,13.7586,False
+research_total,2019,Engineering,15.279311199999999,False
+research_total,2020,Engineering,13.2220448,False
+research_total,2021,Engineering,14.65,False
+research_total,2022,Engineering,15.4966,False
+research_total,2023,Engineering,15.67,False
+research_total,2024,Engineering,17.551088,False
+applied,1970,Math & statistics,0.012885217550621574,True
+applied,1971,Math & statistics,0.018580421394061124,True
+applied,1972,Math & statistics,0.019607876743933557,True
+applied,1973,Math & statistics,0.01981003474295641,True
+applied,1974,Math & statistics,0.022291361150317573,True
+applied,1975,Math & statistics,0.022915949663427613,True
+applied,1976,Math & statistics,0.02753007918951197,False
+applied,1977,Math & statistics,0.048531882825290404,False
+applied,1978,Math & statistics,0.04253652500622283,False
+applied,1979,Math & statistics,0.02936426683804627,False
+applied,1980,Math & statistics,0.02822183890720236,False
+applied,1981,Math & statistics,0.049523560310382235,False
+applied,1982,Math & statistics,0.04898700121484238,False
+applied,1983,Math & statistics,0.04395773731966131,False
+applied,1984,Math & statistics,0.050428029470845785,False
+applied,1985,Math & statistics,0.0772301459401071,False
+applied,1986,Math & statistics,0.06361498427705417,False
+applied,1987,Math & statistics,0.0715454021411129,False
+applied,1988,Math & statistics,0.0787493060026217,False
+applied,1989,Math & statistics,0.09731531919237002,False
+applied,1990,Math & statistics,0.07016285027008064,False
+applied,1991,Math & statistics,0.07111211466747044,False
+applied,1992,Math & statistics,0.09995922154419948,False
+applied,1993,Math & statistics,0.080622127693857,False
+applied,1994,Math & statistics,0.11142593150949576,False
+applied,1995,Math & statistics,0.1167242220110615,False
+applied,1996,Math & statistics,0.10252593365409146,False
+applied,1997,Math & statistics,0.06824308512327217,False
+applied,1998,Math & statistics,0.0887012054452232,False
+applied,1999,Math & statistics,0.09726150667378354,False
+applied,2000,Math & statistics,0.13244736887625086,False
+applied,2001,Math & statistics,0.11552057986021227,False
+applied,2002,Math & statistics,0.08409307344708976,False
+applied,2003,Math & statistics,0.10220066407629813,False
+applied,2004,Math & statistics,0.15100810334992537,False
+applied,2005,Math & statistics,0.1538917820804485,False
+applied,2006,Math & statistics,0.16482229836795526,False
+applied,2007,Math & statistics,0.16064654888258947,False
+applied,2008,Math & statistics,0.155088840082361,False
+applied,2009,Math & statistics,0.13800436307967084,False
+applied,2010,Math & statistics,0.12936006346046164,False
+applied,2011,Math & statistics,0.16959144076840982,False
+applied,2012,Math & statistics,0.12987956948640483,False
+applied,2013,Math & statistics,0.11497655764208431,False
+applied,2014,Math & statistics,0.1683099950246006,False
+applied,2015,Math & statistics,0.14122878658223514,False
+applied,2016,Math & statistics,0.15175233258472845,False
+applied,2017,Math & statistics,0.12806232400064735,False
+applied,2018,Math & statistics,0.12151765990956663,False
+applied,2019,Math & statistics,0.12821207389422573,False
+applied,2020,Math & statistics,0.18645686484477814,False
+applied,2021,Math & statistics,0.212312,False
+applied,2022,Math & statistics,0.29575,False
+applied,2023,Math & statistics,0.325675,False
+applied,2024,Math & statistics,0.279898,False
+basic,1970,Math & statistics,0.03674570308155368,True
+basic,1971,Math & statistics,0.034229526845349,True
+basic,1972,Math & statistics,0.04120687240934499,True
+basic,1973,Math & statistics,0.03718074289809374,True
+basic,1974,Math & statistics,0.03263664990683675,True
+basic,1975,Math & statistics,0.03837199701877598,True
+basic,1976,Math & statistics,0.05062365887917443,False
+basic,1977,Math & statistics,0.052294879078325494,False
+basic,1978,Math & statistics,0.05678431785992825,False
+basic,1979,Math & statistics,0.06068878834045861,False
+basic,1980,Math & statistics,0.0687273606687898,False
+basic,1981,Math & statistics,0.08458629339544371,False
+basic,1982,Math & statistics,0.09473845725475333,False
+basic,1983,Math & statistics,0.10975591398872206,False
+basic,1984,Math & statistics,0.12540074816833902,False
+basic,1985,Math & statistics,0.13750352898150703,False
+basic,1986,Math & statistics,0.1525987523254073,False
+basic,1987,Math & statistics,0.16911239531155245,False
+basic,1988,Math & statistics,0.17809276457281162,False
+basic,1989,Math & statistics,0.17724585054974598,False
+basic,1990,Math & statistics,0.17868299116672892,False
+basic,1991,Math & statistics,0.18057723556920158,False
+basic,1992,Math & statistics,0.23082373910247925,False
+basic,1993,Math & statistics,0.22407748861164617,False
+basic,1994,Math & statistics,0.2533819002096288,False
+basic,1995,Math & statistics,0.20551912941494394,False
+basic,1996,Math & statistics,0.19282078859081556,False
+basic,1997,Math & statistics,0.2510003987944764,False
+basic,1998,Math & statistics,0.2640623798803618,False
+basic,1999,Math & statistics,0.26966265630754965,False
+basic,2000,Math & statistics,0.3192721641336677,False
+basic,2001,Math & statistics,0.3160850800915332,False
+basic,2002,Math & statistics,0.33784594285714287,False
+basic,2003,Math & statistics,0.36970002751536274,False
+basic,2004,Math & statistics,0.49832996569592813,False
+basic,2005,Math & statistics,0.5550918019625335,False
+basic,2006,Math & statistics,0.5267712242185602,False
+basic,2007,Math & statistics,0.5716958165918223,False
+basic,2008,Math & statistics,0.6583790252393386,False
+basic,2009,Math & statistics,0.839948395421903,False
+basic,2010,Math & statistics,0.7494963652370771,False
+basic,2011,Math & statistics,0.790213339691244,False
+basic,2012,Math & statistics,0.8371215897257896,False
+basic,2013,Math & statistics,0.7918764684060838,False
+basic,2014,Math & statistics,0.886531643582123,False
+basic,2015,Math & statistics,0.9136016222479721,False
+basic,2016,Math & statistics,1.066518837416923,False
+basic,2017,Math & statistics,0.8485817403708987,False
+basic,2018,Math & statistics,0.9949035345351428,False
+basic,2019,Math & statistics,1.0940593944661952,False
+basic,2020,Math & statistics,0.7334865449877321,False
+basic,2021,Math & statistics,0.503181,False
+basic,2022,Math & statistics,0.608303,False
+basic,2023,Math & statistics,0.670949,False
+basic,2024,Math & statistics,0.585476,False
+research_total,1970,Math & statistics,0.04624410678684456,True
+research_total,1971,Math & statistics,0.051920327972729934,True
+research_total,1972,Math & statistics,0.058793260627099976,True
+research_total,1973,Math & statistics,0.05589621552553432,True
+research_total,1974,Math & statistics,0.05565560687049507,True
+research_total,1975,Math & statistics,0.06100939297614567,True
+research_total,1976,Math & statistics,0.07685546986490444,False
+research_total,1977,Math & statistics,0.101661602958513,False
+research_total,1978,Math & statistics,0.10063937393766294,False
+research_total,1979,Math & statistics,0.09295559284307806,False
+research_total,1980,Math & statistics,0.09979994086161108,False
+research_total,1981,Math & statistics,0.13725088214640996,False
+research_total,1982,Math & statistics,0.1499857908375659,False
+research_total,1983,Math & statistics,0.16087940096418493,False
+research_total,1984,Math & statistics,0.1818862865741387,False
+research_total,1985,Math & statistics,0.2275816312804606,False
+research_total,1986,Math & statistics,0.2332039554287803,False
+research_total,1987,Math & statistics,0.2607781902173913,False
+research_total,1988,Math & statistics,0.2743140123273746,False
+research_total,1989,Math & statistics,0.2890152515748923,False
+research_total,1990,Math & statistics,0.2525338649166674,False
+research_total,1991,Math & statistics,0.25314866191541024,False
+research_total,1992,Math & statistics,0.33907893196068023,False
+research_total,1993,Math & statistics,0.31904571844529805,False
+research_total,1994,Math & statistics,0.3800160510802485,False
+research_total,1995,Math & statistics,0.3209175934852073,False
+research_total,1996,Math & statistics,0.29099108456967143,False
+research_total,1997,Math & statistics,0.32195597036091195,False
+research_total,1998,Math & statistics,0.35412043322062575,False
+research_total,1999,Math & statistics,0.3674323937317777,False
+research_total,2000,Math & statistics,0.4563261947988456,False
+research_total,2001,Math & statistics,0.4277620039682539,False
+research_total,2002,Math & statistics,0.43249689186978574,False
+research_total,2003,Math & statistics,0.48303067406313605,False
+research_total,2004,Math & statistics,0.6595826354810663,False
+research_total,2005,Math & statistics,0.7203286574961519,False
+research_total,2006,Math & statistics,0.7089503358221145,False
+research_total,2007,Math & statistics,0.7491379320245487,False
+research_total,2008,Math & statistics,0.8412606826756939,False
+research_total,2009,Math & statistics,1.0003571326229066,False
+research_total,2010,Math & statistics,0.8915222673964035,False
+research_total,2011,Math & statistics,0.9757486718775338,False
+research_total,2012,Math & statistics,0.983900009042954,False
+research_total,2013,Math & statistics,0.9179481010696016,False
+research_total,2014,Math & statistics,1.058634177779015,False
+research_total,2015,Math & statistics,1.064080495686704,False
+research_total,2016,Math & statistics,1.2321607888514363,False
+research_total,2017,Math & statistics,0.9974888858666087,False
+research_total,2018,Math & statistics,1.1257946488803225,False
+research_total,2019,Math & statistics,1.2357604570227851,False
+research_total,2020,Math & statistics,0.8119756286767077,False
+research_total,2021,Math & statistics,0.715493,False
+research_total,2022,Math & statistics,0.904053,False
+research_total,2023,Math & statistics,0.996624,False
+research_total,2024,Math & statistics,0.865374,False
+applied,1970,Medical & health,0.344048,False
+applied,1971,Medical & health,0.38561,False
+applied,1972,Medical & health,0.467374,False
+applied,1973,Medical & health,0.505354,False
+applied,1974,Medical & health,0.593252,False
+applied,1975,Medical & health,0.60874,False
+applied,1976,Medical & health,0.668554,False
+applied,1977,Medical & health,0.723971,False
+applied,1978,Medical & health,0.819775,False
+applied,1979,Medical & health,0.820505,False
+applied,1980,Medical & health,0.879925,False
+applied,1981,Medical & health,0.903725,False
+applied,1982,Medical & health,0.979606,False
+applied,1983,Medical & health,1.048531,False
+applied,1984,Medical & health,1.097538,False
+applied,1985,Medical & health,1.223057,False
+applied,1986,Medical & health,1.163829,False
+applied,1987,Medical & health,1.32378,False
+applied,1988,Medical & health,1.367786,False
+applied,1989,Medical & health,1.514131,False
+applied,1990,Medical & health,1.532723,False
+applied,1991,Medical & health,1.60256,False
+applied,1992,Medical & health,1.778903,False
+applied,1993,Medical & health,2.023548,False
+applied,1994,Medical & health,2.251828,False
+applied,1995,Medical & health,2.356315,False
+applied,1996,Medical & health,2.232592,False
+applied,1997,Medical & health,2.497556,False
+applied,1998,Medical & health,2.603892,False
+applied,1999,Medical & health,2.844718,False
+applied,2000,Medical & health,2.539968,False
+applied,2001,Medical & health,3.7766,False
+applied,2002,Medical & health,3.0664,False
+applied,2003,Medical & health,3.2412,False
+applied,2004,Medical & health,5.421542,False
+applied,2005,Medical & health,5.159429,False
+applied,2006,Medical & health,5.137828,False
+applied,2007,Medical & health,5.2867,False
+applied,2008,Medical & health,5.073,False
+applied,2009,Medical & health,5.6451,False
+applied,2010,Medical & health,5.8901,False
+applied,2011,Medical & health,5.1167,False
+applied,2012,Medical & health,5.5505,False
+applied,2013,Medical & health,5.5915,False
+applied,2014,Medical & health,5.7211,False
+applied,2015,Medical & health,5.8163,False
+applied,2016,Medical & health,6.0213,False
+applied,2017,Medical & health,6.9314,False
+applied,2018,Medical & health,7.1496,False
+applied,2019,Medical & health,7.3855772,False
+applied,2020,Medical & health,8.7221602,False
+applied,2021,Medical & health,8.175797,False
+applied,2022,Medical & health,8.095365,False
+applied,2023,Medical & health,7.273796,False
+applied,2024,Medical & health,7.85557,False
+basic,1970,Medical & health,0.198747,False
+basic,1971,Medical & health,0.211107,False
+basic,1972,Medical & health,0.24582,False
+basic,1973,Medical & health,0.253231,False
+basic,1974,Medical & health,0.317584,False
+basic,1975,Medical & health,0.342355,False
+basic,1976,Medical & health,0.374381,False
+basic,1977,Medical & health,0.414789,False
+basic,1978,Medical & health,0.467672,False
+basic,1979,Medical & health,0.56011,False
+basic,1980,Medical & health,0.656963,False
+basic,1981,Medical & health,0.706205,False
+basic,1982,Medical & health,0.793419,False
+basic,1983,Medical & health,0.878922,False
+basic,1984,Medical & health,1.0153,False
+basic,1985,Medical & health,1.145437,False
+basic,1986,Medical & health,1.196592,False
+basic,1987,Medical & health,1.340986,False
+basic,1988,Medical & health,1.573227,False
+basic,1989,Medical & health,1.708392,False
+basic,1990,Medical & health,1.849627,False
+basic,1991,Medical & health,1.857739,False
+basic,1992,Medical & health,2.131031,False
+basic,1993,Medical & health,2.380887,False
+basic,1994,Medical & health,2.610297,False
+basic,1995,Medical & health,2.61588,False
+basic,1996,Medical & health,2.740761,False
+basic,1997,Medical & health,3.035174,False
+basic,1998,Medical & health,3.392433,False
+basic,1999,Medical & health,3.956451,False
+basic,2000,Medical & health,1.923803,False
+basic,2001,Medical & health,2.8086,False
+basic,2002,Medical & health,3.361,False
+basic,2003,Medical & health,2.9191,False
+basic,2004,Medical & health,5.477224,False
+basic,2005,Medical & health,5.702675,False
+basic,2006,Medical & health,5.454361,False
+basic,2007,Medical & health,5.504,False
+basic,2008,Medical & health,5.3143,False
+basic,2009,Medical & health,5.7476,False
+basic,2010,Medical & health,5.7869,False
+basic,2011,Medical & health,5.0855,False
+basic,2012,Medical & health,5.528,False
+basic,2013,Medical & health,5.3259,False
+basic,2014,Medical & health,5.5642,False
+basic,2015,Medical & health,5.2705,False
+basic,2016,Medical & health,5.3372,False
+basic,2017,Medical & health,5.7173,False
+basic,2018,Medical & health,6.4149,False
+basic,2019,Medical & health,6.3892005,False
+basic,2020,Medical & health,7.4600401,False
+basic,2021,Medical & health,6.832015,False
+basic,2022,Medical & health,6.611208,False
+basic,2023,Medical & health,6.006898,False
+basic,2024,Medical & health,5.652345,False
+research_total,1970,Medical & health,0.542795,False
+research_total,1971,Medical & health,0.596717,False
+research_total,1972,Medical & health,0.713194,False
+research_total,1973,Medical & health,0.758585,False
+research_total,1974,Medical & health,0.910836,False
+research_total,1975,Medical & health,0.951095,False
+research_total,1976,Medical & health,1.042935,False
+research_total,1977,Medical & health,1.13876,False
+research_total,1978,Medical & health,1.287447,False
+research_total,1979,Medical & health,1.380615,False
+research_total,1980,Medical & health,1.536888,False
+research_total,1981,Medical & health,1.60993,False
+research_total,1982,Medical & health,1.773025,False
+research_total,1983,Medical & health,1.927453,False
+research_total,1984,Medical & health,2.112838,False
+research_total,1985,Medical & health,2.368494,False
+research_total,1986,Medical & health,2.360421,False
+research_total,1987,Medical & health,2.664766,False
+research_total,1988,Medical & health,2.941013,False
+research_total,1989,Medical & health,3.222523,False
+research_total,1990,Medical & health,3.38235,False
+research_total,1991,Medical & health,3.460299,False
+research_total,1992,Medical & health,3.909934,False
+research_total,1993,Medical & health,4.404435,False
+research_total,1994,Medical & health,4.862125,False
+research_total,1995,Medical & health,4.972195,False
+research_total,1996,Medical & health,4.973353,False
+research_total,1997,Medical & health,5.53273,False
+research_total,1998,Medical & health,5.996325,False
+research_total,1999,Medical & health,6.801169,False
+research_total,2000,Medical & health,4.463771,False
+research_total,2001,Medical & health,6.5852,False
+research_total,2002,Medical & health,6.4274,False
+research_total,2003,Medical & health,6.1603,False
+research_total,2004,Medical & health,10.898766,False
+research_total,2005,Medical & health,10.862104,False
+research_total,2006,Medical & health,10.592189,False
+research_total,2007,Medical & health,10.7907,False
+research_total,2008,Medical & health,10.3873,False
+research_total,2009,Medical & health,11.3927,False
+research_total,2010,Medical & health,11.677,False
+research_total,2011,Medical & health,10.2022,False
+research_total,2012,Medical & health,11.0785,False
+research_total,2013,Medical & health,10.9174,False
+research_total,2014,Medical & health,11.2853,False
+research_total,2015,Medical & health,11.0868,False
+research_total,2016,Medical & health,11.3586,False
+research_total,2017,Medical & health,12.6487,False
+research_total,2018,Medical & health,13.5645,False
+research_total,2019,Medical & health,13.7747777,False
+research_total,2020,Medical & health,16.1822003,False
+research_total,2021,Medical & health,15.007812,False
+research_total,2022,Medical & health,14.706573,False
+research_total,2023,Medical & health,13.280694,False
+research_total,2024,Medical & health,13.507915,False
+applied,1970,Other,0.063999,False
+applied,1971,Other,0.074605,False
+applied,1972,Other,0.100602,False
+applied,1973,Other,0.158418,False
+applied,1974,Other,0.128384,False
+applied,1975,Other,0.141032,False
+applied,1976,Other,0.135439,False
+applied,1977,Other,0.153565,False
+applied,1978,Other,0.170411,False
+applied,1979,Other,0.236568,False
+applied,1980,Other,0.285669,False
+applied,1981,Other,0.313469,False
+applied,1982,Other,0.230953,False
+applied,1983,Other,0.247118,False
+applied,1984,Other,0.261735,False
+applied,1985,Other,0.242158,False
+applied,1986,Other,0.260873,False
+applied,1987,Other,0.307383,False
+applied,1988,Other,0.271039,False
+applied,1989,Other,0.349977,False
+applied,1990,Other,0.361475,False
+applied,1991,Other,0.357771,False
+applied,1992,Other,0.408813,False
+applied,1993,Other,0.622411,False
+applied,1994,Other,0.592795,False
+applied,1995,Other,0.494868,False
+applied,1996,Other,0.407883,False
+applied,1997,Other,0.446296,False
+applied,1998,Other,0.510945,False
+applied,1999,Other,0.639558,False
+applied,2000,Other,0.636569,False
+applied,2001,Other,0.5541,False
+applied,2002,Other,0.6188,False
+applied,2003,Other,0.6266,False
+applied,2004,Other,0.880478,False
+applied,2005,Other,0.861367,False
+applied,2006,Other,1.074868,False
+applied,2007,Other,0.7167,False
+applied,2008,Other,0.9862,False
+applied,2009,Other,1.4848,False
+applied,2010,Other,1.1302,False
+applied,2011,Other,1.3779,False
+applied,2012,Other,1.1417,False
+applied,2013,Other,0.8535,False
+applied,2014,Other,0.9254,False
+applied,2015,Other,1.3637,False
+applied,2016,Other,1.3523,False
+applied,2017,Other,2.1765,False
+applied,2018,Other,1.9124,False
+applied,2019,Other,2.1679974,False
+applied,2020,Other,2.1846316,False
+applied,2021,Other,3.163,False
+applied,2022,Other,3.044624,False
+applied,2023,Other,4.738,False
+applied,2024,Other,4.431002,False
+basic,1970,Other,0.011051,False
+basic,1971,Other,0.015731,False
+basic,1972,Other,0.015578,False
+basic,1973,Other,0.035586,False
+basic,1974,Other,0.025704,False
+basic,1975,Other,0.025523,False
+basic,1976,Other,0.04312,False
+basic,1977,Other,0.025506,False
+basic,1978,Other,0.035397,False
+basic,1979,Other,0.049993,False
+basic,1980,Other,0.063911,False
+basic,1981,Other,0.065353,False
+basic,1982,Other,0.056091,False
+basic,1983,Other,0.07328,False
+basic,1984,Other,0.068773,False
+basic,1985,Other,0.099415,False
+basic,1986,Other,0.122458,False
+basic,1987,Other,0.130936,False
+basic,1988,Other,0.255485,False
+basic,1989,Other,0.291661,False
+basic,1990,Other,0.302266,False
+basic,1991,Other,0.54564,False
+basic,1992,Other,0.399437,False
+basic,1993,Other,0.510135,False
+basic,1994,Other,0.465615,False
+basic,1995,Other,0.406924,False
+basic,1996,Other,0.4128,False
+basic,1997,Other,0.459029,False
+basic,1998,Other,0.45273,False
+basic,1999,Other,0.572543,False
+basic,2000,Other,0.523612,False
+basic,2001,Other,0.6917,False
+basic,2002,Other,0.7152,False
+basic,2003,Other,0.7027,False
+basic,2004,Other,1.035852,False
+basic,2005,Other,1.227521,False
+basic,2006,Other,1.386468,False
+basic,2007,Other,0.6864,False
+basic,2008,Other,1.1909,False
+basic,2009,Other,2.2279,False
+basic,2010,Other,1.633,False
+basic,2011,Other,2.0226,False
+basic,2012,Other,1.4046,False
+basic,2013,Other,1.1458,False
+basic,2014,Other,1.2925,False
+basic,2015,Other,1.9351,False
+basic,2016,Other,2.1085,False
+basic,2017,Other,2.3442,False
+basic,2018,Other,1.9,False
+basic,2019,Other,2.2367759,False
+basic,2020,Other,3.5882822,False
+basic,2021,Other,3.558,False
+basic,2022,Other,3.751677,False
+basic,2023,Other,4.753399,False
+basic,2024,Other,4.547461,False
+research_total,1970,Other,0.07505,False
+research_total,1971,Other,0.090336,False
+research_total,1972,Other,0.11618,False
+research_total,1973,Other,0.194004,False
+research_total,1974,Other,0.154088,False
+research_total,1975,Other,0.166555,False
+research_total,1976,Other,0.178559,False
+research_total,1977,Other,0.179071,False
+research_total,1978,Other,0.205808,False
+research_total,1979,Other,0.286561,False
+research_total,1980,Other,0.34958,False
+research_total,1981,Other,0.378822,False
+research_total,1982,Other,0.287044,False
+research_total,1983,Other,0.320398,False
+research_total,1984,Other,0.330508,False
+research_total,1985,Other,0.341573,False
+research_total,1986,Other,0.383331,False
+research_total,1987,Other,0.438319,False
+research_total,1988,Other,0.526524,False
+research_total,1989,Other,0.641638,False
+research_total,1990,Other,0.663741,False
+research_total,1991,Other,0.903411,False
+research_total,1992,Other,0.80825,False
+research_total,1993,Other,1.132546,False
+research_total,1994,Other,1.05841,False
+research_total,1995,Other,0.901792,False
+research_total,1996,Other,0.820683,False
+research_total,1997,Other,0.905325,False
+research_total,1998,Other,0.963675,False
+research_total,1999,Other,1.212101,False
+research_total,2000,Other,1.160181,False
+research_total,2001,Other,1.2458,False
+research_total,2002,Other,1.334,False
+research_total,2003,Other,1.3293,False
+research_total,2004,Other,1.91633,False
+research_total,2005,Other,2.088888,False
+research_total,2006,Other,2.461336,False
+research_total,2007,Other,1.4031,False
+research_total,2008,Other,2.1771,False
+research_total,2009,Other,3.7127,False
+research_total,2010,Other,2.7632,False
+research_total,2011,Other,3.4005,False
+research_total,2012,Other,2.5463,False
+research_total,2013,Other,1.9993,False
+research_total,2014,Other,2.2179,False
+research_total,2015,Other,3.2988,False
+research_total,2016,Other,3.4608,False
+research_total,2017,Other,4.5206,False
+research_total,2018,Other,3.8124,False
+research_total,2019,Other,4.4047733,False
+research_total,2020,Other,5.7729137999999995,False
+research_total,2021,Other,6.721,False
+research_total,2022,Other,6.796301,False
+research_total,2023,Other,9.491,False
+research_total,2024,Other,8.978464,False
+applied,1970,Physical sciences,0.345217,False
+applied,1971,Physical sciences,0.312486,False
+applied,1972,Physical sciences,0.383611,False
+applied,1973,Physical sciences,0.35353,False
+applied,1974,Physical sciences,0.366464,False
+applied,1975,Physical sciences,0.387685,False
+applied,1976,Physical sciences,0.537457,False
+applied,1977,Physical sciences,0.640177,False
+applied,1978,Physical sciences,0.704226,False
+applied,1979,Physical sciences,0.742552,False
+applied,1980,Physical sciences,0.780024,False
+applied,1981,Physical sciences,0.895594,False
+applied,1982,Physical sciences,1.106537,False
+applied,1983,Physical sciences,1.304256,False
+applied,1984,Physical sciences,1.241032,False
+applied,1985,Physical sciences,1.230771,False
+applied,1986,Physical sciences,1.154627,False
+applied,1987,Physical sciences,1.156641,False
+applied,1988,Physical sciences,1.117683,False
+applied,1989,Physical sciences,1.198757,False
+applied,1990,Physical sciences,1.147215,False
+applied,1991,Physical sciences,1.353874,False
+applied,1992,Physical sciences,1.487733,False
+applied,1993,Physical sciences,1.519826,False
+applied,1994,Physical sciences,1.42652,False
+applied,1995,Physical sciences,1.413542,False
+applied,1996,Physical sciences,1.060395,False
+applied,1997,Physical sciences,1.172818,False
+applied,1998,Physical sciences,1.268298,False
+applied,1999,Physical sciences,0.976358,False
+applied,2000,Physical sciences,1.317334,False
+applied,2001,Physical sciences,1.2736,False
+applied,2002,Physical sciences,1.5774,False
+applied,2003,Physical sciences,1.5676,False
+applied,2004,Physical sciences,1.54856,False
+applied,2005,Physical sciences,1.754999,False
+applied,2006,Physical sciences,1.83556,False
+applied,2007,Physical sciences,1.5916,False
+applied,2008,Physical sciences,1.6695,False
+applied,2009,Physical sciences,1.7001,False
+applied,2010,Physical sciences,1.8867,False
+applied,2011,Physical sciences,1.6116,False
+applied,2012,Physical sciences,1.8508,False
+applied,2013,Physical sciences,1.8497,False
+applied,2014,Physical sciences,1.8456,False
+applied,2015,Physical sciences,1.8895,False
+applied,2016,Physical sciences,1.9987,False
+applied,2017,Physical sciences,1.8641,False
+applied,2018,Physical sciences,1.9507,False
+applied,2019,Physical sciences,1.9091744,False
+applied,2020,Physical sciences,1.9068791999999999,False
+applied,2021,Physical sciences,1.864,False
+applied,2022,Physical sciences,2.650164,False
+applied,2023,Physical sciences,3.171432,False
+applied,2024,Physical sciences,3.312084,False
+basic,1970,Physical sciences,0.601029,False
+basic,1971,Physical sciences,0.592894,False
+basic,1972,Physical sciences,0.636731,False
+basic,1973,Physical sciences,0.62821,False
+basic,1974,Physical sciences,0.649605,False
+basic,1975,Physical sciences,0.708959,False
+basic,1976,Physical sciences,0.721435,False
+basic,1977,Physical sciences,0.889994,False
+basic,1978,Physical sciences,0.941421,False
+basic,1979,Physical sciences,1.050002,False
+basic,1980,Physical sciences,1.220588,False
+basic,1981,Physical sciences,1.32494,False
+basic,1982,Physical sciences,1.393844,False
+basic,1983,Physical sciences,1.587183,False
+basic,1984,Physical sciences,1.727982,False
+basic,1985,Physical sciences,1.815239,False
+basic,1986,Physical sciences,1.914426,False
+basic,1987,Physical sciences,2.096007,False
+basic,1988,Physical sciences,2.19962,False
+basic,1989,Physical sciences,2.506466,False
+basic,1990,Physical sciences,2.661508,False
+basic,1991,Physical sciences,2.881462,False
+basic,1992,Physical sciences,2.951429,False
+basic,1993,Physical sciences,2.907135,False
+basic,1994,Physical sciences,2.826949,False
+basic,1995,Physical sciences,2.864792,False
+basic,1996,Physical sciences,2.862556,False
+basic,1997,Physical sciences,2.976361,False
+basic,1998,Physical sciences,2.941381,False
+basic,1999,Physical sciences,3.089798,False
+basic,2000,Physical sciences,3.470616,False
+basic,2001,Physical sciences,3.3271,False
+basic,2002,Physical sciences,3.4059,False
+basic,2003,Physical sciences,3.454,False
+basic,2004,Physical sciences,3.662564,False
+basic,2005,Physical sciences,3.738698,False
+basic,2006,Physical sciences,3.515545,False
+basic,2007,Physical sciences,3.5445,False
+basic,2008,Physical sciences,3.4031,False
+basic,2009,Physical sciences,4.121,False
+basic,2010,Physical sciences,3.9841,False
+basic,2011,Physical sciences,3.815,False
+basic,2012,Physical sciences,4.5567,False
+basic,2013,Physical sciences,4.4322,False
+basic,2014,Physical sciences,4.6375,False
+basic,2015,Physical sciences,4.6208,False
+basic,2016,Physical sciences,4.7069,False
+basic,2017,Physical sciences,4.7174,False
+basic,2018,Physical sciences,5.9308,False
+basic,2019,Physical sciences,7.9069585,False
+basic,2020,Physical sciences,6.5129909,False
+basic,2021,Physical sciences,8.184,False
+basic,2022,Physical sciences,9.449069,False
+basic,2023,Physical sciences,9.531796,False
+basic,2024,Physical sciences,9.446936,False
+research_total,1970,Physical sciences,0.946246,False
+research_total,1971,Physical sciences,0.90538,False
+research_total,1972,Physical sciences,1.020342,False
+research_total,1973,Physical sciences,0.98174,False
+research_total,1974,Physical sciences,1.016069,False
+research_total,1975,Physical sciences,1.096644,False
+research_total,1976,Physical sciences,1.258892,False
+research_total,1977,Physical sciences,1.530171,False
+research_total,1978,Physical sciences,1.645647,False
+research_total,1979,Physical sciences,1.792554,False
+research_total,1980,Physical sciences,2.000612,False
+research_total,1981,Physical sciences,2.220534,False
+research_total,1982,Physical sciences,2.500381,False
+research_total,1983,Physical sciences,2.891439,False
+research_total,1984,Physical sciences,2.969014,False
+research_total,1985,Physical sciences,3.04601,False
+research_total,1986,Physical sciences,3.069053,False
+research_total,1987,Physical sciences,3.252648,False
+research_total,1988,Physical sciences,3.317303,False
+research_total,1989,Physical sciences,3.705223,False
+research_total,1990,Physical sciences,3.808723,False
+research_total,1991,Physical sciences,4.235336,False
+research_total,1992,Physical sciences,4.439162,False
+research_total,1993,Physical sciences,4.426961,False
+research_total,1994,Physical sciences,4.253469,False
+research_total,1995,Physical sciences,4.278334,False
+research_total,1996,Physical sciences,3.922951,False
+research_total,1997,Physical sciences,4.149179,False
+research_total,1998,Physical sciences,4.209679,False
+research_total,1999,Physical sciences,4.066156,False
+research_total,2000,Physical sciences,4.78795,False
+research_total,2001,Physical sciences,4.6008,False
+research_total,2002,Physical sciences,4.9832,False
+research_total,2003,Physical sciences,5.0216,False
+research_total,2004,Physical sciences,5.211124,False
+research_total,2005,Physical sciences,5.493697,False
+research_total,2006,Physical sciences,5.351105,False
+research_total,2007,Physical sciences,5.1361,False
+research_total,2008,Physical sciences,5.0726,False
+research_total,2009,Physical sciences,5.8211,False
+research_total,2010,Physical sciences,5.8708,False
+research_total,2011,Physical sciences,5.4266,False
+research_total,2012,Physical sciences,6.4075,False
+research_total,2013,Physical sciences,6.2819,False
+research_total,2014,Physical sciences,6.4831,False
+research_total,2015,Physical sciences,6.5103,False
+research_total,2016,Physical sciences,6.7056,False
+research_total,2017,Physical sciences,6.5815,False
+research_total,2018,Physical sciences,7.8814,False
+research_total,2019,Physical sciences,9.8161329,False
+research_total,2020,Physical sciences,8.41987,False
+research_total,2021,Physical sciences,10.048,False
+research_total,2022,Physical sciences,12.099233,False
+research_total,2023,Physical sciences,12.703228,False
+research_total,2024,Physical sciences,12.75902,False
+applied,1970,Social & behavioral,0.207845,False
+applied,1971,Social & behavioral,0.295743,False
+applied,1972,Social & behavioral,0.291697,False
+applied,1973,Social & behavioral,0.283153,False
+applied,1974,Social & behavioral,0.30466,False
+applied,1975,Social & behavioral,0.308609,False
+applied,1976,Social & behavioral,0.404497,False
+applied,1977,Social & behavioral,0.43109600000000003,False
+applied,1978,Social & behavioral,0.474333,False
+applied,1979,Social & behavioral,0.519907,False
+applied,1980,Social & behavioral,0.491434,False
+applied,1981,Social & behavioral,0.47838200000000003,False
+applied,1982,Social & behavioral,0.394262,False
+applied,1983,Social & behavioral,0.445489,False
+applied,1984,Social & behavioral,0.462569,False
+applied,1985,Social & behavioral,0.513614,False
+applied,1986,Social & behavioral,0.5030600000000001,False
+applied,1987,Social & behavioral,0.57289,False
+applied,1988,Social & behavioral,0.550999,False
+applied,1989,Social & behavioral,0.630951,False
+applied,1990,Social & behavioral,0.717536,False
+applied,1991,Social & behavioral,0.822894,False
+applied,1992,Social & behavioral,0.7254160000000001,False
+applied,1993,Social & behavioral,0.784685,False
+applied,1994,Social & behavioral,0.7655959999999999,False
+applied,1995,Social & behavioral,0.816624,False
+applied,1996,Social & behavioral,0.6755530000000001,False
+applied,1997,Social & behavioral,0.726815,False
+applied,1998,Social & behavioral,0.860282,False
+applied,1999,Social & behavioral,0.893646,False
+applied,2000,Social & behavioral,1.5512739999999998,False
+applied,2001,Social & behavioral,1.1792,False
+applied,2002,Social & behavioral,1.0626,False
+applied,2003,Social & behavioral,1.2336,False
+applied,2004,Social & behavioral,1.545924,False
+applied,2005,Social & behavioral,1.557379,False
+applied,2006,Social & behavioral,1.545361,False
+applied,2007,Social & behavioral,1.645,False
+applied,2008,Social & behavioral,1.4518,False
+applied,2009,Social & behavioral,1.7104,False
+applied,2010,Social & behavioral,1.8648,False
+applied,2011,Social & behavioral,1.7995,False
+applied,2012,Social & behavioral,1.7419,False
+applied,2013,Social & behavioral,1.7826,False
+applied,2014,Social & behavioral,1.9794999999999998,False
+applied,2015,Social & behavioral,1.7866,False
+applied,2016,Social & behavioral,1.8802,False
+applied,2017,Social & behavioral,1.7218,False
+applied,2018,Social & behavioral,1.8449,False
+applied,2019,Social & behavioral,2.0919442000000004,False
+applied,2020,Social & behavioral,2.3620537,False
+applied,2021,Social & behavioral,2.669546,False
+applied,2022,Social & behavioral,3.4518329999999997,False
+applied,2023,Social & behavioral,3.9468579999999998,False
+applied,2024,Social & behavioral,4.431808,False
+basic,1970,Social & behavioral,0.11199400000000001,False
+basic,1971,Social & behavioral,0.116272,False
+basic,1972,Social & behavioral,0.131523,False
+basic,1973,Social & behavioral,0.125561,False
+basic,1974,Social & behavioral,0.120955,False
+basic,1975,Social & behavioral,0.132399,False
+basic,1976,Social & behavioral,0.131955,False
+basic,1977,Social & behavioral,0.15123,False
+basic,1978,Social & behavioral,0.19182,False
+basic,1979,Social & behavioral,0.204787,False
+basic,1980,Social & behavioral,0.231386,False
+basic,1981,Social & behavioral,0.227943,False
+basic,1982,Social & behavioral,0.210073,False
+basic,1983,Social & behavioral,0.23065000000000002,False
+basic,1984,Social & behavioral,0.240442,False
+basic,1985,Social & behavioral,0.273524,False
+basic,1986,Social & behavioral,0.246419,False
+basic,1987,Social & behavioral,0.276668,False
+basic,1988,Social & behavioral,0.32462,False
+basic,1989,Social & behavioral,0.34175500000000003,False
+basic,1990,Social & behavioral,0.361055,False
+basic,1991,Social & behavioral,0.38679600000000003,False
+basic,1992,Social & behavioral,0.262412,False
+basic,1993,Social & behavioral,0.440886,False
+basic,1994,Social & behavioral,0.43014600000000003,False
+basic,1995,Social & behavioral,0.48468,False
+basic,1996,Social & behavioral,0.504016,False
+basic,1997,Social & behavioral,0.514885,False
+basic,1998,Social & behavioral,0.536815,False
+basic,1999,Social & behavioral,0.59385,False
+basic,2000,Social & behavioral,1.125795,False
+basic,2001,Social & behavioral,0.5712999999999999,False
+basic,2002,Social & behavioral,0.8263,False
+basic,2003,Social & behavioral,0.8966,False
+basic,2004,Social & behavioral,1.398516,False
+basic,2005,Social & behavioral,1.431535,False
+basic,2006,Social & behavioral,1.325874,False
+basic,2007,Social & behavioral,1.3401,False
+basic,2008,Social & behavioral,1.266,False
+basic,2009,Social & behavioral,1.5327,False
+basic,2010,Social & behavioral,1.4881,False
+basic,2011,Social & behavioral,1.3498,False
+basic,2012,Social & behavioral,1.4692,False
+basic,2013,Social & behavioral,1.3898000000000001,False
+basic,2014,Social & behavioral,1.4237000000000002,False
+basic,2015,Social & behavioral,1.3446,False
+basic,2016,Social & behavioral,1.3679000000000001,False
+basic,2017,Social & behavioral,1.3866,False
+basic,2018,Social & behavioral,1.5213999999999999,False
+basic,2019,Social & behavioral,1.8172826,False
+basic,2020,Social & behavioral,2.0511877,False
+basic,2021,Social & behavioral,2.471753,False
+basic,2022,Social & behavioral,3.0539300000000003,False
+basic,2023,Social & behavioral,3.678888,False
+basic,2024,Social & behavioral,3.991974,False
+research_total,1970,Social & behavioral,0.319839,False
+research_total,1971,Social & behavioral,0.41201499999999996,False
+research_total,1972,Social & behavioral,0.42322,False
+research_total,1973,Social & behavioral,0.408714,False
+research_total,1974,Social & behavioral,0.425615,False
+research_total,1975,Social & behavioral,0.44100799999999996,False
+research_total,1976,Social & behavioral,0.536452,False
+research_total,1977,Social & behavioral,0.582326,False
+research_total,1978,Social & behavioral,0.666153,False
+research_total,1979,Social & behavioral,0.724694,False
+research_total,1980,Social & behavioral,0.72282,False
+research_total,1981,Social & behavioral,0.706325,False
+research_total,1982,Social & behavioral,0.604335,False
+research_total,1983,Social & behavioral,0.676139,False
+research_total,1984,Social & behavioral,0.703011,False
+research_total,1985,Social & behavioral,0.787138,False
+research_total,1986,Social & behavioral,0.749479,False
+research_total,1987,Social & behavioral,0.849558,False
+research_total,1988,Social & behavioral,0.8756189999999999,False
+research_total,1989,Social & behavioral,0.9727060000000001,False
+research_total,1990,Social & behavioral,1.078591,False
+research_total,1991,Social & behavioral,1.20969,False
+research_total,1992,Social & behavioral,0.9878279999999999,False
+research_total,1993,Social & behavioral,1.225571,False
+research_total,1994,Social & behavioral,1.195742,False
+research_total,1995,Social & behavioral,1.301304,False
+research_total,1996,Social & behavioral,1.1795689999999999,False
+research_total,1997,Social & behavioral,1.2417,False
+research_total,1998,Social & behavioral,1.397097,False
+research_total,1999,Social & behavioral,1.4874960000000002,False
+research_total,2000,Social & behavioral,2.67706,False
+research_total,2001,Social & behavioral,1.7505,False
+research_total,2002,Social & behavioral,1.8889,False
+research_total,2003,Social & behavioral,2.1302000000000003,False
+research_total,2004,Social & behavioral,2.94444,False
+research_total,2005,Social & behavioral,2.9889140000000003,False
+research_total,2006,Social & behavioral,2.871235,False
+research_total,2007,Social & behavioral,2.9850000000000003,False
+research_total,2008,Social & behavioral,2.7178,False
+research_total,2009,Social & behavioral,3.2430000000000003,False
+research_total,2010,Social & behavioral,3.3529,False
+research_total,2011,Social & behavioral,3.1492,False
+research_total,2012,Social & behavioral,3.2111,False
+research_total,2013,Social & behavioral,3.1725000000000003,False
+research_total,2014,Social & behavioral,3.4031000000000002,False
+research_total,2015,Social & behavioral,3.1311999999999998,False
+research_total,2016,Social & behavioral,3.2481,False
+research_total,2017,Social & behavioral,3.1083999999999996,False
+research_total,2018,Social & behavioral,3.3663000000000003,False
+research_total,2019,Social & behavioral,3.9092268,False
+research_total,2020,Social & behavioral,4.4132414,False
+research_total,2021,Social & behavioral,5.140968,False
+research_total,2022,Social & behavioral,6.505769,False
+research_total,2023,Social & behavioral,7.625746,False
+research_total,2024,Social & behavioral,8.423782000000001,False

@@ -1,0 +1,41 @@
+# source_item: ns-reports_ns-122in-2-985-86
+# page: 52 (printed 49)
+# table_title: Table B-29. Funds for basic research by industry and size of company: 1957-58, 1963, 1967, 1972, 1974-77, 1979, 1981, and 1983-85
+# measure: basic
+# footnotes: printed codes: (1)=withheld to avoid disclosing individual companies [D]; (2)=not separately available but included in total [NA]; (3)=included in other manufacturing [INC_OTHER_MFG]; (4)=withheld due to imputation >50% [S]; (5)=not tabulated prior to 1972; (6)=not tabulated prior to 1975; (7)=included in other electrical equipment group; (8)=until 1984 tobacco (SIC 21) included with other manufacturing. Data not available for 1986. Dot-matrix print, blurry scan: cells marked ^U are uncertain readings (8/0/6/3 ambiguities); cells resolved by subtotal arithmetic are marked ^U and noted in NOTES. 1957-67 the communication-equipment line covers 366-67 combined and the motor-vehicle line covers motor vehicles plus other transportation.
+key|parent|sic|label|1957|1958|1963|1967|1972|1974|1975|1976|1977|1979|1981|1983|1984|1985
+total||all|Total|271|295|522|629|593|699|730|819|911|1156|1614|2152|2475|2622
+food|total|20, 21|Food, kindred, and tobacco products|4|5|12|17|13|9|10|18|20|17|27|34|58|61
+textiles|total|22, 23|Textiles and apparel|1|1|1|2|2|2|NA|NA|NA|NA|1|NA|2|D
+lumber|total|24, 25|Lumber, wood products, and furniture|0|0|0|0|NA|NA|3|5|7|5|NA|NA|7|S
+paper|total|26|Paper and allied products|1|NA|2|4|4|7|5|6|9|18|32|NA|61|D
+chem|total|28|Chemicals and allied products|82|92|152|184|214|288|294|304|337|366|539|NA|672|709
+indchem|chem|281-82, 286|Industrial chemicals|NA|NA|105|NA|117|157|154|154|163|197|335|NA|338|362
+drugs|chem|283|Drugs and medicines|18|21|33|45|78|107^U|112|119|134|143|NA|NA|S|295
+othchem|chem|284-85, 287-89|Other chemicals|6|6|14|14|19|24|27|32|40|NA|24|NA|41|52
+petro|total|29|Petroleum refining|35|34|34|36|22|33|36|44|48|74|NA|NA|209|161
+rubber|total|30|Rubber products|4|NA|8^U|5|4^U|5|4|7|9|18|23|NA|26|D
+stone|total|32|Stone, clay, and glass products|INC_OTHER_MFG|INC_OTHER_MFG|6|NA|18|21|32|38^U|41|40|NA|NA|79|D
+primet|total|33|Primary metals|6|7|11|13|9|9|14|16|14|24|46|37|57|67
+ferrous|primet|331-32, 3398-99|Ferrous metals and products|5|5|8|NA|NA|NA|4|5|5|12|NA|NA|9|D
+nonferrous|primet|333-36|Nonferrous metals and products|NA|2|3|4|NA|NA|10^U|12|9|12|16|NA|48|D
+fabmet|total|34|Fabricated metal products|1|1|5|3|7|3|5|2|2|4|8|4|7|7
+mach|total|35|Machinery|17|20|25|26|24|28|32|56|57|66|128^U|121^U|D|D
+office|mach|357|Office, computing, and accounting machines|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NA|NA|26|38|41|51|NA|NA|D|D
+othmach|mach|351-56, 358-59|Other machinery, except electrical|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|18|16|15|NA|NA|D|70
+elec|total|36|Electrical equipment|53|63|133|131|137|143|132|163|181|228|279|433|471|495
+radiotv|elec|365|Radio and TV receiving equipment|INC_OTHER_ELEC|INC_OTHER_ELEC|INC_OTHER_ELEC|NA|NA|NA|NA|NA|NA|NA|NA|NA|D|D
+elcomp_comm|elec|366-67|Communication equipment and electronic components (combined)|36|43|110|112|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT
+comm|elec|366|Communication equipment|COMB|COMB|COMB|COMB|108|116|109|137|150|195|NA|205|272|277
+elcomp|elec|367|Electronic components|COMB|COMB|COMB|COMB|10|5|4|5|6|7|NA|NA|152|169
+othelec|elec|361-64, 369|Other electrical equipment|17|21|23|NA|NA|NA|NA|NA|NA|NA|NA|NA|D|D
+transp|~total|37|Transportation equipment|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|318^U|358^U
+mvtrans|total|371, 373-75, 379|Motor vehicles and other transportation equipment (combined, 1957-67 line)|5|NA|28^U|NA|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT
+mv|total|371|Motor vehicles and motor vehicles equipment|COMB|COMB|COMB|COMB|10|9|10|8|12|NA|NA|NA|24|D
+othtrans|total|373-75, 379|Other transportation equipment|COMB|COMB|COMB|COMB|NA|NA|NA|NA|NA|NA|NA|NA|S|D
+aircraft|total|372, 376|Aircraft and missiles|25|26|59|73|62|57|54|54|55|88^U|138^U|186^U|259|308^U
+instr|total|38|Professional and scientific instruments|8|10|NA|NA|17|16|16|23|24|NA|40|NA|125|S
+sciinstr|instr|381-82|Scientific and mechanical measuring instruments|3|2|1|NA|6|5|9|10|12|NA|NA|NA|D|D
+optinstr|instr|383-87|Optical, surgical, photographic, and other instruments|6|8|NA|NA|11|11|8|12|12|NA|NA|NA|D|D
+othmfg|total|27, 31, 39|Other manufacturing industries|13|8|3|5|5|6|NA|NA|NA|42|21|NA|D|D
+nonmfg|total|10-17, 41-67, 737, 739, 807, 891|Nonmanufacturing industries|NA|NA|28^U|52|28^U|26|25|29|44|57|NA|NA|226|247

@@ -1,0 +1,41 @@
+# source_item: ns-reports_ns-122in-2-995-96
+# page: 233-235 (printed 229-231)
+# table_title: Table A-22a. Funds for performance of basic research, applied research, and development, by industry and source of funds: 1994
+# year: 1994
+# layout: measures
+# footnotes: D=withheld; S=imputation >50%; NA=not available (nonmanufacturing detail NA for 1994). 'Company' = company and other non-Federal. Total/Federal/Company columns duplicate A-3/A-13/A-7 and are not transcribed. NOTE: character-of-work estimation procedure revised for 1986 and later years.
+key|parent|sic|label|basic|basic_federal|basic_company_nonfederal|applied|applied_federal|applied_company_nonfederal|development|development_federal|development_company_nonfederal
+total||all|All industries|7017|939|6078|23490|4119|19372|89088|17405|71683
+mfg|total|20-39|Manufacturing|4981|250|4732|17321|2084|15238|68447|15039|53408
+food|mfg|20, 21|Food, kindred, and tobacco products|114|0|114|473|0|473|889|0|889
+textiles|mfg|22, 23|Textiles and apparel|D|D|42|D|D|47|D|D|228
+lumber|mfg|24, 25|Lumber, wood products, and furniture|D|D|27|D|D|43|D|D|131
+paper|mfg|26|Paper and allied products|D|D|211|D|D|619|433|0|433
+chem|mfg|28|Chemicals and allied products|2608|9|2599|D|D|5386|9186|610|8575
+indchem|chem|281-82, 286|Industrial chemicals|D|D|1066|D|D|D|D|D|D
+drugs|chem|283|Drugs and medicines|D|1|D|3333|5|3328|D|2|D
+othchem|chem|284-85, 287-89|Other chemicals|D|D|D|D|D|D|D|D|D
+petro|mfg|13, 29|Petroleum refining and extraction|D|0|D|694|5|688|D|5|D
+rubber|mfg|30|Rubber products|33|0|33|D|D|215|1184|0|1184
+stone|mfg|32|Stone, clay, and glass products|50|0|50|212|37|175|329|1|328
+primet|mfg|33|Primary metals|D|D|102|D|D|206|D|D|364
+ferrous|primet|331-32, 3398-99|Ferrous metals and products|D|D|19|D|D|84|D|D|138
+nonferrous|primet|333-36|Nonferrous metals and products|83|0|83|D|D|122|D|D|226
+fabmet|mfg|34|Fabricated metal products|D|D|78|D|D|184|833|226|606
+mach|mfg|35|Machinery|261|7|254|1464|35|1429|6385|56|6328
+office|mach|357|Office, computing, and accounting machines|D|D|62|D|D|713|3316|13|3303
+othmach|mach|351-56, 358-59|Other machinery, except electrical|D|D|192|D|D|716|3068|43|3025
+elec|mfg|36|Electrical equipment|D|D|388|D|D|2597|12203|1653^S|10550
+radiotv|elec|365|Radio and TV receiving equipment|D|D|D|D|0|D|36|1|35
+comm|elec|366|Communication equipment|D|D|D|D|D|D|D|D|4111
+elcomp|elec|367|Electronic components|D|D|121|D|D|1370|4529|150|4379
+othelec|elec|361-64, 369|Other electrical equipment|D|D|118|D|D|521|D|D|2025
+transp|mfg|37|Transportation equipment|244|109|136|2044|784^S|1259|25799|9499|16300
+mv|transp|371|Motor vehicles and motor vehicles equipment|D|D|D|D|D|D|D|D|D
+othtrans|transp|373-75, 379|Other transportation equipment|31|0|31|D|D|D|D|D|D
+aircraft|transp|372, 376|Aircraft and missiles|D|D|D|D|D|D|12787|7978|4809
+instr|mfg|38|Professional and scientific instruments|D|D|467|2086|299|1787|D|D|5803
+sciinstr|instr|381-82|Scientific and mechanical measuring instruments|D|D|197|1409|271|1138|D|D|2351
+optinstr|instr|384-87|Optical, surgical, photographic, and other instruments|D|D|270|677|28|649|D|D|3452
+othmfg|mfg|27, 31, 39|Other manufacturing industries|D|D|93|129|0|129|D|D|574
+nonmfg|total|nonmanufacturing|Nonmanufacturing|2036|689|1346|6169|2035|4134|20641|2366^S|18275

@@ -1,0 +1,376 @@
+fiscal_year,character,field_key,label_native,older_source,older_value,newer_source,newer_value,diff_usd_thousands,pct
+2000,applied,all_fields,All fields,nsf03325-hist45,18900701.0,nsf07323-T127,18900800.0,99.0,0.0
+2000,applied,all_fields,All fields,nsf03325-hist45,18900701.0,nsf09300-T127,18900800.0,99.0,0.0
+2000,applied,all_fields,All fields,nsf03325-hist45,18900701.0,nsf10303-T127,18900800.0,99.0,0.0
+2000,applied,all_fields,All fields,nsf03325-hist45,18900701.0,nsf21329-T126,18900800.0,99.0,0.0
+2000,applied,psychology_biological_aspects,Biological aspects,nsf03325-hist45,2252.0,nsf07323-T127,2500.0,248.0,11.01
+2000,applied,psychology_biological_aspects,Biological aspects,nsf03325-hist45,2252.0,nsf09300-T127,2500.0,248.0,11.01
+2000,applied,psychology_biological_aspects,Biological aspects,nsf03325-hist45,2252.0,nsf10303-T127,2500.0,248.0,11.01
+2000,applied,psychology_biological_aspects,Biological aspects,nsf03325-hist45,2252.0,nsf21329-T126,2500.0,248.0,11.01
+2000,applied,psychology_social_aspects,Social aspects,nsf03325-hist45,41964.0,nsf07323-T127,41700.0,-264.0,-0.63
+2000,applied,psychology_social_aspects,Social aspects,nsf03325-hist45,41964.0,nsf09300-T127,41700.0,-264.0,-0.63
+2000,applied,psychology_social_aspects,Social aspects,nsf03325-hist45,41964.0,nsf10303-T127,41700.0,-264.0,-0.63
+2000,applied,psychology_social_aspects,Social aspects,nsf03325-hist45,41964.0,nsf21329-T126,41700.0,-264.0,-0.63
+2000,applied,social_sciences,Social sciences,nsf03325-hist45,742303.0,nsf07323-T127,742400.0,97.0,0.01
+2000,applied,social_sciences,Social sciences,nsf03325-hist45,742303.0,nsf09300-T127,742400.0,97.0,0.01
+2000,applied,social_sciences,Social sciences,nsf03325-hist45,742303.0,nsf10303-T127,742400.0,97.0,0.01
+2000,applied,social_sciences,Social sciences,nsf03325-hist45,742303.0,nsf21329-T126,742400.0,97.0,0.01
+2000,applied,other_social_sciences,"Social sciences, nec",nsf03325-hist45,446377.0,nsf07323-T127,446500.0,123.0,0.03
+2000,applied,other_social_sciences,"Social sciences, nec",nsf03325-hist45,446377.0,nsf09300-T127,446500.0,123.0,0.03
+2000,applied,other_social_sciences,"Social sciences, nec",nsf03325-hist45,446377.0,nsf10303-T127,446500.0,123.0,0.03
+2000,applied,other_social_sciences,Other social sciences,nsf03325-hist45,446377.0,nsf21329-T126,446500.0,123.0,0.03
+2000,basic,psychology_biological_aspects,Biological aspects,nsf03325-hist35,5555.0,nsf07323-T125,5700.0,145.0,2.61
+2000,basic,psychology_biological_aspects,Biological aspects,nsf03325-hist35,5555.0,nsf09300-T125,5700.0,145.0,2.61
+2000,basic,psychology_biological_aspects,Biological aspects,nsf03325-hist35,5555.0,nsf10303-T125,5700.0,145.0,2.61
+2000,basic,psychology_biological_aspects,Biological aspects,nsf03325-hist35,5555.0,nsf21329-T124,5700.0,145.0,2.61
+2000,basic,psychology_social_aspects,Social aspects,nsf03325-hist35,14437.0,nsf07323-T125,14300.0,-137.0,-0.95
+2000,basic,psychology_social_aspects,Social aspects,nsf03325-hist35,14437.0,nsf09300-T125,14300.0,-137.0,-0.95
+2000,basic,psychology_social_aspects,Social aspects,nsf03325-hist35,14437.0,nsf10303-T125,14300.0,-137.0,-0.95
+2000,basic,psychology_social_aspects,Social aspects,nsf03325-hist35,14437.0,nsf21329-T124,14300.0,-137.0,-0.95
+2000,research_total,psychology_biological_aspects,Biological aspects,nsf03325-hist25,7807.0,nsf07323-T123,8200.0,393.0,5.03
+2000,research_total,psychology_biological_aspects,Biological aspects,nsf03325-hist25,7807.0,nsf09300-T123,8200.0,393.0,5.03
+2000,research_total,psychology_biological_aspects,Biological aspects,nsf03325-hist25,7807.0,nsf10303-T123,8200.0,393.0,5.03
+2000,research_total,psychology_biological_aspects,Biological aspects,nsf03325-hist25,7807.0,nsf21329-T122,8200.0,393.0,5.03
+2000,research_total,psychology_social_aspects,Social aspects,nsf03325-hist25,56401.0,nsf07323-T123,56000.0,-401.0,-0.71
+2000,research_total,psychology_social_aspects,Social aspects,nsf03325-hist25,56401.0,nsf09300-T123,56000.0,-401.0,-0.71
+2000,research_total,psychology_social_aspects,Social aspects,nsf03325-hist25,56401.0,nsf10303-T123,56000.0,-401.0,-0.71
+2000,research_total,psychology_social_aspects,Social aspects,nsf03325-hist25,56401.0,nsf21329-T122,56000.0,-401.0,-0.71
+2000,research_total,social_sciences,Social sciences,nsf03325-hist25,1050312.0,nsf07323-T123,1050400.0,88.0,0.01
+2000,research_total,social_sciences,Social sciences,nsf03325-hist25,1050312.0,nsf09300-T123,1050400.0,88.0,0.01
+2000,research_total,social_sciences,Social sciences,nsf03325-hist25,1050312.0,nsf10303-T123,1050400.0,88.0,0.01
+2000,research_total,social_sciences,Social sciences,nsf03325-hist25,1050312.0,nsf21329-T122,1050400.0,88.0,0.01
+2000,research_total,other_social_sciences,"Social sciences, nec",nsf03325-hist25,671746.0,nsf07323-T123,671800.0,54.0,0.01
+2000,research_total,other_social_sciences,"Social sciences, nec",nsf03325-hist25,671746.0,nsf09300-T123,671800.0,54.0,0.01
+2000,research_total,other_social_sciences,"Social sciences, nec",nsf03325-hist25,671746.0,nsf10303-T123,671800.0,54.0,0.01
+2000,research_total,other_social_sciences,Other social sciences,nsf03325-hist25,671746.0,nsf21329-T122,671800.0,54.0,0.01
+2021,applied,all_fields,All fields,nsf24309-T95,43750000.0,nsf24321-T95,43630000.0,-120000.0,-0.27
+2021,applied,all_fields,All fields,nsf24309-T95,43750000.0,nsf25328-T95,43648000.0,-102000.0,-0.23
+2021,applied,all_fields,All fields,nsf24309-T95,43750000.0,nsf26316-T95,43649000.0,-101000.0,-0.23
+2021,applied,all_fields,All fields,nsf24309-T33,43750114.0,nsf24321-T95,43630000.0,-120114.0,-0.27
+2021,applied,all_fields,All fields,nsf24309-T33,43750114.0,nsf25328-T95,43648000.0,-102114.0,-0.23
+2021,applied,all_fields,All fields,nsf24309-T33,43750114.0,nsf26316-T95,43649000.0,-101114.0,-0.23
+2021,applied,all_fields,All fields,nsf24321-T95,43630000.0,nsf25328-T95,43648000.0,18000.0,0.04
+2021,applied,all_fields,All fields,nsf24321-T95,43630000.0,nsf26316-T95,43649000.0,19000.0,0.04
+2021,applied,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly Environmental sciences)",nsf24309-T95,1797000.0,nsf24321-T95,1985000.0,188000.0,10.46
+2021,applied,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly Environmental sciences)",nsf24309-T95,1797000.0,nsf25328-T95,1985000.0,188000.0,10.46
+2021,applied,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly environmental sciences)",nsf24309-T95,1797000.0,nsf26316-T95,1985000.0,188000.0,10.46
+2021,applied,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly Environmental sciences)",nsf24309-T33,1796822.0,nsf24321-T95,1985000.0,188178.0,10.47
+2021,applied,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly Environmental sciences)",nsf24309-T33,1796822.0,nsf25328-T95,1985000.0,188178.0,10.47
+2021,applied,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly environmental sciences)",nsf24309-T33,1796822.0,nsf26316-T95,1985000.0,188178.0,10.47
+2021,applied,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly Other environmental sciences)",nsf24309-T95,576000.0,nsf24321-T95,764000.0,188000.0,32.64
+2021,applied,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly Other environmental sciences)",nsf24309-T95,576000.0,nsf25328-T95,764000.0,188000.0,32.64
+2021,applied,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly other environmental sciences)",nsf24309-T95,576000.0,nsf26316-T95,764000.0,188000.0,32.64
+2021,applied,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly Other environmental sciences)",nsf24309-T33,575659.0,nsf24321-T95,764000.0,188341.0,32.72
+2021,applied,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly Other environmental sciences)",nsf24309-T33,575659.0,nsf25328-T95,764000.0,188341.0,32.72
+2021,applied,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly other environmental sciences)",nsf24309-T33,575659.0,nsf26316-T95,764000.0,188341.0,32.72
+2021,applied,rd_life_sciences,Life sciences,nsf24309-T95,19169000.0,nsf24321-T95,19232000.0,63000.0,0.33
+2021,applied,rd_life_sciences,Life sciences,nsf24309-T95,19169000.0,nsf25328-T95,19232000.0,63000.0,0.33
+2021,applied,rd_life_sciences,Life sciences,nsf24309-T95,19169000.0,nsf26316-T95,19232000.0,63000.0,0.33
+2021,applied,rd_life_sciences,Life sciences,nsf24309-T33,19169498.0,nsf24321-T95,19232000.0,62502.0,0.33
+2021,applied,rd_life_sciences,Life sciences,nsf24309-T33,19169498.0,nsf25328-T95,19232000.0,62502.0,0.33
+2021,applied,rd_life_sciences,Life sciences,nsf24309-T33,19169498.0,nsf26316-T95,19232000.0,62502.0,0.33
+2021,applied,rd_other_life_sciences,Other life sciences,nsf24309-T95,1847000.0,nsf24321-T95,1909000.0,62000.0,3.36
+2021,applied,rd_other_life_sciences,Other life sciences,nsf24309-T95,1847000.0,nsf25328-T95,1909000.0,62000.0,3.36
+2021,applied,rd_other_life_sciences,Other life sciences,nsf24309-T95,1847000.0,nsf26316-T95,1909000.0,62000.0,3.36
+2021,applied,rd_other_life_sciences,Other life sciences,nsf24309-T33,1846730.0,nsf24321-T95,1909000.0,62270.0,3.37
+2021,applied,rd_other_life_sciences,Other life sciences,nsf24309-T33,1846730.0,nsf25328-T95,1909000.0,62270.0,3.37
+2021,applied,rd_other_life_sciences,Other life sciences,nsf24309-T33,1846730.0,nsf26316-T95,1909000.0,62270.0,3.37
+2021,applied,rd_physical_sciences,Physical sciences,nsf24309-T95,1612000.0,nsf24321-T95,1864000.0,252000.0,15.63
+2021,applied,rd_physical_sciences,Physical sciences,nsf24309-T95,1612000.0,nsf25328-T95,1864000.0,252000.0,15.63
+2021,applied,rd_physical_sciences,Physical sciences,nsf24309-T95,1612000.0,nsf26316-T95,1864000.0,252000.0,15.63
+2021,applied,rd_physical_sciences,Physical sciences,nsf24309-T33,1612352.0,nsf24321-T95,1864000.0,251648.0,15.61
+2021,applied,rd_physical_sciences,Physical sciences,nsf24309-T33,1612352.0,nsf25328-T95,1864000.0,251648.0,15.61
+2021,applied,rd_physical_sciences,Physical sciences,nsf24309-T33,1612352.0,nsf26316-T95,1864000.0,251648.0,15.61
+2021,applied,rd_physics,Physics,nsf24309-T95,609000.0,nsf24321-T95,618000.0,9000.0,1.48
+2021,applied,rd_physics,Physics,nsf24309-T95,609000.0,nsf25328-T95,618000.0,9000.0,1.48
+2021,applied,rd_physics,Physics,nsf24309-T95,609000.0,nsf26316-T95,618000.0,9000.0,1.48
+2021,applied,rd_physics,Physics,nsf24309-T33,608578.0,nsf24321-T95,618000.0,9422.0,1.55
+2021,applied,rd_physics,Physics,nsf24309-T33,608578.0,nsf25328-T95,618000.0,9422.0,1.55
+2021,applied,rd_physics,Physics,nsf24309-T33,608578.0,nsf26316-T95,618000.0,9422.0,1.55
+2021,applied,rd_other_physical_sciences,Other physical sciences,nsf24309-T95,439000.0,nsf24321-T95,681000.0,242000.0,55.13
+2021,applied,rd_other_physical_sciences,Other physical sciences,nsf24309-T95,439000.0,nsf25328-T95,681000.0,242000.0,55.13
+2021,applied,rd_other_physical_sciences,Other physical sciences,nsf24309-T95,439000.0,nsf26316-T95,681000.0,242000.0,55.13
+2021,applied,rd_other_physical_sciences,Other physical sciences,nsf24309-T33,439235.0,nsf24321-T95,681000.0,241765.0,55.04
+2021,applied,rd_other_physical_sciences,Other physical sciences,nsf24309-T33,439235.0,nsf25328-T95,681000.0,241765.0,55.04
+2021,applied,rd_other_physical_sciences,Other physical sciences,nsf24309-T33,439235.0,nsf26316-T95,681000.0,241765.0,55.04
+2021,applied,rd_social_sciences,Social sciences,nsf24309-T95,832000.0,nsf26316-T95,834000.0,2000.0,0.24
+2021,applied,rd_social_sciences,Social sciences,nsf24309-T33,832410.0,nsf26316-T95,834000.0,1590.0,0.19
+2021,applied,rd_social_sciences,Social sciences,nsf24321-T95,832000.0,nsf26316-T95,834000.0,2000.0,0.24
+2021,applied,rd_social_sciences,Social sciences,nsf25328-T95,832000.0,nsf26316-T95,834000.0,2000.0,0.24
+2021,applied,rd_sociology_demography_and_population_studies,"Sociology, demography, and population studies (formerly sociology)",nsf24309-T33,67754.0,nsf26316-T95,69000.0,1246.0,1.84
+2021,applied,rd_engineering,Engineering,nsf24309-T95,10223000.0,nsf24321-T95,11438000.0,1215000.0,11.88
+2021,applied,rd_engineering,Engineering,nsf24309-T95,10223000.0,nsf25328-T95,11438000.0,1215000.0,11.88
+2021,applied,rd_engineering,Engineering,nsf24309-T95,10223000.0,nsf26316-T95,11438000.0,1215000.0,11.88
+2021,applied,rd_engineering,Engineering,nsf24309-T33,10223332.0,nsf24321-T95,11438000.0,1214668.0,11.88
+2021,applied,rd_engineering,Engineering,nsf24309-T33,10223332.0,nsf25328-T95,11438000.0,1214668.0,11.88
+2021,applied,rd_engineering,Engineering,nsf24309-T33,10223332.0,nsf26316-T95,11438000.0,1214668.0,11.88
+2021,applied,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T95,1508000.0,nsf24321-T95,2334000.0,826000.0,54.77
+2021,applied,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T95,1508000.0,nsf25328-T95,2334000.0,826000.0,54.77
+2021,applied,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T95,1508000.0,nsf26316-T95,2334000.0,826000.0,54.77
+2021,applied,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T33,1508118.0,nsf24321-T95,2334000.0,825882.0,54.76
+2021,applied,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T33,1508118.0,nsf25328-T95,2334000.0,825882.0,54.76
+2021,applied,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T33,1508118.0,nsf26316-T95,2334000.0,825882.0,54.76
+2021,applied,rd_electrical_electronics_and_communications_engineering,"Electrical, electronics, and communications engineering (formerly Electrical engineering)",nsf24309-T95,687000.0,nsf24321-T95,691000.0,4000.0,0.58
+2021,applied,rd_electrical_electronics_and_communications_engineering,"Electrical, electronics, and communications engineering (formerly Electrical engineering)",nsf24309-T95,687000.0,nsf25328-T95,691000.0,4000.0,0.58
+2021,applied,rd_electrical_electronics_and_communications_engineering,"Electrical, electronics, and communications engineering (formerly electrical engineering)",nsf24309-T95,687000.0,nsf26316-T95,691000.0,4000.0,0.58
+2021,applied,rd_electrical_electronics_and_communications_engineering,"Electrical, electronics, and communications engineering (formerly Electrical engineering)",nsf24309-T33,687331.0,nsf24321-T95,691000.0,3669.0,0.53
+2021,applied,rd_electrical_electronics_and_communications_engineering,"Electrical, electronics, and communications engineering (formerly Electrical engineering)",nsf24309-T33,687331.0,nsf25328-T95,691000.0,3669.0,0.53
+2021,applied,rd_electrical_electronics_and_communications_engineering,"Electrical, electronics, and communications engineering (formerly electrical engineering)",nsf24309-T33,687331.0,nsf26316-T95,691000.0,3669.0,0.53
+2021,applied,rd_other_engineering,Other engineering,nsf24309-T95,5826000.0,nsf24321-T95,6212000.0,386000.0,6.63
+2021,applied,rd_other_engineering,Other engineering,nsf24309-T95,5826000.0,nsf25328-T95,6212000.0,386000.0,6.63
+2021,applied,rd_other_engineering,Other engineering,nsf24309-T95,5826000.0,nsf26316-T95,6212000.0,386000.0,6.63
+2021,applied,rd_other_engineering,Other engineering,nsf24309-T33,5826062.0,nsf24321-T95,6212000.0,385938.0,6.62
+2021,applied,rd_other_engineering,Other engineering,nsf24309-T33,5826062.0,nsf25328-T95,6212000.0,385938.0,6.62
+2021,applied,rd_other_engineering,Other engineering,nsf24309-T33,5826062.0,nsf26316-T95,6212000.0,385938.0,6.62
+2021,applied,rd_other_fields,Other fields,nsf24309-T95,4982000.0,nsf24321-T95,3145000.0,-1837000.0,-36.87
+2021,applied,rd_other_fields,Other fields,nsf24309-T95,4982000.0,nsf25328-T95,3163000.0,-1819000.0,-36.51
+2021,applied,rd_other_fields,Other fields,nsf24309-T95,4982000.0,nsf26316-T95,3163000.0,-1819000.0,-36.51
+2021,applied,rd_other_fields,Other fields,nsf24309-T33,4982338.0,nsf24321-T95,3145000.0,-1837338.0,-36.88
+2021,applied,rd_other_fields,Other fields,nsf24309-T33,4982338.0,nsf25328-T95,3163000.0,-1819338.0,-36.52
+2021,applied,rd_other_fields,Other fields,nsf24309-T33,4982338.0,nsf26316-T95,3163000.0,-1819338.0,-36.52
+2021,applied,rd_other_fields,Other fields,nsf24321-T95,3145000.0,nsf25328-T95,3163000.0,18000.0,0.57
+2021,applied,rd_other_fields,Other fields,nsf24321-T95,3145000.0,nsf26316-T95,3163000.0,18000.0,0.57
+2021,applied,rd_all_other_fields,All other fields,nsf24309-T95,4256000.0,nsf24321-T95,2419000.0,-1837000.0,-43.16
+2021,applied,rd_all_other_fields,All other fields,nsf24309-T95,4256000.0,nsf25328-T95,2437000.0,-1819000.0,-42.74
+2021,applied,rd_all_other_fields,All other fields,nsf24309-T95,4256000.0,nsf26316-T95,2437000.0,-1819000.0,-42.74
+2021,applied,rd_all_other_fields,All other fields,nsf24309-T33,4256284.0,nsf24321-T95,2419000.0,-1837284.0,-43.17
+2021,applied,rd_all_other_fields,All other fields,nsf24309-T33,4256284.0,nsf25328-T95,2437000.0,-1819284.0,-42.74
+2021,applied,rd_all_other_fields,All other fields,nsf24309-T33,4256284.0,nsf26316-T95,2437000.0,-1819284.0,-42.74
+2021,applied,rd_all_other_fields,All other fields,nsf24321-T95,2419000.0,nsf25328-T95,2437000.0,18000.0,0.74
+2021,applied,rd_all_other_fields,All other fields,nsf24321-T95,2419000.0,nsf26316-T95,2437000.0,18000.0,0.74
+2021,basic,all_fields,All fields,nsf24309-T93,42494000.0,nsf24321-T93,42266000.0,-228000.0,-0.54
+2021,basic,all_fields,All fields,nsf24309-T93,42494000.0,nsf25328-T93,42266000.0,-228000.0,-0.54
+2021,basic,all_fields,All fields,nsf24309-T93,42494000.0,nsf26316-T93,42266000.0,-228000.0,-0.54
+2021,basic,all_fields,All fields,nsf24309-T28,42494145.0,nsf24321-T93,42266000.0,-228145.0,-0.54
+2021,basic,all_fields,All fields,nsf24309-T28,42494145.0,nsf25328-T93,42266000.0,-228145.0,-0.54
+2021,basic,all_fields,All fields,nsf24309-T28,42494145.0,nsf26316-T93,42266000.0,-228145.0,-0.54
+2021,basic,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly Environmental sciences)",nsf24309-T93,1772000.0,nsf24321-T93,3057000.0,1285000.0,72.52
+2021,basic,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly Environmental sciences)",nsf24309-T93,1772000.0,nsf25328-T93,3057000.0,1285000.0,72.52
+2021,basic,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly environmental sciences)",nsf24309-T93,1772000.0,nsf26316-T93,3057000.0,1285000.0,72.52
+2021,basic,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly Environmental sciences)",nsf24309-T28,1772255.0,nsf24321-T93,3057000.0,1284745.0,72.49
+2021,basic,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly Environmental sciences)",nsf24309-T28,1772255.0,nsf25328-T93,3057000.0,1284745.0,72.49
+2021,basic,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly environmental sciences)",nsf24309-T28,1772255.0,nsf26316-T93,3057000.0,1284745.0,72.49
+2021,basic,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly Other environmental sciences)",nsf24309-T93,407000.0,nsf24321-T93,1692000.0,1285000.0,315.72
+2021,basic,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly Other environmental sciences)",nsf24309-T93,407000.0,nsf25328-T93,1692000.0,1285000.0,315.72
+2021,basic,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly other environmental sciences)",nsf24309-T93,407000.0,nsf26316-T93,1692000.0,1285000.0,315.72
+2021,basic,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly Other environmental sciences)",nsf24309-T28,407044.0,nsf24321-T93,1692000.0,1284956.0,315.68
+2021,basic,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly Other environmental sciences)",nsf24309-T28,407044.0,nsf25328-T93,1692000.0,1284956.0,315.68
+2021,basic,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly other environmental sciences)",nsf24309-T28,407044.0,nsf26316-T93,1692000.0,1284956.0,315.68
+2021,basic,rd_life_sciences,Life sciences,nsf24309-T93,19008000.0,nsf24321-T93,19016000.0,8000.0,0.04
+2021,basic,rd_life_sciences,Life sciences,nsf24309-T93,19008000.0,nsf25328-T93,19016000.0,8000.0,0.04
+2021,basic,rd_life_sciences,Life sciences,nsf24309-T93,19008000.0,nsf26316-T93,19016000.0,8000.0,0.04
+2021,basic,rd_life_sciences,Life sciences,nsf24309-T28,19008170.0,nsf24321-T93,19016000.0,7830.0,0.04
+2021,basic,rd_life_sciences,Life sciences,nsf24309-T28,19008170.0,nsf25328-T93,19016000.0,7830.0,0.04
+2021,basic,rd_life_sciences,Life sciences,nsf24309-T28,19008170.0,nsf26316-T93,19016000.0,7830.0,0.04
+2021,basic,rd_biological_and_biomedical_sciences,Biological and biomedical sciences,nsf24309-T93,9767000.0,nsf24321-T93,9762000.0,-5000.0,-0.05
+2021,basic,rd_biological_and_biomedical_sciences,Biological and biomedical sciences,nsf24309-T93,9767000.0,nsf25328-T93,9762000.0,-5000.0,-0.05
+2021,basic,rd_biological_and_biomedical_sciences,Biological and biomedical sciences,nsf24309-T93,9767000.0,nsf26316-T93,9762000.0,-5000.0,-0.05
+2021,basic,rd_biological_and_biomedical_sciences,Biological and biomedical sciences,nsf24309-T28,9766823.0,nsf24321-T93,9762000.0,-4823.0,-0.05
+2021,basic,rd_biological_and_biomedical_sciences,Biological and biomedical sciences,nsf24309-T28,9766823.0,nsf25328-T93,9762000.0,-4823.0,-0.05
+2021,basic,rd_biological_and_biomedical_sciences,Biological and biomedical sciences,nsf24309-T28,9766823.0,nsf26316-T93,9762000.0,-4823.0,-0.05
+2021,basic,rd_other_life_sciences,Other life sciences,nsf24309-T93,1790000.0,nsf24321-T93,1803000.0,13000.0,0.73
+2021,basic,rd_other_life_sciences,Other life sciences,nsf24309-T93,1790000.0,nsf25328-T93,1803000.0,13000.0,0.73
+2021,basic,rd_other_life_sciences,Other life sciences,nsf24309-T93,1790000.0,nsf26316-T93,1803000.0,13000.0,0.73
+2021,basic,rd_other_life_sciences,Other life sciences,nsf24309-T28,1789795.0,nsf24321-T93,1803000.0,13205.0,0.74
+2021,basic,rd_other_life_sciences,Other life sciences,nsf24309-T28,1789795.0,nsf25328-T93,1803000.0,13205.0,0.74
+2021,basic,rd_other_life_sciences,Other life sciences,nsf24309-T28,1789795.0,nsf26316-T93,1803000.0,13205.0,0.74
+2021,basic,rd_physical_sciences,Physical sciences,nsf24309-T93,6432000.0,nsf24321-T93,8184000.0,1752000.0,27.24
+2021,basic,rd_physical_sciences,Physical sciences,nsf24309-T93,6432000.0,nsf25328-T93,8184000.0,1752000.0,27.24
+2021,basic,rd_physical_sciences,Physical sciences,nsf24309-T93,6432000.0,nsf26316-T93,8184000.0,1752000.0,27.24
+2021,basic,rd_physical_sciences,Physical sciences,nsf24309-T28,6432049.0,nsf24321-T93,8184000.0,1751951.0,27.24
+2021,basic,rd_physical_sciences,Physical sciences,nsf24309-T28,6432049.0,nsf25328-T93,8184000.0,1751951.0,27.24
+2021,basic,rd_physical_sciences,Physical sciences,nsf24309-T28,6432049.0,nsf26316-T93,8184000.0,1751951.0,27.24
+2021,basic,rd_astronomy_and_astrophysics,Astronomy and astrophysics (formerly Astronomy),nsf24309-T93,307000.0,nsf24321-T93,964000.0,657000.0,214.01
+2021,basic,rd_astronomy_and_astrophysics,Astronomy and astrophysics (formerly Astronomy),nsf24309-T93,307000.0,nsf25328-T93,964000.0,657000.0,214.01
+2021,basic,rd_astronomy_and_astrophysics,Astronomy and astrophysics (formerly astronomy),nsf24309-T93,307000.0,nsf26316-T93,964000.0,657000.0,214.01
+2021,basic,rd_astronomy_and_astrophysics,Astronomy and astrophysics (formerly Astronomy),nsf24309-T28,307022.0,nsf24321-T93,964000.0,656978.0,213.98
+2021,basic,rd_astronomy_and_astrophysics,Astronomy and astrophysics (formerly Astronomy),nsf24309-T28,307022.0,nsf25328-T93,964000.0,656978.0,213.98
+2021,basic,rd_astronomy_and_astrophysics,Astronomy and astrophysics (formerly astronomy),nsf24309-T28,307022.0,nsf26316-T93,964000.0,656978.0,213.98
+2021,basic,rd_physics,Physics,nsf24309-T93,2531000.0,nsf24321-T93,2537000.0,6000.0,0.24
+2021,basic,rd_physics,Physics,nsf24309-T93,2531000.0,nsf25328-T93,2537000.0,6000.0,0.24
+2021,basic,rd_physics,Physics,nsf24309-T93,2531000.0,nsf26316-T93,2537000.0,6000.0,0.24
+2021,basic,rd_physics,Physics,nsf24309-T28,2530622.0,nsf24321-T93,2537000.0,6378.0,0.25
+2021,basic,rd_physics,Physics,nsf24309-T28,2530622.0,nsf25328-T93,2537000.0,6378.0,0.25
+2021,basic,rd_physics,Physics,nsf24309-T28,2530622.0,nsf26316-T93,2537000.0,6378.0,0.25
+2021,basic,rd_other_physical_sciences,Other physical sciences,nsf24309-T93,2465000.0,nsf24321-T93,3554000.0,1089000.0,44.18
+2021,basic,rd_other_physical_sciences,Other physical sciences,nsf24309-T93,2465000.0,nsf25328-T93,3554000.0,1089000.0,44.18
+2021,basic,rd_other_physical_sciences,Other physical sciences,nsf24309-T93,2465000.0,nsf26316-T93,3554000.0,1089000.0,44.18
+2021,basic,rd_other_physical_sciences,Other physical sciences,nsf24309-T28,2465259.0,nsf24321-T93,3554000.0,1088741.0,44.16
+2021,basic,rd_other_physical_sciences,Other physical sciences,nsf24309-T28,2465259.0,nsf25328-T93,3554000.0,1088741.0,44.16
+2021,basic,rd_other_physical_sciences,Other physical sciences,nsf24309-T28,2465259.0,nsf26316-T93,3554000.0,1088741.0,44.16
+2021,basic,rd_engineering,Engineering,nsf24309-T93,3151000.0,nsf24321-T93,3212000.0,61000.0,1.94
+2021,basic,rd_engineering,Engineering,nsf24309-T93,3151000.0,nsf25328-T93,3212000.0,61000.0,1.94
+2021,basic,rd_engineering,Engineering,nsf24309-T93,3151000.0,nsf26316-T93,3212000.0,61000.0,1.94
+2021,basic,rd_engineering,Engineering,nsf24309-T28,3151032.0,nsf24321-T93,3212000.0,60968.0,1.93
+2021,basic,rd_engineering,Engineering,nsf24309-T28,3151032.0,nsf25328-T93,3212000.0,60968.0,1.93
+2021,basic,rd_engineering,Engineering,nsf24309-T28,3151032.0,nsf26316-T93,3212000.0,60968.0,1.93
+2021,basic,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T93,209000.0,nsf24321-T93,270000.0,61000.0,29.19
+2021,basic,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T93,209000.0,nsf25328-T93,270000.0,61000.0,29.19
+2021,basic,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T93,209000.0,nsf26316-T93,270000.0,61000.0,29.19
+2021,basic,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T28,208895.0,nsf24321-T93,270000.0,61105.0,29.25
+2021,basic,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T28,208895.0,nsf25328-T93,270000.0,61105.0,29.25
+2021,basic,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T28,208895.0,nsf26316-T93,270000.0,61105.0,29.25
+2021,basic,rd_other_fields,Other fields,nsf24309-T93,6892000.0,nsf24321-T93,3558000.0,-3334000.0,-48.37
+2021,basic,rd_other_fields,Other fields,nsf24309-T93,6892000.0,nsf25328-T93,3558000.0,-3334000.0,-48.37
+2021,basic,rd_other_fields,Other fields,nsf24309-T93,6892000.0,nsf26316-T93,3558000.0,-3334000.0,-48.37
+2021,basic,rd_other_fields,Other fields,nsf24309-T28,6891548.0,nsf24321-T93,3558000.0,-3333548.0,-48.37
+2021,basic,rd_other_fields,Other fields,nsf24309-T28,6891548.0,nsf25328-T93,3558000.0,-3333548.0,-48.37
+2021,basic,rd_other_fields,Other fields,nsf24309-T28,6891548.0,nsf26316-T93,3558000.0,-3333548.0,-48.37
+2021,basic,rd_all_other_fields,All other fields,nsf24309-T93,6491000.0,nsf24321-T93,3158000.0,-3333000.0,-51.35
+2021,basic,rd_all_other_fields,All other fields,nsf24309-T93,6491000.0,nsf25328-T93,3158000.0,-3333000.0,-51.35
+2021,basic,rd_all_other_fields,All other fields,nsf24309-T93,6491000.0,nsf26316-T93,3158000.0,-3333000.0,-51.35
+2021,basic,rd_all_other_fields,All other fields,nsf24309-T28,6491493.0,nsf24321-T93,3158000.0,-3333493.0,-51.35
+2021,basic,rd_all_other_fields,All other fields,nsf24309-T28,6491493.0,nsf25328-T93,3158000.0,-3333493.0,-51.35
+2021,basic,rd_all_other_fields,All other fields,nsf24309-T28,6491493.0,nsf26316-T93,3158000.0,-3333493.0,-51.35
+2021,research_total,all_fields,All fields,nsf24309-T91,86244000.0,nsf24321-T91,85896000.0,-348000.0,-0.4
+2021,research_total,all_fields,All fields,nsf24309-T91,86244000.0,nsf25328-T91,85914000.0,-330000.0,-0.38
+2021,research_total,all_fields,All fields,nsf24309-T91,86244000.0,nsf26316-T91,85915000.0,-329000.0,-0.38
+2021,research_total,all_fields,All fields,nsf24309-T23,86244258.0,nsf24321-T91,85896000.0,-348258.0,-0.4
+2021,research_total,all_fields,All fields,nsf24309-T23,86244258.0,nsf25328-T91,85914000.0,-330258.0,-0.38
+2021,research_total,all_fields,All fields,nsf24309-T23,86244258.0,nsf26316-T91,85915000.0,-329258.0,-0.38
+2021,research_total,all_fields,All fields,nsf24321-T91,85896000.0,nsf25328-T91,85914000.0,18000.0,0.02
+2021,research_total,all_fields,All fields,nsf24321-T91,85896000.0,nsf26316-T91,85915000.0,19000.0,0.02
+2021,research_total,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly Environmental sciences)",nsf24309-T91,3569000.0,nsf24321-T91,5042000.0,1473000.0,41.27
+2021,research_total,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly Environmental sciences)",nsf24309-T91,3569000.0,nsf25328-T91,5042000.0,1473000.0,41.27
+2021,research_total,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly environmental sciences)",nsf24309-T91,3569000.0,nsf26316-T91,5042000.0,1473000.0,41.27
+2021,research_total,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly Environmental sciences)",nsf24309-T23,3569077.0,nsf24321-T91,5042000.0,1472923.0,41.27
+2021,research_total,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly Environmental sciences)",nsf24309-T23,3569077.0,nsf25328-T91,5042000.0,1472923.0,41.27
+2021,research_total,rd_geosciences_atmospheric_sciences_and_ocean_sciences,"Geosciences, atmospheric sciences, and ocean sciences (formerly environmental sciences)",nsf24309-T23,3569077.0,nsf26316-T91,5042000.0,1472923.0,41.27
+2021,research_total,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly Other environmental sciences)",nsf24309-T91,983000.0,nsf24321-T91,2456000.0,1473000.0,149.85
+2021,research_total,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly Other environmental sciences)",nsf24309-T91,983000.0,nsf25328-T91,2456000.0,1473000.0,149.85
+2021,research_total,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly other environmental sciences)",nsf24309-T91,983000.0,nsf26316-T91,2456000.0,1473000.0,149.85
+2021,research_total,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly Other environmental sciences)",nsf24309-T23,982703.0,nsf24321-T91,2456000.0,1473297.0,149.92
+2021,research_total,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly Other environmental sciences)",nsf24309-T23,982703.0,nsf25328-T91,2456000.0,1473297.0,149.92
+2021,research_total,rd_other_geosciences_atmospheric_sciences_and_ocean_sciences,"Other geosciences, atmospheric sciences, and ocean sciences (formerly other environmental sciences)",nsf24309-T23,982703.0,nsf26316-T91,2456000.0,1473297.0,149.92
+2021,research_total,rd_life_sciences,Life sciences,nsf24309-T91,38178000.0,nsf24321-T91,38249000.0,71000.0,0.19
+2021,research_total,rd_life_sciences,Life sciences,nsf24309-T91,38178000.0,nsf25328-T91,38249000.0,71000.0,0.19
+2021,research_total,rd_life_sciences,Life sciences,nsf24309-T91,38178000.0,nsf26316-T91,38249000.0,71000.0,0.19
+2021,research_total,rd_life_sciences,Life sciences,nsf24309-T23,38177668.0,nsf24321-T91,38249000.0,71332.0,0.19
+2021,research_total,rd_life_sciences,Life sciences,nsf24309-T23,38177668.0,nsf25328-T91,38249000.0,71332.0,0.19
+2021,research_total,rd_life_sciences,Life sciences,nsf24309-T23,38177668.0,nsf26316-T91,38249000.0,71332.0,0.19
+2021,research_total,rd_biological_and_biomedical_sciences,Biological and biomedical sciences,nsf24309-T91,18233000.0,nsf24321-T91,18228000.0,-5000.0,-0.03
+2021,research_total,rd_biological_and_biomedical_sciences,Biological and biomedical sciences,nsf24309-T91,18233000.0,nsf25328-T91,18228000.0,-5000.0,-0.03
+2021,research_total,rd_biological_and_biomedical_sciences,Biological and biomedical sciences,nsf24309-T91,18233000.0,nsf26316-T91,18228000.0,-5000.0,-0.03
+2021,research_total,rd_biological_and_biomedical_sciences,Biological and biomedical sciences,nsf24309-T23,18232787.0,nsf24321-T91,18228000.0,-4787.0,-0.03
+2021,research_total,rd_biological_and_biomedical_sciences,Biological and biomedical sciences,nsf24309-T23,18232787.0,nsf25328-T91,18228000.0,-4787.0,-0.03
+2021,research_total,rd_biological_and_biomedical_sciences,Biological and biomedical sciences,nsf24309-T23,18232787.0,nsf26316-T91,18228000.0,-4787.0,-0.03
+2021,research_total,rd_other_life_sciences,Other life sciences,nsf24309-T91,3637000.0,nsf24321-T91,3712000.0,75000.0,2.06
+2021,research_total,rd_other_life_sciences,Other life sciences,nsf24309-T91,3637000.0,nsf25328-T91,3712000.0,75000.0,2.06
+2021,research_total,rd_other_life_sciences,Other life sciences,nsf24309-T91,3637000.0,nsf26316-T91,3712000.0,75000.0,2.06
+2021,research_total,rd_other_life_sciences,Other life sciences,nsf24309-T23,3636525.0,nsf24321-T91,3712000.0,75475.0,2.08
+2021,research_total,rd_other_life_sciences,Other life sciences,nsf24309-T23,3636525.0,nsf25328-T91,3712000.0,75475.0,2.08
+2021,research_total,rd_other_life_sciences,Other life sciences,nsf24309-T23,3636525.0,nsf26316-T91,3712000.0,75475.0,2.08
+2021,research_total,rd_physical_sciences,Physical sciences,nsf24309-T91,8044000.0,nsf24321-T91,10048000.0,2004000.0,24.91
+2021,research_total,rd_physical_sciences,Physical sciences,nsf24309-T91,8044000.0,nsf25328-T91,10048000.0,2004000.0,24.91
+2021,research_total,rd_physical_sciences,Physical sciences,nsf24309-T91,8044000.0,nsf26316-T91,10048000.0,2004000.0,24.91
+2021,research_total,rd_physical_sciences,Physical sciences,nsf24309-T23,8044401.0,nsf24321-T91,10048000.0,2003599.0,24.91
+2021,research_total,rd_physical_sciences,Physical sciences,nsf24309-T23,8044401.0,nsf25328-T91,10048000.0,2003599.0,24.91
+2021,research_total,rd_physical_sciences,Physical sciences,nsf24309-T23,8044401.0,nsf26316-T91,10048000.0,2003599.0,24.91
+2021,research_total,rd_astronomy_and_astrophysics,Astronomy and astrophysics (formerly Astronomy),nsf24309-T91,308000.0,nsf24321-T91,964000.0,656000.0,212.99
+2021,research_total,rd_astronomy_and_astrophysics,Astronomy and astrophysics (formerly Astronomy),nsf24309-T91,308000.0,nsf25328-T91,964000.0,656000.0,212.99
+2021,research_total,rd_astronomy_and_astrophysics,Astronomy and astrophysics (formerly astronomy),nsf24309-T91,308000.0,nsf26316-T91,964000.0,656000.0,212.99
+2021,research_total,rd_astronomy_and_astrophysics,Astronomy and astrophysics (formerly Astronomy),nsf24309-T23,307541.0,nsf24321-T91,964000.0,656459.0,213.45
+2021,research_total,rd_astronomy_and_astrophysics,Astronomy and astrophysics (formerly Astronomy),nsf24309-T23,307541.0,nsf25328-T91,964000.0,656459.0,213.45
+2021,research_total,rd_astronomy_and_astrophysics,Astronomy and astrophysics (formerly astronomy),nsf24309-T23,307541.0,nsf26316-T91,964000.0,656459.0,213.45
+2021,research_total,rd_physics,Physics,nsf24309-T91,3139000.0,nsf24321-T91,3156000.0,17000.0,0.54
+2021,research_total,rd_physics,Physics,nsf24309-T91,3139000.0,nsf25328-T91,3156000.0,17000.0,0.54
+2021,research_total,rd_physics,Physics,nsf24309-T91,3139000.0,nsf26316-T91,3156000.0,17000.0,0.54
+2021,research_total,rd_physics,Physics,nsf24309-T23,3139200.0,nsf24321-T91,3156000.0,16800.0,0.54
+2021,research_total,rd_physics,Physics,nsf24309-T23,3139200.0,nsf25328-T91,3156000.0,16800.0,0.54
+2021,research_total,rd_physics,Physics,nsf24309-T23,3139200.0,nsf26316-T91,3156000.0,16800.0,0.54
+2021,research_total,rd_other_physical_sciences,Other physical sciences,nsf24309-T91,2904000.0,nsf24321-T91,4235000.0,1331000.0,45.83
+2021,research_total,rd_other_physical_sciences,Other physical sciences,nsf24309-T91,2904000.0,nsf25328-T91,4235000.0,1331000.0,45.83
+2021,research_total,rd_other_physical_sciences,Other physical sciences,nsf24309-T91,2904000.0,nsf26316-T91,4235000.0,1331000.0,45.83
+2021,research_total,rd_other_physical_sciences,Other physical sciences,nsf24309-T23,2904494.0,nsf24321-T91,4235000.0,1330506.0,45.81
+2021,research_total,rd_other_physical_sciences,Other physical sciences,nsf24309-T23,2904494.0,nsf25328-T91,4235000.0,1330506.0,45.81
+2021,research_total,rd_other_physical_sciences,Other physical sciences,nsf24309-T23,2904494.0,nsf26316-T91,4235000.0,1330506.0,45.81
+2021,research_total,rd_social_sciences,Social sciences,nsf24309-T23,1369741.0,nsf26316-T91,1371000.0,1259.0,0.09
+2021,research_total,rd_sociology_demography_and_population_studies,"Sociology, demography, and population studies (formerly sociology)",nsf24309-T23,110796.0,nsf26316-T91,112000.0,1204.0,1.09
+2021,research_total,rd_engineering,Engineering,nsf24309-T91,13374000.0,nsf24321-T91,14650000.0,1276000.0,9.54
+2021,research_total,rd_engineering,Engineering,nsf24309-T91,13374000.0,nsf25328-T91,14650000.0,1276000.0,9.54
+2021,research_total,rd_engineering,Engineering,nsf24309-T91,13374000.0,nsf26316-T91,14650000.0,1276000.0,9.54
+2021,research_total,rd_engineering,Engineering,nsf24309-T23,13374364.0,nsf24321-T91,14650000.0,1275636.0,9.54
+2021,research_total,rd_engineering,Engineering,nsf24309-T23,13374364.0,nsf25328-T91,14650000.0,1275636.0,9.54
+2021,research_total,rd_engineering,Engineering,nsf24309-T23,13374364.0,nsf26316-T91,14650000.0,1275636.0,9.54
+2021,research_total,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T91,1717000.0,nsf24321-T91,2604000.0,887000.0,51.66
+2021,research_total,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T91,1717000.0,nsf25328-T91,2604000.0,887000.0,51.66
+2021,research_total,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T91,1717000.0,nsf26316-T91,2604000.0,887000.0,51.66
+2021,research_total,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T23,1717013.0,nsf24321-T91,2604000.0,886987.0,51.66
+2021,research_total,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T23,1717013.0,nsf25328-T91,2604000.0,886987.0,51.66
+2021,research_total,rd_aerospace_aeronautical_and_astronautical_engineering,"Aerospace, aeronautical, and astronautical engineering",nsf24309-T23,1717013.0,nsf26316-T91,2604000.0,886987.0,51.66
+2021,research_total,rd_electrical_electronics_and_communications_engineering,"Electrical, electronics, and communications engineering (formerly Electrical engineering)",nsf24309-T91,887000.0,nsf24321-T91,891000.0,4000.0,0.45
+2021,research_total,rd_electrical_electronics_and_communications_engineering,"Electrical, electronics, and communications engineering (formerly Electrical engineering)",nsf24309-T91,887000.0,nsf25328-T91,891000.0,4000.0,0.45
+2021,research_total,rd_electrical_electronics_and_communications_engineering,"Electrical, electronics, and communications engineering (formerly electrical engineering)",nsf24309-T91,887000.0,nsf26316-T91,891000.0,4000.0,0.45
+2021,research_total,rd_electrical_electronics_and_communications_engineering,"Electrical, electronics, and communications engineering (formerly Electrical engineering)",nsf24309-T23,887145.0,nsf24321-T91,891000.0,3855.0,0.43
+2021,research_total,rd_electrical_electronics_and_communications_engineering,"Electrical, electronics, and communications engineering (formerly Electrical engineering)",nsf24309-T23,887145.0,nsf25328-T91,891000.0,3855.0,0.43
+2021,research_total,rd_electrical_electronics_and_communications_engineering,"Electrical, electronics, and communications engineering (formerly electrical engineering)",nsf24309-T23,887145.0,nsf26316-T91,891000.0,3855.0,0.43
+2021,research_total,rd_other_engineering,Other engineering,nsf24309-T91,7957000.0,nsf24321-T91,8343000.0,386000.0,4.85
+2021,research_total,rd_other_engineering,Other engineering,nsf24309-T91,7957000.0,nsf25328-T91,8343000.0,386000.0,4.85
+2021,research_total,rd_other_engineering,Other engineering,nsf24309-T91,7957000.0,nsf26316-T91,8343000.0,386000.0,4.85
+2021,research_total,rd_other_engineering,Other engineering,nsf24309-T23,7957190.0,nsf24321-T91,8343000.0,385810.0,4.85
+2021,research_total,rd_other_engineering,Other engineering,nsf24309-T23,7957190.0,nsf25328-T91,8343000.0,385810.0,4.85
+2021,research_total,rd_other_engineering,Other engineering,nsf24309-T23,7957190.0,nsf26316-T91,8343000.0,385810.0,4.85
+2021,research_total,rd_other_fields,Other fields,nsf24309-T91,11874000.0,nsf24321-T91,6703000.0,-5171000.0,-43.55
+2021,research_total,rd_other_fields,Other fields,nsf24309-T91,11874000.0,nsf25328-T91,6721000.0,-5153000.0,-43.4
+2021,research_total,rd_other_fields,Other fields,nsf24309-T91,11874000.0,nsf26316-T91,6721000.0,-5153000.0,-43.4
+2021,research_total,rd_other_fields,Other fields,nsf24309-T23,11873886.0,nsf24321-T91,6703000.0,-5170886.0,-43.55
+2021,research_total,rd_other_fields,Other fields,nsf24309-T23,11873886.0,nsf25328-T91,6721000.0,-5152886.0,-43.4
+2021,research_total,rd_other_fields,Other fields,nsf24309-T23,11873886.0,nsf26316-T91,6721000.0,-5152886.0,-43.4
+2021,research_total,rd_other_fields,Other fields,nsf24321-T91,6703000.0,nsf25328-T91,6721000.0,18000.0,0.27
+2021,research_total,rd_other_fields,Other fields,nsf24321-T91,6703000.0,nsf26316-T91,6721000.0,18000.0,0.27
+2021,research_total,rd_all_other_fields,All other fields,nsf24309-T91,10748000.0,nsf24321-T91,5576000.0,-5172000.0,-48.12
+2021,research_total,rd_all_other_fields,All other fields,nsf24309-T91,10748000.0,nsf25328-T91,5595000.0,-5153000.0,-47.94
+2021,research_total,rd_all_other_fields,All other fields,nsf24309-T91,10748000.0,nsf26316-T91,5595000.0,-5153000.0,-47.94
+2021,research_total,rd_all_other_fields,All other fields,nsf24309-T23,10747777.0,nsf24321-T91,5576000.0,-5171777.0,-48.12
+2021,research_total,rd_all_other_fields,All other fields,nsf24309-T23,10747777.0,nsf25328-T91,5595000.0,-5152777.0,-47.94
+2021,research_total,rd_all_other_fields,All other fields,nsf24309-T23,10747777.0,nsf26316-T91,5595000.0,-5152777.0,-47.94
+2021,research_total,rd_all_other_fields,All other fields,nsf24321-T91,5576000.0,nsf25328-T91,5595000.0,19000.0,0.34
+2021,research_total,rd_all_other_fields,All other fields,nsf24321-T91,5576000.0,nsf26316-T91,5595000.0,19000.0,0.34
+2022,applied,all_fields,All fields,nsf24321-T95,48414000.0,nsf25328-T95,48416000.0,2000.0,0.0
+2022,applied,all_fields,All fields,nsf24321-T95,48414000.0,nsf26316-T95,48418000.0,4000.0,0.01
+2022,applied,all_fields,All fields,nsf24321-T33,48414424.0,nsf25328-T95,48416000.0,1576.0,0.0
+2022,applied,all_fields,All fields,nsf24321-T33,48414424.0,nsf26316-T95,48418000.0,3576.0,0.01
+2022,applied,all_fields,All fields,nsf25328-T95,48416000.0,nsf26316-T95,48418000.0,2000.0,0.0
+2022,applied,rd_computer_and_information_sciences,Computer and information sciences,nsf24321-T95,2533000.0,nsf25328-T95,2535000.0,2000.0,0.08
+2022,applied,rd_computer_and_information_sciences,Computer and information sciences,nsf24321-T95,2533000.0,nsf26316-T95,2535000.0,2000.0,0.08
+2022,applied,rd_computer_and_information_sciences,Computer and information sciences,nsf24321-T33,2532975.0,nsf25328-T95,2535000.0,2025.0,0.08
+2022,applied,rd_computer_and_information_sciences,Computer and information sciences,nsf24321-T33,2532975.0,nsf26316-T95,2535000.0,2025.0,0.08
+2022,applied,rd_social_sciences,Social sciences,nsf24321-T33,1150878.0,nsf26316-T95,1152000.0,1122.0,0.1
+2022,applied,rd_sociology_demography_and_population_studies,"Sociology, demography, and population studies (formerly sociology)",nsf24321-T33,68711.0,nsf26316-T95,70000.0,1289.0,1.88
+2022,basic,all_fields,All fields,nsf24321-T93,45393000.0,nsf25328-T93,45414000.0,21000.0,0.05
+2022,basic,all_fields,All fields,nsf24321-T93,45393000.0,nsf26316-T93,45414000.0,21000.0,0.05
+2022,basic,all_fields,All fields,nsf24321-T28,45392702.0,nsf25328-T93,45414000.0,21298.0,0.05
+2022,basic,all_fields,All fields,nsf24321-T28,45392702.0,nsf26316-T93,45414000.0,21298.0,0.05
+2022,basic,rd_computer_and_information_sciences,Computer and information sciences,nsf24321-T93,2298000.0,nsf25328-T93,2319000.0,21000.0,0.91
+2022,basic,rd_computer_and_information_sciences,Computer and information sciences,nsf24321-T93,2298000.0,nsf26316-T93,2319000.0,21000.0,0.91
+2022,basic,rd_computer_and_information_sciences,Computer and information sciences,nsf24321-T28,2297975.0,nsf25328-T93,2319000.0,21025.0,0.91
+2022,basic,rd_computer_and_information_sciences,Computer and information sciences,nsf24321-T28,2297975.0,nsf26316-T93,2319000.0,21025.0,0.91
+2022,research_total,all_fields,All fields,nsf24321-T91,93807000.0,nsf25328-T91,93830000.0,23000.0,0.02
+2022,research_total,all_fields,All fields,nsf24321-T91,93807000.0,nsf26316-T91,93832000.0,25000.0,0.03
+2022,research_total,all_fields,All fields,nsf24321-T23,93807126.0,nsf25328-T91,93830000.0,22874.0,0.02
+2022,research_total,all_fields,All fields,nsf24321-T23,93807126.0,nsf26316-T91,93832000.0,24874.0,0.03
+2022,research_total,all_fields,All fields,nsf25328-T91,93830000.0,nsf26316-T91,93832000.0,2000.0,0.0
+2022,research_total,rd_computer_and_information_sciences,Computer and information sciences,nsf24321-T91,4831000.0,nsf25328-T91,4854000.0,23000.0,0.48
+2022,research_total,rd_computer_and_information_sciences,Computer and information sciences,nsf24321-T91,4831000.0,nsf26316-T91,4854000.0,23000.0,0.48
+2022,research_total,rd_computer_and_information_sciences,Computer and information sciences,nsf24321-T23,4830950.0,nsf25328-T91,4854000.0,23050.0,0.48
+2022,research_total,rd_computer_and_information_sciences,Computer and information sciences,nsf24321-T23,4830950.0,nsf26316-T91,4854000.0,23050.0,0.48
+2022,research_total,rd_social_sciences,Social sciences,nsf24321-T23,1916873.0,nsf26316-T91,1918000.0,1127.0,0.06
+2022,research_total,rd_sociology_demography_and_population_studies,"Sociology, demography, and population studies (formerly sociology)",nsf24321-T23,101869.0,nsf26316-T91,103000.0,1131.0,1.11
+2023,applied,all_fields,All fields,nsf25328-T33,54272792.0,nsf26316-T95,54274000.0,1208.0,0.0
+2023,applied,rd_other_fields,Other fields,nsf25328-T95,4736000.0,nsf26316-T95,4738000.0,2000.0,0.04
+2023,applied,rd_other_fields,Other fields,nsf25328-T33,4736464.0,nsf26316-T95,4738000.0,1536.0,0.03
+2023,applied,rd_social_work,Social work,nsf25328-T33,2.0,nsf26316-T95,2000.0,1998.0,99900.0
+2023,basic,all_fields,All fields,nsf25328-T93,47335000.0,nsf26316-T93,46981000.0,-354000.0,-0.75
+2023,basic,all_fields,All fields,nsf25328-T28,47335244.0,nsf26316-T93,46981000.0,-354244.0,-0.75
+2023,basic,rd_engineering,Engineering,nsf25328-T93,4345000.0,nsf26316-T93,3991000.0,-354000.0,-8.15
+2023,basic,rd_engineering,Engineering,nsf25328-T28,4344616.0,nsf26316-T93,3991000.0,-353616.0,-8.14
+2023,basic,rd_other_engineering,Other engineering,nsf25328-T93,3037000.0,nsf26316-T93,2683000.0,-354000.0,-11.66
+2023,basic,rd_other_engineering,Other engineering,nsf25328-T28,3036955.0,nsf26316-T93,2683000.0,-353955.0,-11.65
+2023,research_total,all_fields,All fields,nsf25328-T91,101608000.0,nsf26316-T91,101256000.0,-352000.0,-0.35
+2023,research_total,all_fields,All fields,nsf25328-T23,101608036.0,nsf26316-T91,101256000.0,-352036.0,-0.35
+2023,research_total,rd_engineering,Engineering,nsf25328-T91,16024000.0,nsf26316-T91,15670000.0,-354000.0,-2.21
+2023,research_total,rd_engineering,Engineering,nsf25328-T23,16023607.0,nsf26316-T91,15670000.0,-353607.0,-2.21
+2023,research_total,rd_other_engineering,Other engineering,nsf25328-T91,9424000.0,nsf26316-T91,9070000.0,-354000.0,-3.76
+2023,research_total,rd_other_engineering,Other engineering,nsf25328-T23,9423946.0,nsf26316-T91,9070000.0,-353946.0,-3.76
+2023,research_total,rd_other_fields,Other fields,nsf25328-T23,9489863.0,nsf26316-T91,9491000.0,1137.0,0.01
+2023,research_total,rd_social_work,Social work,nsf25328-T23,2.0,nsf26316-T91,2000.0,1998.0,99900.0

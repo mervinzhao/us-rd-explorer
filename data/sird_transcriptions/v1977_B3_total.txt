@@ -1,0 +1,40 @@
+# source_item: ERIC_ED186278
+# page: 31 (printed 23)
+# table_title: Table B-3. Funds for research and development by industry and size of company: 1956, 1963, and 1966-77
+# measure: total
+# footnotes: 1=not separately available but included in total; 2=estimated by NSF; 3=SIC codes 3398 and 3399 included in nonferrous metals for 1956 to 1965; 4=data not tabulated at this level prior to 1972; 5=included in other electrical equipment group. 1972-SIC basis (aircraft 372,376; nonmfg includes 737; ferrous 331-32,3398,3399).
+# cell codes: COMB = included in the combined row shown for these years; SPLIT = shown separately for these years
+key|parent|sic|label|1956|1963|1966|1967|1968|1969|1970|1971|1972|1973|1974|1975|1976|1977
+total||all|Total|6605|12630|15548|16385|17429|18308|18062|18311|19539|21233|22867|24164|26938|29907
+food|total|20|Food and kindred products|64|130|164|183|184|199|226|231|246|253|278|312|329|368
+textiles|total|22, 23|Textiles and apparel|NA|30|51|57|58|60|58|59|61|64|69|70|82|81
+lumber|total|24, 25|Lumber, wood products, and furniture|NA|11|12|12|20|18|52|53|64|71|84|88|107|127
+paper|total|26|Paper and allied products|36|69|117|128|144|188|178|187|189|194|237|249|313|340
+chem|total|28|Chemicals and allied products|641|1239|1407|1507|1589|1660|1773|1832|1932|2116|2450|2727|3017|3267
+indchem|chem|281-82|Industrial chemicals|460|809|918|966|965|974|980|942|941|999|1127|1200|1323|1460
+drugs|chem|283|Drugs and medicines|94|216|308|343|398|444|485|549|607|698|807|981|1091|1153
+othchem|chem|284-89|Other chemicals|87|214|181|198|226|242|308|341|384|419|516|545|602|654
+petro|total|29, 13|Petroleum refining and extraction|182|317|371|371|437|467|515|505|468|498|622|693|767|913
+rubber|total|30|Rubber products|NA|156|168|182|223|261|276|289|377|426|469|467|502|586
+stone|total|32|Stone, clay and glass products|60^E|100|117|136|142|159|167|164|183|199|217|233|263|293
+primet|total|33|Primary metals|90|183|232|242|251|257|275|272|277|307|358|443|506|526
+ferrous|primet|331-32, 3398, 3399|Ferrous metals and products|NA|106|139|135|135|136|149|144|146|163|181|215|256|259
+nonferrous|primet|333-36|Nonferrous metals and products|NA|77|93|107|115|121|126|128|130|145|177|228|250|267
+fabmet|total|34|Fabricated metal products|116|153|154|163|183|182|207|242|253|291|313|324|358|389
+mach|total|35|Machinery|543|958|1217|1326|1483|1546|1729|1860|2158|2549|2985|3196|3487|3970
+office|~mach|357|Office, computing, and accounting machines|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|NOT_TABULATED|1456|1733|2103|2220|2402|2758
+elec|total|36, 48|Electrical equipment and communication|1516|2866|3626|3867|4083|4348|4220|4389|4680|4902|5011|5105|5636|5952^U
+radiotv|elec|365|Radio and TV receiving equipment|INC_OTHER_ELEC|INC_OTHER_ELEC|47|45|55|57|70|64|48|49|51|50|52|58
+elcomp_comm|elec|367; 366, 48|Electronic components; communication equipment and communication (combined)|NA|1773|2249|2425|2520|2671|2604|2739|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT
+elcomp|elec|367|Electronic components|COMB|COMB|COMB|COMB|COMB|COMB|COMB|COMB|330|406|489|549|691|761
+comm|elec|366, 48|Communication equipment and communication|COMB|COMB|COMB|COMB|COMB|COMB|COMB|COMB|2583|2613|2424|2385|2511|2798
+othelec|elec|361-64, 369|Other electrical equipment|NA|1093|1330|1397|1508|1620|1546|1586|1719|1834|2047|2121|2382|2345
+mvtrans|total|371; 373-75, 379|Motor vehicles and motor vehicles equipment; other transportation equipment (combined)|688|1090|1344|1354|1499|1566|1591|1768|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT|SPLIT
+mv|total|371|Motor vehicles and motor vehicles equipment|COMB|COMB|COMB|COMB|COMB|COMB|COMB|COMB|1954|2405|2389|2340|2778|3302
+othtrans|total|373-75, 379|Other transportation equipment|COMB|COMB|COMB|COMB|COMB|COMB|COMB|COMB|56|72|87|90|94|117
+aircraft|total|372, 376|Aircraft and missiles|2138|4712|5526|5669|5765|5882|5219|4881|4950|5052|5278|5713|6339|7078
+instr|total|38|Professional and scientific instruments|200|284|468|542|663|742|744|746|838|961|1075|1173|1298|1405
+sciinstr|instr|381-82|Scientific and mechanical measuring instruments|97|70|87|104|118|123|131|133|163|186|221|266|325|375
+optinstr|instr|383-87|Optical, surgical, photographic and other instruments|103|214|381|438|545|619|613|612|675|775|854|907|974|1030
+othmfg|total|21, 27, 31, 39|Other manufacturing industries|NA|54|77|90|101|104^U|128|131|146|158|177|205|217|245
+nonmfg|total|07-12, 14-17, 41-47, 49-67, 737, 739, 807, 891|Nonmanufacturing industries|NA|276|497|559|603|655|705|704|707|715|768|735|845|950

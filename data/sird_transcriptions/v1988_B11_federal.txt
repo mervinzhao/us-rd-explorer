@@ -1,0 +1,39 @@
+# source_item: ns-reports_ns-122in-2-988
+# page: 38-39 (printed 35-36)
+# table_title: Table B-11. Federal funds for industrial R&D performance by industry: selected years (1978-88)
+# measure: federal
+# footnotes: D=data withheld to avoid disclosing operations of individual companies; (1)=until 1984, tobacco products (SIC 21) was included with other manufacturing industries. 1987-SIC basis (electrical equipment = SIC 36; communication equipment = 366; transportation equipment group 37; industrial chemicals 281-82,286).
+key|parent|sic|label|1978|1979|1980|1981|1982|1983|1984|1985|1986|1987|1988
+total||all|Total|11189|12518|14029|16382|18545|20680|23396|27196|28247|31311|32959
+food|total|20, 21|Food, kindred, and tobacco products|D|D|D|D|D|D|D|D|D|2|D
+textiles|total|22, 23|Textiles and apparel|D|D|D|D|D|D|D|D|D|D|D
+lumber|total|24, 25|Lumber, wood products, and furniture|0|0|D|0|0|0|0|0|0|0|D
+paper|total|26|Paper and allied products|D|D|D|D|0|D|D|D|D|D|D
+chem|total|28|Chemicals and allied products|330|346|372|421|407|393|191|230|179|192|195
+indchem|chem|281-82, 286|Industrial chemicals|325|345|341|409|396|386|183|217|178|187|192
+drugs|chem|283|Drugs and medicines|D|D|D|D|D|D|D|D|1|D|3
+othchem|chem|284-85, 287-89|Other chemicals|D|D|D|D|D|D|D|D|0|D|0
+petro|total|13, 29|Petroleum refining and extraction|121|153|151|D|D|D|D|D|D|14|21
+rubber|total|30|Rubber products|D|D|D|D|D|D|D|D|D|D|D
+stone|total|32|Stone, clay, and glass products|D|D|D|D|D|D|D|D|9|10|D
+primet|total|33|Primary metals|63|95|135|176|276|384|D|D|D|19|21
+ferrous|primet|331-32, 3398-99|Ferrous metals and products|43|70|105|D|D|D|D|D|D|D|1
+nonferrous|primet|333-36|Nonferrous metals and products|20|25|30|D|D|D|10|9|8|D|20
+fabmet|total|34|Fabricated metal products|36|41|49|80|60|67|69|49|95|150|142
+mach|total|35|Machinery|382|335|647|694|851|1116|1192|1495|D|D|D
+office|mach|357|Office, computing, and accounting machines|327|256|D|D|D|D|D|D|D|D|D
+othmach|mach|351-56, 358-59|Other machinery, except electrical|55|79|D|D|D|D|D|D|75|46|46
+elec|total|36|Electrical equipment|2766|3309|3744|3920|4241|4523|4741|5161|5213|5452|5551
+radiotv|elec|365|Radio and TV receiving equipment|28|53|210|D|D|D|D|D|0|0|0
+comm|elec|366|Communication equipment|1236|1586|1657|1783|2284|2798|3538|4223|4552|4778|4619
+elcomp|elec|367|Electronic components|D|D|382|361|398|359|477|559|D|657|919
+othelec|elec|361-64, 369|Other electrical equipment|D|D|1495|D|D|D|D|D|D|17|13
+transp|total|37|Transportation equipment|D|D|D|D|D|D|D|D|17708|20784|22215
+mv|transp|371|Motor vehicles and motor vehicles equipment|498|729|655|587|476|564|673|820|D|D|D
+othtrans|transp|373-75, 379|Other transportation equipment|D|D|D|D|D|D|D|D|D|D|D
+aircraft|transp|372, 376|Aircraft and missiles|5713|5840|6628|8528|10265|11396|14094|16582|14984|18519|19815
+instr|total|38|Professional and scientific instruments|330|493|573|637|523|450|391|391|351|273|215
+sciinstr|instr|381-82|Scientific and mechanical measuring instruments|110|203|350|D|D|D|D|D|D|D|D
+optinstr|instr|383-87|Optical, surgical, photographic, and other instruments|220|290|223|D|D|D|D|D|D|D|D
+othmfg|total|27, 31, 39|Other manufacturing industries|0|0|25|D|D|D|D|D|2|D|D
+nonmfg|total|10-11, 14-17, 40-42, 44-51, 53-54, 56, 60, 62-63, 72-73, 78, 806-07, 87|Nonmanufacturing industries|527|681|779|858|1000|1253|1653|2313|2706|3194|3143

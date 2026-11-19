@@ -1,0 +1,34 @@
+# source_item: ERIC_ED106097
+# page: 71-72 (printed 34)
+# table_title: Table B-10. Company funds for research and development, by industry and size of company: 1957-58 and 1963-72
+# measure: company_nonfederal
+# footnotes: 1=see table B-1 footnote 1 (company funds = all funds other than federal); 2=estimated by NSF; 3=not separately available but included in total; 4=SIC 3391 and 3399 in nonferrous 1957-65; 5=included in other electrical equipment group. ILLEGIBLE = scan damage (digits missing or unreadable).
+key|parent|sic|label|1957|1958|1963|1964|1965|1966|1967|1968|1969|1970|1971|1972
+total||all|Total|3396|3630|5360|5792|6445|7216|8020|8869|9867|10283|10643|11347
+food|total|20|Food and kindred products|74|77|NA|143|156|161|181|185|204|232|244|257
+textiles|total|22, 23|Textiles and apparel|14|20|28|NA|NA|NA|NA|NA|NA|NA|59|61
+lumber|total|24, 25|Lumber, wood products, and furniture|14|12|NA|NA|NA|12|12|19|15|48|NA|NA
+paper|total|26|Paper and allied products|35|42|69|77|93|NA|123|NA|NA|NA|NA|NA
+chem|total|28|Chemicals and allied products|616|666|1004|1082|1165|1219|1297|1389|1467|1586|1635|1713
+indchem|chem|281-82|Industrial chemicals|423|443|662|725|761|760|785|812|847|880|858|870
+drugs|chem|283|Drugs and medicines|104|126|207|NA|NA|NA|NA|NA|NA|NA|NA|NA
+othchem|chem|284-89|Other chemicals|89|97|135|NA|NA|NA|NA|NA|NA|NA|NA|NA
+petro|total|29, 13|Petroleum refining and extraction|200|234|296|332|349|353|355|403|457|493|488|458
+rubber|total|30|Rubber products|70|68|111|124|140|149|160|183|190|198|211|231
+stone|total|32|Stone, clay, and glass products|NA|NA|97|105|109|114|134|139|158|155|152|164
+primet|total|33|Primary metals|103|117|174|186|205|224|234|241|247|265|266|252
+ferrous|primet|331-32, 3391, 3399|Ferrous metals and products|63|ILLEGIBLE|105|114|127|136|134|134|135|148|142|135
+nonferrous|primet|333-36, 3392|Nonferrous metals and products|40|39|69|72|78|88|100|108|112|117|124|116
+fabmet|total|34|Fabricated metal products|97|105|129|129|129|137|151|165|174|194|222|230
+mach|total|35|Machinery|397|438|709|769|ILLEGIBLE|931|1004|ILLEGIBLE|1277|1410|1482|1625
+elec|total|36, 48|Electrical equipment and communication|608|632|1017|1099|1217|1426|1571|1760|ILLEGIBLE|2091|2232|2442
+radiotv|elec|365|Radio and TV receiving equipment|INC_OTHER_ELEC|INC_OTHER_ELEC|INC_OTHER_ELEC|INC_OTHER_ELEC|INC_OTHER_ELEC|NA|NA|NA|NA|NA|NA|NA
+elcomp_comm|elec|367; 366, 48|Electronic components; communication equipment and communication|230|251|564|613|697|821|930|1000|1134|1253|1334|1474
+othelec|elec|361-64, 369|Other electrical equipment|378|379|453|486|520|NA|NA|NA|NA|NA|NA|NA
+mvtrans|total|371, 373-75, 379|Motor vehicles and motor vehicle equipment; other transportation equipment|517|560|799|860|905|1000|994|1119|1274|1274|1455|1679
+aircraft|total|372, 19|Aircraft and missiles|299|ILLEGIBLE|452|457|649|802|1138|1232|1355|1213|ILLEGIBLE|945
+instr|total|38|Professional and scientific instruments|140|157|202|236|271|323|353|426|496|541|ILLEGIBLE|636
+sciinstr|instr|381-82|Scientific and mechanical measuring instruments|59|63|53|54|58|65|67|77|77|89|89|99
+optinstr|instr|383-87|Optical, surgical, photographic, and other instruments|81|94|149|182|213|258|286|349|419|452|483|537
+othmfg|total|21, 27, 31, 39|Other manufacturing industries|19|39|52|61|67|NA|88|NA|NA|NA|NA|NA
+nonmfg|total|07-12, 14-17, 41-47, 49-67, 739, 807, 891|Nonmanufacturing industries|NA|55|85|90|116|130|172|172|207|225|252|278

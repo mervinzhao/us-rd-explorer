@@ -1,0 +1,61 @@
+# source_item: ns-reports_ns-122in-2-995-96
+# page: 194-196 (printed 191-193)
+# table_title: Table A-7a. Company and other (except Federal) funds for industrial R&D performance, by industry and by size of company: 1986-96
+# measure: company_nonfederal
+# footnotes: only the 1996 column is transcribed (1986-95 columns in these tables match tables A-3/A-7/A-13 of the 1995 set in this volume, which are used for those years). D=withheld; S=imputation >50%; 1/ beginning 1996 small companies (mfg <50, nonmfg <15 employees) sampled separately and combined into 'Other manufacturing' / 'Other nonmanufacturing', so 1996 values for those rows are not comparable with prior years. ILLEGIBLE federal transportation & utilities 1996 (print reads 13x/18x; total minus company = 186, not used).
+key|parent|sic|label|1996
+total||all|All industries|121015
+mfg|total|20-39|Manufacturing|91845
+food|mfg|20, 21|Food, kindred, and tobacco products|1564
+textiles|mfg|22, 23|Textiles and apparel|414
+lumber|mfg|24, 25|Lumber, wood products, and furniture|634
+paper|mfg|26|Paper and allied products|1534
+chem|mfg|28|Chemicals and allied products|17520
+indchem|chem|281-82, 286|Industrial chemicals|5246
+drugs|chem|283|Drugs and medicines|9769
+othchem|chem|284-85, 287-89|Other chemicals|2505
+petro|mfg|13, 29|Petroleum refining and extraction|1630
+rubber|mfg|30|Rubber products|1269
+stone|mfg|32|Stone, clay, and glass products|463
+primet|mfg|33|Primary metals|637
+ferrous|primet|331-32, 3398-99|Ferrous metals and products|214
+nonferrous|primet|333-36|Nonferrous metals and products|422
+fabmet|mfg|34|Fabricated metal products|1322
+mach|mfg|35|Machinery|13338
+office|mach|357|Office, computing, and accounting machines|8132
+othmach|mach|351-56, 358-59|Other machinery, except electrical|5206
+elec|mfg|36|Electrical equipment|20356
+radiotv|elec|365|Radio and TV receiving equipment|140
+comm|elec|366|Communication equipment|4359
+elcomp|elec|367|Electronic components|12497
+othelec|elec|361-64, 369|Other electrical equipment|3360
+transp|mfg|37|Transportation equipment|20535
+mv|transp|371|Motor vehicles and motor vehicles equipment|14528
+othtrans|transp|373-75, 379|Other transportation equipment|298
+aircraft|transp|372, 376|Aircraft and missiles|5710
+instr|mfg|38|Professional and scientific instruments|8207
+sciinstr|instr|381-82|Scientific and mechanical measuring instruments|3283
+optinstr|instr|384-87|Optical, surgical, photographic, and other instruments|4924
+othmfg|mfg|27, 31, 39|Other manufacturing industries|2423
+nonmfg|total|nonmanufacturing|Nonmanufacturing (footnote 1)|29170
+transutil|nonmfg|40-42, 44-49|Transportation and utilities|4492
+commun|transutil|48|Communications|3970
+telephone|commun|481|Telephone communications|3897
+othcommun|commun|482-484, 489|Other communications|73
+elecgas|transutil|49|Electric, gas, and sanitary services|311
+othtransutil|transutil|40-42, 44-47|Other transportation and utilities|211
+trade|nonmfg|50-59|Trade|6338
+fire|nonmfg|60-65, 67|Finance, insurance, and real estate|1280
+services|nonmfg|701, 72, 73, 75-81, 83, 84, 87, 89|Services|15904
+bizserv|services|73|Business services|10280
+compserv|bizserv|737|Computer and data processing services|10025
+othbizserv|bizserv|731-736, 738|Other business services|255
+health|services|80|Health services|735^S
+medoffices|health|801, 806, 807|Offices and clinics of medical doctors, hospitals, medical and dental labs|713^S
+othhealth|health|802-805, 808-809|Other health services|23
+engmgmt|services|87|Engineering and management services|4572
+engarch|engmgmt|871|Engineering, architectural, and surveying|667
+rdtest|engmgmt|873|Research, development, and testing|3776
+othengmgmt|engmgmt|872, 874|Other engineering and management services|129
+othserv|services|701, 72, 75-79, 81, 83, 84, 89|Other services|317
+othnonmfg|nonmfg|07-12, 14, 15, 161-162, 17|Other nonmanufacturing industries|1156

@@ -1,0 +1,61 @@
+# source_item: ns-reports_ns-122in-2-995-96
+# page: 37-39 (printed 34-36)
+# table_title: Table A-7. Company and other (except Federal) funds for industrial R&D performance, by industry and by size of company: 1985-95
+# measure: company_nonfederal
+# footnotes: D=withheld to avoid disclosing operations of individual companies; S=imputation >50% (for years prior to 1993 data were withheld); NA=not available. 1/ until 1995 data were not broken down below this level for most nonmanufacturing industries. NOTE: company-funded R&D includes funds from all sources except the Federal Government; new sample design, 1988-91 revised; 1991+ not directly comparable with 1990 and earlier. Row 873 (Research, development, and testing) prints stray numbers 876/877/878 in 1985-94 cells (print artifact; treated as not available).
+key|parent|sic|label|1985|1986|1987|1988|1989|1990|1991|1992|1993|1994|1995
+total||all|All industries|57043|59932|61403|66672|73501|81602|90580|94388|94591|97131|108652
+mfg|total|20-39|Manufacturing|52642|55192|56259|59415|63199|65251|67639|71025|69901|73375|81236
+food|mfg|20, 21|Food, kindred, and tobacco products|1136|1280|1204|1173|1244|1248|1277|1386|1345|1476|1566
+textiles|mfg|22, 23|Textiles and apparel|218|246|243|215|S|260|236|261|286|316|381
+lumber|mfg|24, 25|Lumber, wood products, and furniture|147|144|137|165|192|216|200|234|196|201|229
+paper|mfg|26|Paper and allied products|576|538|604|752|879|1059|1174|1182|1191|1263|1404
+chem|mfg|28|Chemicals and allied products|8310|8664|9445|10828|11943|13168|14439|15091|16658|16559|17337
+indchem|chem|281-82, 286|Industrial chemicals|3281|3374|3531|3939|4340|4902|5225|4911|5165|4780|5139
+drugs|chem|283|Drugs and medicines|3481|3657|4095|4900|5512|5917|6947|7934|9132|9625|10202
+othchem|chem|284-85, 287-89|Other chemicals|1548|1633|1819|1989|2091|2349|2267|2246|2361|2154|1996
+petro|mfg|13, 29|Petroleum refining and extraction|2194|1971|1883|1975|2162|2289|2487|2268|2138|1939|1754
+rubber|mfg|30|Rubber products|659|655|596|718|867|1056|D|1256|1059|1432|1210
+stone|mfg|32|Stone, clay, and glass products|825|941|985|697|615|538|455|479|529|553|441
+primet|mfg|33|Primary metals|730|786|711|620|666|717|706|514|646|672|580
+ferrous|primet|331-32, 3398-99|Ferrous metals and products|323|336|249|252|244|231|225|221|272|241|217
+nonferrous|primet|333-36|Nonferrous metals and products|407|450|462|368|422|486|481|293|374|431|363
+fabmet|mfg|34|Fabricated metal products|780|800|633|718|726|736|748|723|936|868|937
+mach|mfg|35|Machinery|10721|10701|10577|11929|13342|13575|13720|13903|8295|8011|9676
+office|mach|357|Office, computing, and accounting machines|8418|8380|8193|9347|10725|10988|10419|10614|4917|4078|4699
+othmach|mach|351-56, 358-59|Other machinery, except electrical|2303|2321|2384|2582|2618|2587|3301|3289|3378|3933|4976
+elec|mfg|36|Electrical equipment|9271|9767|10449|9975|9575|9267|8865|9516|11682|13537|17060
+radiotv|elec|365|Radio and TV receiving equipment|350|133|139|149|96|114|D|93|87|64|114
+comm|elec|366|Communication equipment|5174|5117|5455|4798|4159|3584|S|3381|3954|4939|3845
+elcomp|elec|367|Electronic components|2826|3357|3630|3684|3655|3496|3177|3320|5105|5870|9628
+othelec|elec|361-64, 369|Other electrical equipment|921|1160|1225|1345|1664|2073|D|2722|2537|2664|3473
+transp|mfg|37|Transportation equipment|12092|13567|13462|13910|14596|14264|14858|16292|16640|17695|19311
+mv|transp|371|Motor vehicles and motor vehicles equipment|6164|7171|7167|7783|8756|8594|9063|9132|10659|11950|13590
+othtrans|transp|373-75, 379|Other transportation equipment|279|330|356|361|337|283|262|289|297|279|232
+aircraft|transp|372, 376|Aircraft and missiles|5649|6066|5939|5766|5503|5387|5533|6871|5684|5466|5489
+instr|mfg|38|Professional and scientific instruments|4622|4752|4950|5339|5729|6318|6840|7321|7542|8058|8516
+sciinstr|instr|381-82|Scientific and mechanical measuring instruments|1596|1521|1598|1863|2205|2696|3017|3013|3196|3687|3787
+optinstr|instr|384-87|Optical, surgical, photographic, and other instruments|3026|3231|3352|3476|3524|3621|3823|4308|4346|4371|4729
+othmfg|mfg|27, 31, 39|Other manufacturing industries|361|380|380|401|438|541|D|599|758|796|835
+nonmfg|total|nonmanufacturing|Nonmanufacturing (footnote 1)|4401|4740|5144|7257|10302|16351|22941|23363|24690|23756|27415
+transutil|nonmfg|40-42, 44-49|Transportation and utilities|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|5183
+commun|transutil|48|Communications|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|4756
+telephone|commun|481|Telephone communications|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|4697
+othcommun|commun|482-484, 489|Other communications|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|59
+elecgas|transutil|49|Electric, gas, and sanitary services|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|347
+othtransutil|transutil|40-42, 44-47|Other transportation and utilities|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|80
+trade|nonmfg|50-59|Trade|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|7514
+fire|nonmfg|60-65, 67|Finance, insurance, and real estate|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|710
+services|nonmfg|701, 72, 73, 75-81, 83, 84, 87, 89|Services|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|13606
+bizserv|services|73|Business services|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|8681
+compserv|bizserv|737|Computer and data processing services|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|8545
+othbizserv|bizserv|731-736, 738|Other business services|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|136
+health|services|80|Health services|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|753
+medoffices|health|801, 806, 807|Offices and clinics of medical doctors, hospitals, medical and dental labs|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|737
+othhealth|health|802-805, 808-809|Other health services|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|16
+engmgmt|services|87|Engineering and management services|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|4011
+engarch|engmgmt|871|Engineering, architectural, and surveying|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|1050
+rdtest|engmgmt|873|Research, development, and testing|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
+othengmgmt|engmgmt|872, 874|Other engineering and management services|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|132
+othserv|services|701, 72, 75-79, 81, 83, 84, 89|Other services|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|160
+othnonmfg|nonmfg|07-12, 14, 15, 161-162, 17|Other nonmanufacturing industries|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|402

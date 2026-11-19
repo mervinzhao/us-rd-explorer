@@ -1,0 +1,469 @@
+fiscal_year,series,grp,value
+1973,total,Medical & health,2.7661782975624383
+1974,total,Medical & health,2.814558603883343
+1975,total,Medical & health,2.918643884892086
+1976,total,Medical & health,3.0595840436413226
+1977,total,Medical & health,3.0524749614791986
+1978,total,Medical & health,3.3849743574363433
+1979,total,Medical & health,3.452266747902185
+1980,total,Medical & health,3.614119529603007
+1981,total,Medical & health,3.724440783367366
+1982,total,Medical & health,3.800583479020979
+1983,total,Medical & health,3.849159849424828
+1984,total,Medical & health,4.127334727099275
+1985,total,Medical & health,4.560921575571558
+1986,total,Medical & health,5.044118497945958
+1987,total,Medical & health,5.646015733805096
+1988,total,Medical & health,6.1394051774287375
+1989,total,Medical & health,6.679867051517537
+1990,total,Medical & health,7.00516659921759
+1991,total,Medical & health,7.4154950252813565
+1992,total,Medical & health,7.915779737509369
+1993,total,Medical & health,8.293251705766894
+1994,total,Medical & health,8.600208956134464
+1995,total,Medical & health,9.068084375326789
+1996,total,Medical & health,9.375695381726425
+1997,total,Medical & health,9.962370925872511
+1998,total,Medical & health,10.655890700095553
+1999,total,Medical & health,11.254239790752615
+2000,total,Medical & health,12.357163483354645
+2001,total,Medical & health,13.70481307154384
+2002,total,Medical & health,15.212605442627293
+2003,total,Medical & health,16.594960198423518
+2004,total,Medical & health,17.750854230686546
+2005,total,Medical & health,18.242221295796753
+2006,total,Medical & health,18.800321153297173
+2007,total,Medical & health,19.170593753257133
+2008,total,Medical & health,19.60410507538659
+2009,total,Medical & health,20.585226297484077
+2010,total,Medical & health,21.496881694037842
+2011,total,Medical & health,22.297938369716114
+2012,total,Medical & health,21.817283897623007
+2013,total,Medical & health,21.58206710984489
+2014,total,Medical & health,21.476268655168482
+2015,total,Medical & health,21.88577520654363
+2016,total,Medical & health,22.78834385179153
+2017,total,Medical & health,23.990328
+2018,total,Medical & health,25.196386778895505
+2019,total,Medical & health,26.22170053568509
+2020,total,Medical & health,26.563621439010042
+2021,total,Medical & health,27.096119289201894
+2022,total,Medical & health,27.00504816857731
+2023,total,Medical & health,29.189034234823108
+2024,total,Medical & health,30.704963803935325
+1973,total,Biological & ag,3.7874266375358774
+1974,total,Biological & ag,3.599158871157928
+1975,total,Biological & ag,3.918899280575539
+1976,total,Biological & ag,4.1060995567678145
+1977,total,Biological & ag,4.198443117616847
+1978,total,Biological & ag,4.2268302192364215
+1979,total,Biological & ag,4.395510814478385
+1980,total,Biological & ag,4.559345711310355
+1981,total,Biological & ag,4.849466307777983
+1982,total,Biological & ag,4.970482954545455
+1983,total,Biological & ag,5.201343820319236
+1984,total,Biological & ag,5.435953072036048
+1985,total,Biological & ag,5.826136229488844
+1986,total,Biological & ag,6.3171633011244195
+1987,total,Biological & ag,6.640783679000264
+1988,total,Biological & ag,7.053257707969749
+1989,total,Biological & ag,7.42210443453162
+1990,total,Biological & ag,7.709662080129502
+1991,total,Biological & ag,8.03530908497798
+1992,total,Biological & ag,8.344532508332403
+1993,total,Biological & ag,8.610871732560677
+1994,total,Biological & ag,8.8929259959734
+1995,total,Biological & ag,9.141797756166062
+1996,total,Biological & ag,9.281613461651311
+1997,total,Biological & ag,9.640736948370348
+1998,total,Biological & ag,10.163812946562272
+1999,total,Biological & ag,10.727950275621556
+2000,total,Biological & ag,11.667116318083686
+2001,total,Biological & ag,12.154510489510487
+2002,total,Biological & ag,13.176731775144011
+2003,total,Biological & ag,14.254485955822199
+2004,total,Biological & ag,15.063883303615462
+2005,total,Biological & ag,15.604629947520722
+2006,total,Biological & ag,15.460381577695308
+2007,total,Biological & ag,15.346688438777521
+2008,total,Biological & ag,15.837154738504541
+2009,total,Biological & ag,16.42970662631555
+2010,total,Biological & ag,17.534099428775438
+2011,total,Biological & ag,18.516571747138748
+2012,total,Biological & ag,18.152550303160382
+2013,total,Biological & ag,18.09761316872428
+2014,total,Biological & ag,17.920014312234887
+2015,total,Biological & ag,17.99800752188746
+2016,total,Biological & ag,18.853004885993485
+2017,total,Biological & ag,19.159746000000002
+2018,total,Biological & ag,19.441807197114116
+2019,total,Biological & ag,20.20845266832726
+2020,total,Biological & ag,20.564602668488682
+2021,total,Biological & ag,20.464098887335957
+2022,total,Biological & ag,20.89509841302119
+2023,total,Biological & ag,21.672918539096333
+2024,total,Biological & ag,22.615532417004175
+1973,total,Physical sciences,1.40625455168573
+1974,total,Physical sciences,1.3107420800251555
+1975,total,Physical sciences,1.2599928057553955
+1976,total,Physical sciences,1.2934844868735085
+1977,total,Physical sciences,1.3593252439650743
+1978,total,Physical sciences,1.4887652580751582
+1979,total,Physical sciences,1.6673876318923258
+1980,total,Physical sciences,1.720553199055142
+1981,total,Physical sciences,1.7774944310376832
+1982,total,Physical sciences,1.8008850524475524
+1983,total,Physical sciences,1.8943260919854472
+1984,total,Physical sciences,2.0315180546816327
+1985,total,Physical sciences,2.259503010270334
+1986,total,Physical sciences,2.481696850469633
+1987,total,Physical sciences,2.6315033688410434
+1988,total,Physical sciences,2.8252236038394414
+1989,total,Physical sciences,2.8820711974110034
+1990,total,Physical sciences,3.0478365708889785
+1991,total,Physical sciences,3.162893492089382
+1992,total,Physical sciences,3.277421978407514
+1993,total,Physical sciences,3.3187104713836186
+1994,total,Physical sciences,3.3223598316149103
+1995,total,Physical sciences,3.3715487234646466
+1996,total,Physical sciences,3.313696379320462
+1997,total,Physical sciences,3.4208148254975486
+1998,total,Physical sciences,3.5428214891826753
+1999,total,Physical sciences,3.6652351220609747
+2000,total,Physical sciences,3.730711054274438
+2001,total,Physical sciences,3.7708472296933837
+2002,total,Physical sciences,3.993456929086937
+2003,total,Physical sciences,4.25325879465503
+2004,total,Physical sciences,4.4853952476699925
+2005,total,Physical sciences,4.5401723968806715
+2006,total,Physical sciences,4.53631411171377
+2007,total,Physical sciences,4.4740170702613815
+2008,total,Physical sciences,4.467332098667242
+2009,total,Physical sciences,4.836256154297845
+2010,total,Physical sciences,5.156386112102821
+2011,total,Physical sciences,5.212903225806452
+2012,total,Physical sciences,5.073185598540538
+2013,total,Physical sciences,4.921819141078401
+2014,total,Physical sciences,4.804927349851173
+2015,total,Physical sciences,4.798705248879937
+2016,total,Physical sciences,4.984212133550488
+2017,total,Physical sciences,5.068371
+2018,total,Physical sciences,5.133241438640741
+2019,total,Physical sciences,5.357083641889228
+2020,total,Physical sciences,5.4003349845318755
+2021,total,Physical sciences,5.224153703737316
+2022,total,Physical sciences,5.243827050659617
+2023,total,Physical sciences,5.693335239807174
+2024,total,Physical sciences,5.962543451223012
+1973,total,Engineering,1.427104485284668
+1974,total,Engineering,1.3635130885936642
+1975,total,Engineering,1.370187050359712
+1976,total,Engineering,1.4719638595294922
+1977,total,Engineering,1.600131612737545
+1978,total,Engineering,1.8026632276639774
+1979,total,Engineering,2.147796948129275
+1980,total,Engineering,2.1892408117650044
+1981,total,Engineering,2.2438045294226843
+1982,total,Engineering,2.246542832167832
+1983,total,Engineering,2.360341528043574
+1984,total,Engineering,2.500511498569022
+1985,total,Engineering,2.7896627710227047
+1986,total,Engineering,3.164437115469922
+1987,total,Engineering,3.5603191929837767
+1988,total,Engineering,3.8105166521233276
+1989,total,Engineering,4.185491122190151
+1990,total,Engineering,4.480060366922974
+1991,total,Engineering,4.741777850269124
+1992,total,Engineering,4.883757794185657
+1993,total,Engineering,4.915937626569462
+1994,total,Engineering,5.118439997559636
+1995,total,Engineering,5.252514976321725
+1996,total,Engineering,5.439893492165952
+1997,total,Engineering,5.537636284972598
+1998,total,Engineering,5.805185470414581
+1999,total,Engineering,5.994591630104624
+2000,total,Engineering,6.266152386452704
+2001,total,Engineering,6.749008875739645
+2002,total,Engineering,7.31225451896974
+2003,total,Engineering,7.783628761021725
+2004,total,Engineering,7.98515497553018
+2005,total,Engineering,8.26839594879592
+2006,total,Engineering,8.43929607955086
+2007,total,Engineering,8.705673487822674
+2008,total,Engineering,9.041282537806916
+2009,total,Engineering,9.766164912597677
+2010,total,Engineering,10.404455997857907
+2011,total,Engineering,10.9668565057225
+2012,total,Engineering,11.046627676128134
+2013,total,Engineering,11.336002954521474
+2014,total,Engineering,11.390757200194978
+2015,total,Engineering,11.37931686464713
+2016,total,Engineering,11.584112377850161
+2017,total,Engineering,11.922115999999999
+2018,total,Engineering,12.098937345416509
+2019,total,Engineering,12.718023831735254
+2020,total,Engineering,13.009245762872707
+2021,total,Engineering,12.979955711251883
+2022,total,Engineering,13.27743321217051
+2023,total,Engineering,14.285494729961599
+2024,total,Engineering,15.371330962783428
+1973,total,"Earth, atmos & ocean",0.8969926744634366
+1974,total,"Earth, atmos & ocean",0.9239525194560176
+1975,total,"Earth, atmos & ocean",0.9174820143884892
+1976,total,"Earth, atmos & ocean",0.9837401977497442
+1977,total,"Earth, atmos & ocean",1.025288906009245
+1978,total,"Earth, atmos & ocean",1.1378430255225984
+1979,total,"Earth, atmos & ocean",1.2540502367830733
+1980,total,"Earth, atmos & ocean",1.2904295039496076
+1981,total,"Earth, atmos & ocean",1.276037219231483
+1982,total,"Earth, atmos & ocean",1.2194580419580419
+1983,total,"Earth, atmos & ocean",1.29741330361086
+1984,total,"Earth, atmos & ocean",1.3096230742687804
+1985,total,"Earth, atmos & ocean",1.387596899224806
+1986,total,"Earth, atmos & ocean",1.4965090937144399
+1987,total,"Earth, atmos & ocean",1.5787254865058153
+1988,total,"Earth, atmos & ocean",1.6247945753344968
+1989,total,"Earth, atmos & ocean",1.7570628881308492
+1990,total,"Earth, atmos & ocean",1.8028733306353704
+1991,total,"Earth, atmos & ocean",1.8249877670853043
+1992,total,"Earth, atmos & ocean",1.980558789289872
+1993,total,"Earth, atmos & ocean",2.0545720783873884
+1994,total,"Earth, atmos & ocean",2.131102434262705
+1995,total,"Earth, atmos & ocean",2.142613424162297
+1996,total,"Earth, atmos & ocean",2.1850463587817615
+1997,total,"Earth, atmos & ocean",2.2111609460628783
+1998,total,"Earth, atmos & ocean",2.3172849013819365
+1999,total,"Earth, atmos & ocean",2.3795674429069638
+2000,total,"Earth, atmos & ocean",2.428037897226462
+2001,total,"Earth, atmos & ocean",2.4593518020441096
+2002,total,"Earth, atmos & ocean",2.6713580083427133
+2003,total,"Earth, atmos & ocean",2.849169556014388
+2004,total,"Earth, atmos & ocean",2.976065101103987
+2005,total,"Earth, atmos & ocean",3.1321644023738293
+2006,total,"Earth, atmos & ocean",3.093892140070416
+2007,total,"Earth, atmos & ocean",3.1053897555269896
+2008,total,"Earth, atmos & ocean",3.179927965186961
+2009,total,"Earth, atmos & ocean",3.301192465784362
+2010,total,"Earth, atmos & ocean",3.3378045787218853
+2011,total,"Earth, atmos & ocean",3.4468075338048343
+2012,total,"Earth, atmos & ocean",3.4165724097225945
+2013,total,"Earth, atmos & ocean",3.3818560725968134
+2014,total,"Earth, atmos & ocean",3.3570747036433968
+2015,total,"Earth, atmos & ocean",3.346101360516256
+2016,total,"Earth, atmos & ocean",3.1457624185667754
+2017,total,"Earth, atmos & ocean",3.1573
+2018,total,"Earth, atmos & ocean",3.098941255828959
+2019,total,"Earth, atmos & ocean",3.074139008838323
+2020,total,"Earth, atmos & ocean",3.120755755470782
+2021,total,"Earth, atmos & ocean",2.9987375891674075
+2022,total,"Earth, atmos & ocean",3.1043677927183686
+2023,total,"Earth, atmos & ocean",3.304350845657325
+2024,total,"Earth, atmos & ocean",3.519142456229869
+1973,total,Computing,0.15275243113567238
+1974,total,Computing,0.1540837984435186
+1975,total,Computing,0.16400359712230214
+1976,total,Computing,0.15173201500170475
+1977,total,Computing,0.17836093990755006
+1978,total,Computing,0.20220735986563895
+1979,total,Computing,0.2705668946799966
+1980,total,Computing,0.3155520560818877
+1981,total,Computing,0.3338732132912567
+1982,total,Computing,0.3577185314685315
+1983,total,Computing,0.39172467455994614
+1984,total,Computing,0.45492723323928796
+1985,total,Computing,0.5523806713099594
+1986,total,Computing,0.6197091554321202
+1987,total,Computing,0.7008845560281552
+1988,total,Computing,0.7420720622454915
+1989,total,Computing,0.8268573427796729
+1990,total,Computing,0.8679279643868878
+1991,total,Computing,0.9043043549176316
+1992,total,Computing,0.8856571036726362
+1993,total,Computing,0.9466305262174035
+1994,total,Computing,0.9853974742236594
+1995,total,Computing,1.0192548439624134
+1996,total,Computing,1.0124229798720732
+1997,total,Computing,1.0233458321315259
+1998,total,Computing,1.0649438811163878
+1999,total,Computing,1.2109883001462483
+2000,total,Computing,1.2052679344911514
+2001,total,Computing,1.2835664335664334
+2002,total,Computing,1.487918956498709
+2003,total,Computing,1.6926331372472634
+2004,total,Computing,1.7754302768187968
+2005,total,Computing,1.7216452498896464
+2006,total,Computing,1.7164513750118946
+2007,total,Computing,1.6568344740529712
+2008,total,Computing,1.6718598388874373
+2009,total,Computing,1.8072711052893085
+2010,total,Computing,1.8275247679400215
+2011,total,Computing,1.9047518063860254
+2012,total,Computing,1.9629232172559963
+2013,total,Computing,2.1871678801308434
+2014,total,Computing,2.0080013689963803
+2015,total,Computing,2.019474700974146
+2016,total,Computing,2.121100366449511
+2017,total,Computing,2.198389
+2018,total,Computing,2.3500024440077816
+2019,total,Computing,2.541354504274902
+2020,total,Computing,2.781182979369508
+2021,total,Computing,2.686300437442143
+2022,total,Computing,2.718407429060438
+2023,total,Computing,2.9596748100334995
+2024,total,Computing,3.1602122333131355
+1973,total,Math & statistics,0.15886561281754702
+1974,total,Math & statistics,0.14742158635327413
+1975,total,Math & statistics,0.1428525179856115
+1976,total,Math & statistics,0.14487214456188202
+1977,total,Math & statistics,0.16792501284026706
+1978,total,Math & statistics,0.17621689709984106
+1979,total,Math & statistics,0.2155196765349359
+1980,total,Math & statistics,0.19839983744380382
+1981,total,Math & statistics,0.20213476888806384
+1982,total,Math & statistics,0.21070585664335664
+1983,total,Math & statistics,0.22377657672814452
+1984,total,Math & statistics,0.24996244950981386
+1985,total,Math & statistics,0.2513083854720025
+1986,total,Math & statistics,0.2923122914617447
+1987,total,Math & statistics,0.33358301652425937
+1988,total,Math & statistics,0.361516506689936
+1989,total,Math & statistics,0.37547100498556807
+1990,total,Math & statistics,0.37392418723863485
+1991,total,Math & statistics,0.3754346762355244
+1992,total,Math & statistics,0.3950420208270209
+1993,total,Math & statistics,0.4241050565473409
+1994,total,Math & statistics,0.4301842474528705
+1995,total,Math & statistics,0.4167256756151122
+1996,total,Math & statistics,0.4233466345871721
+1997,total,Math & statistics,0.4179434669743294
+1998,total,Math & statistics,0.44311812775424636
+1999,total,Math & statistics,0.4410704241196985
+2000,total,Math & statistics,0.4697344719002241
+2001,total,Math & statistics,0.48379774072081766
+2002,total,Math & statistics,0.5139243858835992
+2003,total,Math & statistics,0.5556092303297103
+2004,total,Math & statistics,0.5671257129127306
+2005,total,Math & statistics,0.6060645446073863
+2006,total,Math & statistics,0.6337805690360643
+2007,total,Math & statistics,0.6636672109694379
+2008,total,Math & statistics,0.7042755047549795
+2009,total,Math & statistics,0.6175922580062334
+2010,total,Math & statistics,0.660701535166012
+2011,total,Math & statistics,0.7001136848088674
+2012,total,Math & statistics,0.727314481944519
+2013,total,Math & statistics,0.7115912208504802
+2014,total,Math & statistics,0.6861658767280986
+2015,total,Math & statistics,0.663428418759505
+2016,total,Math & statistics,0.695510993485342
+2017,total,Math & statistics,0.7039179999999999
+2018,total,Math & statistics,0.7380140970368849
+2019,total,Math & statistics,0.7444214697198472
+2020,total,Math & statistics,0.762659188824992
+2021,total,Math & statistics,0.704547764688799
+2022,total,Math & statistics,0.7478821924540133
+2023,total,Math & statistics,0.87023939864368
+2024,total,Math & statistics,0.9320789616353604
+1973,total,Social & behavioral,1.3059889474360622
+1974,total,Social & behavioral,1.2375324266960146
+1975,total,Social & behavioral,1.210226618705036
+1976,total,Social & behavioral,1.159730651210365
+1977,total,Social & behavioral,1.133859784283513
+1978,total,Social & behavioral,1.1011636625378638
+1979,total,Social & behavioral,1.088180232075106
+1980,total,Social & behavioral,1.1401615402199587
+1981,total,Social & behavioral,1.1445238537219231
+1982,total,Social & behavioral,1.057770979020979
+1983,total,Social & behavioral,1.0109209059746378
+1984,total,Social & behavioral,1.023149369760692
+1985,total,Social & behavioral,1.065322866249557
+1986,total,Social & behavioral,1.220210611583637
+1987,total,Social & behavioral,1.297843188918583
+1988,total,Social & behavioral,1.3911703752181501
+1989,total,Social & behavioral,1.5163229248666141
+1990,total,Social & behavioral,1.6117462565762848
+1991,total,Social & behavioral,1.684925786984179
+1992,total,Social & behavioral,1.824022836365956
+1993,total,Social & behavioral,1.9409913699099606
+1994,total,Social & behavioral,2.002367152705753
+1995,total,Social & behavioral,2.076832638671029
+1996,total,Social & behavioral,2.169658470747022
+1997,total,Social & behavioral,2.1954802422843955
+1998,total,Social & behavioral,2.248353513313082
+1999,total,Social & behavioral,2.4145910676116547
+2000,total,Social & behavioral,2.4976733633100943
+2001,total,Social & behavioral,2.7231159225389994
+2002,total,Social & behavioral,3.0030484009799374
+2003,total,Social & behavioral,3.172566130351786
+2004,total,Social & behavioral,3.1074851094502827
+2005,total,Social & behavioral,3.0771727402030504
+2006,total,Social & behavioral,3.070753639737368
+2007,total,Social & behavioral,3.098660088709771
+2008,total,Social & behavioral,3.2663470169179556
+2009,total,Social & behavioral,3.4478431726816927
+2010,total,Social & behavioral,3.4335917975722956
+2011,total,Social & behavioral,3.522247242596823
+2012,total,Social & behavioral,3.485994527016151
+2013,total,Social & behavioral,3.494795821462488
+2014,total,Social & behavioral,3.492276578753591
+2015,total,Social & behavioral,3.613998725800485
+2016,total,Social & behavioral,3.6613843648208464
+2017,total,Social & behavioral,3.813068
+2018,total,Social & behavioral,3.9081219266602147
+2019,total,Social & behavioral,3.9907635195568343
+2020,total,Social & behavioral,4.118114786767636
+2021,total,Social & behavioral,3.78501896792696
+2022,total,Social & behavioral,3.9199291663489326
+2023,total,Social & behavioral,4.316145926954817
+2024,total,Social & behavioral,4.512737985138885
+1973,total,Other,0.45313798569164204
+1974,total,Other,0.3295574247307602
+1975,total,Other,0.35919064748201435
+1976,total,Other,0.34276167746334807
+1977,total,Other,0.3393810991268618
+1978,total,Other,0.3493326935188795
+1979,total,Other,0.36957268271068155
+1980,total,Other,0.37132661095730357
+1981,total,Other,0.33585715611657696
+1982,total,Other,0.34051354895104896
+1983,total,Other,0.34639860360455094
+1984,total,Other,0.36434327237298797
+1985,total,Other,0.3665919017825522
+1986,total,Other,0.4397963316553839
+1987,total,Other,0.4821169119584447
+1988,total,Other,0.5264252472367655
+1989,total,Other,0.5582436805737777
+1990,total,Other,0.568615944961554
+1991,total,Other,0.5441151525036698
+1992,total,Other,0.5068923724624045
+1993,total,Other,0.5790385394273608
+1994,total,Other,0.6000747361356842
+1995,total,Other,0.6438384200540791
+1996,total,Other,0.6216375212722258
+1997,total,Other,0.7506432073839053
+1998,total,Other,0.6490722913903507
+1999,total,Other,0.644892563842952
+2000,total,Other,0.7462769687719152
+2001,total,Other,0.7813972565895642
+2002,total,Other,0.8080275441965172
+2003,total,Other,2.696479540820964
+2004,total,Other,2.991462751495378
+2005,total,Other,3.092884643680416
+2006,total,Other,3.2997906556285086
+2007,total,Other,3.5244102421568284
+2008,total,Other,3.711530114869394
+2009,total,Other,3.900484439224897
+2010,total,Other,4.524368529096751
+2011,total,Other,4.784760769995955
+2012,total,Other,5.008712775661319
+2013,total,Other,5.1008198797087685
+2014,total,Other,4.677671876458448
+2015,total,Other,4.854265485634428
+2016,total,Other,5.335382736156352
+2017,total,Other,5.281132
+2018,total,Other,5.438631942204104
+2019,total,Other,5.589956625857145
+2020,total,Other,5.715117956309666
+2021,total,Other,5.601452090102191
+2022,total,Other,5.990465417757556
+2023,total,Other,6.652625214478306
+2024,total,Other,7.074989635488088
