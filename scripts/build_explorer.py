@@ -27,7 +27,7 @@ DOMAINS = [
 FUND = ["federal", "business", "higher_education", "nonprofit", "nonfederal_government"]
 out = {"years": [int(y) for y in years], "deflator": [round(float(defl[y]), 5) for y in years],
        "domains": [dict(key=k, label=l, color=col, desc=d) for k, l, col, d in DOMAINS],
-       "business_est": [[1953, 1956], [1997, 2007]], "cube": {}}
+       "business_est": [[1953, 1955], [1999, 2003]], "cube": {}}
 for ch in ["basic", "applied", "development"]:
     out["cube"][ch] = {}
     for f in FUND:

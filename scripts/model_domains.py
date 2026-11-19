@@ -258,18 +258,22 @@ for ch in CH:
         v = v.clip(lower=0)
         bus[ch].loc[y] = v / v.sum()
 
-# before 2008: SIC-basis industry series 1957-96 (company funds), interpolated 1997-2007, held 1953-56
+# before 2008: SIC-basis industry series 1956-98, NAICS SIRD 2004-07 (company funds), 1999-2003 interpolated,
+# 1953-55 held. NAICS 3345 (instruments) is split with its 2016-18 BERD children: electromedical -> health,
+# guidance and navigation -> defense, the rest -> hardware.
 from business_sic_domains import business_pre2008
-pooled2008 = dom_tot.loc[2008].clip(lower=0)
-pre, bus_pre_flag = business_pre2008(pooled2008 / pooled2008.sum())
-# 1997-2007: health follows the PhRMA-based series instead of a straight line; other domains rescale
+k3345 = (RAW[(RAW.measure == "total") & RAW.industry_code_native.isin(["3345", "334510, 334517", "334511"]) & RAW.year.between(2016, 2018)]
+         .pivot_table(index="year", columns="industry_code_native", values="value_usd_millions_nominal").mean())
+s_he, s_de = k3345["334510, 334517"] / k3345["3345"], k3345["334511"] / k3345["3345"]
+pre, bus_pre_flag = business_pre2008({"health": s_he, "defense": s_de, "hardware": 1 - s_he - s_de})
+# 1999-2003: health follows the PhRMA-based series (bridged between the 1998 and 2004 levels); others rescale
 ex = pd.read_csv(DATA / "exbio_model.csv")
 exb = ex[ex.source == "business"].groupby("year")[["bio", "total"]].sum()
 ph = exb.bio / exb.total
-r96 = pre.loc[1996, "health"] / ph[1996]  # bridge the SIC-basis level in 1996 to the BERD level in 2008
-for y in range(1997, 2008):
-    w = (y - 1996) / 12
-    ph[y] = ph[y] * (r96 + (1 - r96) * w)
+r0, r1 = pre.loc[1998, "health"] / ph[1998], pre.loc[2004, "health"] / ph[2004]
+for y in range(1999, 2004):
+    w = (y - 1998) / 6
+    ph[y] = ph[y] * (r0 + (r1 - r0) * w)
     others = pre.loc[y].drop("health")
     pre.loc[y, "health"] = ph[y]
     pre.loc[y, others.index] = others / others.sum() * (1 - ph[y])

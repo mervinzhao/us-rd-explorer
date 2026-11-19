@@ -25,13 +25,14 @@ By discipline covers research only (basic and applied), from 1970, grouped by fi
 | University R&D by field and funder | FY1972-2024 | HERD and its predecessor survey, institution microdata |
 | Business R&D by industry (NAICS) | 1999-2004, 2008-2024 | NCSES SIRD, BRDIS and BERD data tables |
 | Business R&D by industry (SIC) | 1956-1996 | NSF *Research and Development in Industry* volumes, transcribed by hand from scans on archive.org |
+| Business R&D by industry (SIC 1953-98, NAICS 2002-07) | 1953-2007 | NSF IRIS historical tables, read from a public GitHub mirror of the archived IRIS files (`jivizcaino/nsf-iris-archive`), checked cell by cell against NSF 96-304 (1983-92) and Science & Engineering Indicators 2008 (2005) |
 | Pharmaceutical R&D | 1970-2024 | PhRMA member companies' domestic R&D (Industry Profile and Membership Survey) |
 
 Constant dollars use the GDP deflator that National Patterns publishes (2017 = 1).
 
 ## Where the estimates are weakest
 
-- Business before 2008. 1957-96 comes from the SIC industry tables, whose lines are coarser than today's (instruments, for example, are split by assumption between defense, hardware, health and industrial). 1997-2007 is a straight line between the 1996 and 2008 splits, except health, which follows the PhRMA series. 1953-56 holds the 1957 split. The page marks these years with a hatched strip.
+- Business before 2008. 1956-98 comes from the SIC industry tables, whose lines are coarser than today's (instruments, for example, are split by assumption between defense, hardware, health and industrial), and 2004-07 from the NAICS tables. 1999-2003 is a straight line between the 1998 and 2004 splits, except health, which follows the PhRMA series, and 1953-55 holds the 1956 split. The page marks these years with a hatched strip. There are also level breaks at the SIC to NAICS switch (1999) and the BRDIS redesign (2008), which the share charts show as small steps.
 - The type-of-work mix inside each business domain is reported only from 2015 and is held at its 2015-17 level before that.
 - Federal agency missions hide content (DARPA's computing work counts as defense), and the federal field data have their own breaks (NIH moved to estimated field codes in FY2004, and the field taxonomy changed in FY2021).
 - University, state and nonprofit funders get one split for basic, applied and development alike, since HERD does not cross field with type of work.
