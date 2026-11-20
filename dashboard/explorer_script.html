@@ -23,6 +23,11 @@ const NONFED = { key: "nonfederal", label: "Nonfederal", color: "var(--s-non)" }
 const fmt = (v) => v >= 100 ? v.toFixed(0) : v >= 10 ? v.toFixed(1) : v.toFixed(2);
 const fmtTick = (v) => Number.isInteger(v) ? String(v) : v.toFixed(1);
 const pct = (v) => (v * 100).toFixed(0) + "%";
+// units: "real" ($B constant 2017), "nominal" ($B), "gdp" (% of that year's GDP). vM is nominal $ millions.
+const UNIT_LABEL = { real: "$ billions (constant 2017)", nominal: "$ billions (nominal)", gdp: "% of GDP" };
+function conv(vM, i, unit, defl, gdp) { return unit === "gdp" ? vM / (gdp[i] * 1000) * 100 : vM / (unit === "real" ? defl[i] : 1) / 1000; }
+function valFmt(v, unit) { return unit === "gdp" ? (v >= 0.1 ? v.toFixed(2) : v.toFixed(3)) + "%" : "$" + fmt(v) + "B"; }
+function cellFmt(v, unit) { return unit === "gdp" ? (v < 0.0005 ? "–" : v.toFixed(v >= 0.1 ? 2 : 3)) : (v < 0.05 ? "–" : fmt(v)); }
 function stepFor(v) {
   const raw = (v || 1) / 4, p = Math.pow(10, Math.floor(Math.log10(raw)));
   for (const m of [1, 2, 2.5, 5, 10]) if (m * p >= raw) return m * p;
@@ -114,14 +119,14 @@ function StackChartInner({ years, L: L0, out, mode, real, title, hover, setHover
       h("div", { className: "yr" }, years[hi], years[hi] === 2023 ? " (preliminary)" : years[hi] === 2024 ? " (estimate)" : ""),
       ...L.slice().reverse().filter((l) => out[l.key][hi] > 0.0005).map((l) => h("div", { className: "ln", key: l.key },
         swatch(l.color, isHatch(l.key)), h("span", null, l.label),
-        h("b", null, mode === "share" ? pct(totals[hi] ? out[l.key][hi] / totals[hi] : 0) : "$" + fmt(out[l.key][hi]) + "B"))),
+        h("b", null, mode === "share" ? pct(totals[hi] ? out[l.key][hi] / totals[hi] : 0) : valFmt(out[l.key][hi], real)))),
       h("div", { className: "ln", style: { marginTop: 4, borderTop: "1px solid var(--rule)", paddingTop: 4 } },
-        h("span"), h("span", null, "Total shown"), h("b", null, "$" + fmt(totals[hi]) + "B")),
-      ghost ? h("div", { className: "ln" }, h("span"), h("span", { className: "e" }, "All included"), h("b", { className: "e" }, "$" + fmt(ghost[hi]) + "B")) : null);
+        h("span"), h("span", null, "Total shown"), h("b", null, mode === "share" ? "100%" : valFmt(totals[hi], real))),
+      ghost ? h("div", { className: "ln" }, h("span"), h("span", { className: "e" }, "All included"), h("b", { className: "e" }, valFmt(ghost[hi], real))) : null);
   }
   return h("div", { className: "chart" },
     h("div", { className: "cap" }, fig ? h("b", null, "Figure " + fig + ". ") : null,
-      title.charAt(0).toUpperCase() + title.slice(1), mode === "share" ? ", share" : ", $ billions " + (real ? "(constant 2017)" : "(nominal)"), by ? " by " + by : "", "."),
+      title.charAt(0).toUpperCase() + title.slice(1), mode === "share" ? ", share" : ", " + UNIT_LABEL[real], by ? " by " + by : "", "."),
     h("svg", { viewBox: `0 0 ${W} ${H}`, ref, onMouseMove: onMove, onMouseLeave: () => setHover(null), role: "img",
       "aria-label": `${title}, ${mode === "share" ? "shares" : "dollars"}, ${years[0]} to ${years[N - 1]}` },
       h("defs", null, h("pattern", { id: "hatch-" + id, width: 6, height: 6, patternUnits: "userSpaceOnUse", patternTransform: "rotate(45)" },
@@ -129,7 +134,7 @@ function StackChartInner({ years, L: L0, out, mode, real, title, hover, setHover
         h("line", { x1: 0, y1: 0, x2: 0, y2: 6, stroke: "var(--hatch-fg)", strokeWidth: 1.6 }))),
       ticksY.map((t) => h("g", { key: "y" + t },
         h("line", { x1: M.l, x2: W - M.r, y1: ys(t), y2: ys(t), stroke: "var(--grid)" }),
-        h("text", { x: M.l - 6, y: ys(t) + 3.5, textAnchor: "end" }, mode === "share" ? pct(t) : fmtTick(t)))),
+        h("text", { x: M.l - 6, y: ys(t) + 3.5, textAnchor: "end" }, mode === "share" ? pct(t) : real === "gdp" ? t.toFixed(step >= 0.1 ? 1 : step >= 0.01 ? 2 : 3) + "%" : fmtTick(t)))),
       ...paths,
       ...labels,
       ghost && mode === "abs" ? h("path", { d: "M" + ghost.map((v, i) => `${xs(i).toFixed(1)},${ys(v).toFixed(1)}`).join(" L"), fill: "none",
@@ -156,7 +161,7 @@ function StackChart(props) {
 }
 
 // ---------- application tab ----------
-const A = { years: DATA.years, defl: DATA.deflator, cube: DATA.cube, groups: DATA.domains };
+const A = { years: DATA.years, defl: DATA.deflator, gdp: DATA.gdp, cube: DATA.cube, groups: DATA.domains };
 const A_CH = [{ key: "basic", label: "Basic research" }, { key: "applied", label: "Applied research" }, { key: "development", label: "Development" }];
 const A_KEYS = A.groups.map((d) => d.key);
 function aLayers(by, funders, doms) {
@@ -171,7 +176,7 @@ function aSeries(ch, by, funders, doms, real) {
   const N = A.years.length, L = aLayers(by, funders, doms), out = {};
   for (const l of L) out[l.key] = new Array(N).fill(0);
   for (let i = 0; i < N; i++) for (const f of funders) for (const d of doms) {
-    const v = (A.cube[ch][f][d][i] || 0) / (real ? A.defl[i] : 1) / 1000;
+    const v = conv(A.cube[ch][f][d][i] || 0, i, real, A.defl, A.gdp);
     const k = by === "domain" ? d : by === "funder" ? f : (f === "federal" ? "federal" : "nonfederal");
     if (out[k]) out[k][i] += v;
   }
@@ -218,7 +223,7 @@ function Matrix({ funders, doms, real }) {
   const [year, setYear] = useState(A.years[A.years.length - 1]);
   const i = A.years.indexOf(year);
   const groups = A.groups.filter((d) => doms.has(d.key));
-  const val = (ch, d, only) => [...funders].filter((f) => !only || f === only).reduce((a, f) => a + (A.cube[ch][f][d][i] || 0) / (real ? A.defl[i] : 1) / 1000, 0);
+  const val = (ch, d, only) => [...funders].filter((f) => !only || f === only).reduce((a, f) => a + conv(A.cube[ch][f][d][i] || 0, i, real, A.defl, A.gdp), 0);
   const colTot = Object.fromEntries(A_CH.map((c) => [c.key, groups.reduce((a, d) => a + val(c.key, d.key), 0)]));
   const showFed = funders.has("federal") && funders.size > 1;
   return h("section", { className: "panel" },
@@ -226,7 +231,7 @@ function Matrix({ funders, doms, real }) {
       h("div", { className: "yearpick" }, h("label", { htmlFor: "yr" }, "Year"),
         h("input", { id: "yr", type: "range", min: A.years[0], max: A.years[A.years.length - 1], step: 1, value: year, onChange: (e) => setYear(+e.target.value) }),
         h("output", { htmlFor: "yr" }, year))),
-    h("p", null, h("b", null, "Table 1. "), `$ billions (${real ? "constant 2017" : "nominal"}) by domain and type of work, for the funders selected above.`, showFed ? " Small figures show the federal share of each cell." : "", " Shading shows each domain's share of its column.",
+    h("p", null, h("b", null, "Table 1. "), `${UNIT_LABEL[real]} by domain and type of work, for the funders selected above.`, showFed ? " Small figures show the federal share of each cell." : "", " Shading shows each domain's share of its column.",
       funders.has("business") && DATA.business_est.some(([a, b]) => year >= a && year <= b) ? ` The business split for ${year} is estimated (see methods).` : ""),
     h("div", { className: "tablewrap" }, h("table", null,
       h("thead", null, h("tr", null, h("th", null, "Domain"), ...A_CH.map((c) => h("th", { key: c.key }, c.label)))),
@@ -235,10 +240,10 @@ function Matrix({ funders, doms, real }) {
         ...A_CH.map((c) => {
           const v = val(c.key, d.key), fed = val(c.key, d.key, "federal"), share = colTot[c.key] ? v / colTot[c.key] : 0;
           return h("td", { key: c.key, className: "cell", style: { "--a": (share * 0.9).toFixed(3) } },
-            h("span", { className: "v" }, v < 0.05 ? "–" : fmt(v)),
-            showFed && v >= 0.05 ? h("span", { className: "f" }, pct(fed / v) + " fed") : null);
+            h("span", { className: "v" }, cellFmt(v, real)),
+            showFed && cellFmt(v, real) !== "–" ? h("span", { className: "f" }, pct(fed / v) + " fed") : null);
         })))),
-      h("tfoot", null, h("tr", null, h("td", null, "Total"), ...A_CH.map((c) => h("td", { key: c.key }, h("span", { className: "v" }, fmt(colTot[c.key])))))))));
+      h("tfoot", null, h("tr", null, h("td", null, "Total"), ...A_CH.map((c) => h("td", { key: c.key }, h("span", { className: "v" }, cellFmt(colTot[c.key], real)))))))));
 }
 const GCOL = { sw: "var(--dom-software)", ict: "var(--dom-hardware)", bio: "var(--dom-health)", phys: "var(--dom-industrial)", def: "var(--dom-defense)", oth: "var(--dom-general)", rest: "var(--grid)" };
 function BusDev() {
@@ -266,7 +271,7 @@ function MethodsA() {
 }
 
 // ---------- discipline tab ----------
-const D = { years: DATA.disc.years, defl: DATA.disc.deflator, cube: DATA.disc.cube, groups: DATA.disc.groups };
+const D = { years: DATA.disc.years, defl: DATA.disc.deflator, gdp: DATA.disc.gdp, cube: DATA.disc.cube, groups: DATA.disc.groups };
 const D_CH = [{ key: "basic", label: "Basic research" }, { key: "applied", label: "Applied research" }];
 const LENS = [
   { key: "bio", label: "Bio", color: "var(--lens-bio)", members: ["life"] },
@@ -285,7 +290,7 @@ function dSeries(chs, grouping, funders, real) {
     const s = new Array(N).fill(0);
     for (const ch of chs) for (const f of funders) for (const m of g.members) {
       const arr = D.cube[ch][f][m];
-      for (let i = 0; i < N; i++) s[i] += (arr[i] || 0) / (real ? D.defl[i] : 1) / 1000;
+      for (let i = 0; i < N; i++) s[i] += conv(arr[i] || 0, i, real, D.defl, D.gdp);
     }
     out[g.key] = s;
   }
@@ -327,7 +332,7 @@ function Growth({ grouping, funders }) {
   const [chMode, setChMode] = useState("both");
   const [base, setBase] = useState(1970);
   const chs = chMode === "both" ? ["basic", "applied"] : [chMode];
-  const { G, out } = dSeries(chs, grouping, new Set([...funders].filter((f) => f !== "business")), true);
+  const { G, out } = dSeries(chs, grouping, new Set([...funders].filter((f) => f !== "business")), "real");
   const groups = G.filter((g) => g.key !== "unclassified");
   const bi = D.years.indexOf(base), N = D.years.length;
   const idx = Object.fromEntries(groups.map((g) => [g.key, out[g.key].map((v) => out[g.key][bi] > 0.005 ? v / out[g.key][bi] : null)]));
@@ -364,14 +369,14 @@ function Compare({ grouping, funders, real }) {
   const chs = chMode === "both" ? ["basic", "applied"] : [chMode];
   const { G, out } = dSeries(chs, grouping, funders, real);
   const fedOnly = dSeries(chs, grouping, new Set(["federal"]), real).out;
-  const realOut = dSeries(chs, grouping, funders, true).out;
+  const realOut = dSeries(chs, grouping, funders, "real").out;
   const ia = D.years.indexOf(ya), ib = D.years.indexOf(yb);
   const groups = G.filter((g) => g.key !== "unclassified" || funders.has("business"));
   const tot = (i) => groups.reduce((a, g) => a + out[g.key][i], 0);
   const opts = D.years.map((y) => h("option", { key: y, value: y }, y));
   return h("section", { className: "panel" },
     h("h2", null, "Then and now"),
-    h("p", null, h("b", null, "Table 1. "), `$ billions (${real ? "constant 2017" : "nominal"}) for the funders selected above. Real change uses constant dollars either way.`),
+    h("p", null, h("b", null, "Table 1. "), `${UNIT_LABEL[real]} for the funders selected above. Real change uses constant dollars either way.`),
     h("div", { className: "picks" },
       seg([{ key: "basic", label: "Basic" }, { key: "applied", label: "Applied" }, { key: "both", label: "Basic + applied" }], chMode, setChMode, "Type of research"),
       h("label", null, "From", h("select", { value: ya, onChange: (e) => setYa(+e.target.value) }, opts)),
@@ -383,13 +388,13 @@ function Compare({ grouping, funders, real }) {
         const a = out[g.key][ia], b = out[g.key][ib], ra = realOut[g.key][ia], rb = realOut[g.key][ib];
         return h("tr", { key: g.key },
           h("td", null, h("span", { className: "dname" }, swatch(g.color, isHatch(g.key)), g.label)),
-          h("td", null, h("span", { className: "v" }, fmt(a))), h("td", null, h("span", { className: "v" }, fmt(b))),
+          h("td", null, h("span", { className: "v" }, cellFmt(a, real))), h("td", null, h("span", { className: "v" }, cellFmt(b, real))),
           h("td", null, h("span", { className: "v" }, ra > 0.005 ? "×" + (rb / ra).toFixed(1) : "–")),
           h("td", null, h("span", { className: "v" }, pct(tot(ia) ? a / tot(ia) : 0))),
           h("td", null, h("span", { className: "v" }, pct(tot(ib) ? b / tot(ib) : 0))),
           h("td", null, h("span", { className: "v" }, b > 0.005 ? pct(fedOnly[g.key][ib] / b) : "–")));
       })),
-      h("tfoot", null, h("tr", null, h("td", null, "Total"), h("td", null, h("span", { className: "v" }, fmt(tot(ia)))), h("td", null, h("span", { className: "v" }, fmt(tot(ib)))),
+      h("tfoot", null, h("tr", null, h("td", null, "Total"), h("td", null, h("span", { className: "v" }, cellFmt(tot(ia), real))), h("td", null, h("span", { className: "v" }, cellFmt(tot(ib), real))),
         h("td", null, h("span", { className: "v" }, "×" + (groups.reduce((s, g) => s + realOut[g.key][ib], 0) / Math.max(groups.reduce((s, g) => s + realOut[g.key][ia], 0), 1e-9)).toFixed(1))),
         h("td"), h("td"), h("td"))))));
 }
@@ -414,7 +419,7 @@ function useHashTab() {
 }
 function App() {
   const tab = useHashTab();
-  const [real, setReal] = useState(true);
+  const [real, setReal] = useState("real");
   const Y0 = DATA.years[0], Y1 = DATA.years[DATA.years.length - 1];
   const [range, setRange] = useState([Y0, Y1]);
   const yearOpts = DATA.years.map((y) => h("option", { key: y, value: y }, y));
@@ -436,8 +441,8 @@ function App() {
             h("span", { style: { color: "var(--muted)" } }, "to"),
             h("select", { "aria-label": "To year", value: range[1], onChange: (e) => setTo(+e.target.value) }, yearOpts),
             ...PRESETS.map(([y, lab]) => h("button", { key: lab, type: "button", className: "linkbtn", onClick: () => setRange([y, Y1]) }, lab)))),
-        h("div", { className: "ctl" }, h("span", { className: "ctl-label" }, "Dollars"),
-          seg([{ key: true, label: "Constant 2017" }, { key: false, label: "Nominal" }], real, setReal, "Dollars")))),
+        h("div", { className: "ctl" }, h("span", { className: "ctl-label" }, "Units"),
+          seg([{ key: "real", label: "Constant 2017 $" }, { key: "nominal", label: "Nominal $" }, { key: "gdp", label: "% of GDP" }], real, setReal, "Units")))),
     tab === "application" ? h(ApplicationTab, { real, range }) : h(DisciplineTab, { real, range }),
     h("footer", null, "Sources: NCSES National Patterns of R&D Resources 2023–24 (NSF 26-313); Survey of Federal Funds for R&D (historical tables NSF 03-325, volumes 54–56 and 69–74); HERD and predecessor microdata FY1973–2024; BRDIS/BERD 2008–2024 (NSF 27-300); PhRMA Industry Profile and Membership Survey. Constant dollars use the GDP deflator from National Patterns. Personal analysis of public data.")));
 }

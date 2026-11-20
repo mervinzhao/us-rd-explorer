@@ -32,6 +32,8 @@ FUND = ["federal", "business", "higher_education", "nonprofit", "nonfederal_gove
 out = {"years": [int(y) for y in years], "deflator": [round(float(defl[y]), 5) for y in years],
        "domains": [dict(key=k, label=l, color=col, desc=d, short=DOM_SHORT[k]) for k, l, col, d in DOMAINS],
        "business_est": [[1953, 1955], [1999, 2003]], "cube": {}}
+gdp = pd.read_csv(DATA / "natpat_deflator.csv").set_index("year").gdp_usd_billions_nominal
+out["gdp"] = [round(float(gdp[y]), 1) for y in years]
 for ch in ["basic", "applied", "development"]:
     out["cube"][ch] = {}
     for f in FUND:
@@ -88,7 +90,7 @@ DISC_ORDER = ["life", "physical", "engineering", "earth", "math", "computing", "
 DISC_SHORT = {"life": "Life sciences", "physical": "Physical", "engineering": "Engineering", "earth": "Earth sciences",
               "math": "Math", "computing": "Computing", "social": "Social sciences", "other": "Other", "unclassified": "Business"}
 DISC = sorted([(k, l, col if k == "unclassified" else f"var(--disc-{k})", d) for k, l, col, d in DISC], key=lambda t: DISC_ORDER.index(t[0]))
-out["disc"] = {"years": [int(y) for y in dyears],
+out["disc"] = {"years": [int(y) for y in dyears], "gdp": [round(float(gdp[y]), 1) for y in dyears],
                "deflator": [round(float(defl[y]), 5) for y in dyears],
                "groups": [dict(key=k, label=l, color=col, desc=d, short=DISC_SHORT[k]) for k, l, col, d in DISC], "cube": {}}
 for ch in ["basic", "applied"]:
